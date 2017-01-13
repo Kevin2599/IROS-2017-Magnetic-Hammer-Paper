@@ -19,6 +19,7 @@
 %\usepackage{times} % assumes new font selection scheme installed
 %\usepackage{amsmath} % assumes amsmath package installed
 %\usepackage{amssymb}  % assumes amsmath package installed
+\usepackage{cite}
 
 \title{\LARGE \bf
 Magnetic Hammer Actuation for Tissue Penetration using Millirobots
@@ -56,7 +57,12 @@ Untethered navigation of millirobots within a human body using an MRI scanner is
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{INTRODUCTION}
 
-Introduction here.
+The navigation of millimeter-scale robots \cite{ahu61} through the passageways of bodies is currently being studied as a method to perform highly localized drug delivery or perform minimally invasive surgery. Untethered navigation can be achieved by placing a magnetic piece inside the robot and producing a controlled magnetic field around a patient. Propulsion and steering of millirobots can be accomplished by either moving a permanent magnet assembly around a patient or by controlling the current inside electromagnets. The latest solution is often realized with an MRI scanner which already includes several electromagnets. In that case, the background field magnetizes the magnetic piece of the robot, and the gradients coils produce the magnetic gradient necessary to produce forces. The MRI scanner can be used at the same time to provide real-time imaging of the operating area as well as positioning of the robots.\par
+The value of the forces generated on the millirobots is proportional to the field gradient strength. Commercial MRI scanner produces gradients in the range of 20 to 40 mT/m. This value could allow the navigation of robots through the body fluids but not the penetration of tissues. This paper presents a method that allows producing large pulsed forces for tissue penetration. This system has been called magnetic hammer.\par
+The magnetic hammer is a system embedded into the millirobot. The millirobot has a tubular structure in which a ferromagnetic sphere can move back and forth. This movement is produced by alternatively changing the gradient direction. On the aft side of the millirobot, a spring allows the sphere to change direction smoothly. On the forward side, a hard rod creates a surface for the sphere to impact (impact plate). This impact results in large pulsed forces that allow penetrating body tissues progressively.
+A magnetic test bench has been developed to make experimental tests more practical and less expensive. It includes coils, sensors, power electronics and a real-time controller.\par
+The paper is organized as follow: first, the system is mathematically modeled, and its behavior is studied. Secondly, the parameters of the model are experimentally measured. Different materials for the impact plate are compared. Thirdly, the magnetic test bench is described, and different control methods are tested (open loop, partially closed loop, and closed loop). Results are compared to the mathematical model. Finally, the system is tested to penetrate artificial tissues made with agar. The last section is a conclusion of this study.
+
 
 \section{Theoretical study}
 
@@ -129,21 +135,7 @@ Introduction here.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-
-
-\begin{thebibliography}{99}
-
-\bibitem{c1} James Simpson, John Lane, Christopher Immer, and Robert Youngquist, Simple Analytic Expressions for the Magnetic 
-Field of a Circular Current Loop, NASA Technical report, Jan 01, 2001
-
-
-
-
-
-
-
-\end{thebibliography}
-
+\bibliography{biblio}
 
 
 
