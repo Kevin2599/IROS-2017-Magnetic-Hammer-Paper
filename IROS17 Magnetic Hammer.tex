@@ -186,6 +186,14 @@ Number of turns    & 265                       & \begin{tabular}[c]{@{}l@{}}Grad
 
 \subsection{Partially closed loop experiment}
 
+The coils are driven by square shaped currents. The current in the coils can either be $I_{max}$ or 0 A. The coil will be said to be “on” when $I=I_{max}$ and “off” when $I=0$ A.\par
+As explained in [], the magnetic hammer cannot work if the magnetic field is not synchronized with the position of the sphere. An open loop control is indeed not possible. The force applied on the sphere (and therefore the magnetic gradient) must change direction when the sphere hits the impact plate and when the sphere changes direction on the spring side.\par
+A microphone is used to monitor the noise produced by the system. The impact noise creates a larger pulsed signal on the microphone output and can, therefore, be easily detected. When the impact is detected, the fore coil is turned off while the aft coil is turned on. The force applied on the sphere now pushes it backward, toward the spring side.\par
+The current stays constant during a time $T_{back}$ after the impact is detected. The fore coil is subsequently turned on, and the aft coil is turned off. The force then pushes the sphere forward. The current in the coils is changed again when another impact is detected. This process is repeated indefinitely.\par
+$T_{back}$ is manually tuned while the system is working. It is set to the value that gives the maximum oscillating frequency. This value corresponds to a gradient that changes direction when the sphere velocity is zero on the spring side. It indeed should give the same results as the perfectly closed loop simulations.\par
+The partially closed loop experiment was tested on 3 different sizes of robots and compared to our model. Fig ? shows a comparison of the oscillating frequency as a function of $I_max$. On can see first that when $I_{max}$ increases, the oscillating frequency increases. The force on the sphere indeed increases with $I_{max}$ and consequently increases the moving speed of the sphere.
+This figure also shows that the model allows fitting the experimental data accurately. Besides, these results are for robots of different sizes, and the results, therefore, shows that the scaling law provided by the model is correct.
+
 \subsection{Closed loop experiment}
 
 \section{Tissue penetration test}
@@ -233,7 +241,7 @@ Number of turns    & 265                       & \begin{tabular}[c]{@{}l@{}}Grad
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
+\bibliographystyle{unsrt}
 \bibliography{biblio}
 
 
