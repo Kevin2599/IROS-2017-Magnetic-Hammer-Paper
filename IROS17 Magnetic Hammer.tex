@@ -173,12 +173,18 @@ Once the magnetic moment $m$ is obtained, the force on the sphere can be calcula
 
 \subsection{Impact coefficient of resititution}
 
+\begin{figure}
+  \includegraphics[width=\linewidth]{CoR_measurements.eps}
+  \caption{Add caption}
+  \label{CoR}
+\end{figure}
+
+
+
 \subsection{Frictional coefficient}
 
-This subsection has not been proofread.
-
-The friction between the moving sphere and the other components of the millirobot was included into the model. The sphere can be rolling or sliding inside the tube. The modelization is based on the method described in []. 
-The friction on the tube produces a torque on the sphere. It is assumed that the coefficient of static friction is equal to the coefficient of kinetic friction. The equation used to calculate the angular velocity vaiartion of the sphere is different wether the sphere is rolling or sliding. The distinction between these two different behavoiur is made by calculating the relative velocities of the sphere and the tube surface (see eq?). \par
+The friction between the moving sphere and the other components of the millirobot was included into the model. The sphere can be rolling or sliding inside the tube. The modelization is based on the method described in \cite{00319120303009}. \par
+The friction on the tube produces a torque on the sphere. It is assumed that the coefficient of static friction is equal to the coefficient of kinetic friction. The equation used to calculate the angular velocity variation of the sphere is different whether the sphere is rolling or sliding. The distinction between this two different behavior is made by calculating the relative velocities of the sphere and the tube surface (see eq?). \par
 If the relative speed is inferior to 0.005 m/s and if the force applied to the sphere is smaller than the kinetic friction, the sphere is considered to be rolling inside the tube and the drag is null. domega/dt can be calculated with:
 In all other cases, the torque applied to the sphere is equal to the kinetic friction force multiplied by the sphere radius. The drag is equal to the kinetic friction force.
 
@@ -188,11 +194,15 @@ In all other cases, the torque applied to the sphere is equal to the kinetic fri
 \subsection{Magnetic test bench description}
 
 A desktop-size single axis magnetic setup was built to reduce the cost related to clinical MRI experiments. It is composed of two solenoid coils oriented along the same axis and separated by a distance $d$. The coils are used to produce both the magnetizing field and the gradient. The properties of the coils are shown in \cref{coil_table}.\par
-The two coils are held by an acrylic tube. They can slide and it and be locked in place to adjust the distance between the two coils and therefore change the maximum field and gradient values. The acrylic tube is transparent, allowing for visual access to the robot.
+The system is shown in figure \cref{magnetic_setup}.The two coils are held by an acrylic tube. They can slide and it and be locked in place to adjust the distance between the two coils and therefore change the maximum field and gradient values. The acrylic tube is transparent, allowing for visual access to the robot.
 Each coil is powered via a Syren 25 switch mode power supply. A Hall-effect-based current sensor is used to perform a PID regulation of the current. It is necessary to control the current inside the coils and not only the voltage. Indeed, the produced magnetic field is directly proportional to the current whereas the voltage is related to the magnetic flux variation and the voltage drop produced by Joule effect losses.\par
 Robots are inserted inside the acrylic tube holding the coils. They are held by a second, smaller tube that guides them along the system axis. Robots can be free to move along the coil axis or held in place. A picture of the system is provided in figure ?.
 
-
+\begin{figure}
+  \includegraphics[width=\linewidth]{Magnetic_setup.jpg}
+  \caption{Picture of the desktop-size magnetic setup.}
+  \label{magnetic_setup}
+\end{figure}
 
 \begin{table}[]
 \centering
@@ -252,7 +262,13 @@ This figure also shows that the model allows fitting the experimental data accur
  %      magnetic core versus DC bias magnetic field}
  %     \label{figurelabel}
  %  \end{figure}
-\section{Preliminary tests in clinical MRI}   
+\section{Preliminary tests in clinical MRI}
+
+Preliminary tests of magnetic hammers were performed into a clinical 1.5T Siemens MRI scanner. No closed loop control was implemented. The magnetic gradient was oscillating at a constant frequency. As seen before, the system does not work properly in these conditions. At low frequencies, the ferromagnetic sphere completely stops on both sides of the millirobot. All the kinetic energy is lost at these times, and the magnetic hammer, therefore, exhibits very poor performances. The aim of this tests is to prove that MRI scanners are suitable to produce the desired force on the magnetic sphere inside the millirobot and provide a pulsed force.\par
+A ?? mm long, ?? diameter robot was build for this test. A 2Hz square gradient with an amplitude of 23 mT/m was applied to it. This frequency is slow enough to allow the sphere to stop on both sides completely. A sample of sheep brain was used as a tissue sample to penetrate.\par
+Once the gradient wave was started, the sphere began to move back and forth while the robot was moving toward the sample at each impact. The robot then began to penetrate the sample. It went ?? mm deep inside it and stopped progressing \ref{MRI_test}. 
+This experiment demonstrated the suitability of MRI scanner to drive magnetic hammers. However, a closed loop control now needs to be implemented on the MRI scanner to produce an efficient energy transfer. \par
+Our team is currently working on obtaining the closed loop control into the clinical MRI scanner. The MRI signal will be used to compute the position of the magnetic sphere at a frequency greater than 20 Hz.
 
 \begin{figure}
 \centering
