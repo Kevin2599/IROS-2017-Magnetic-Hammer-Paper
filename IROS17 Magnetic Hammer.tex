@@ -67,7 +67,7 @@ A magnetic test bench has been developed to make experimental tests more practic
 
 \begin{figure}
   \includegraphics[width=\linewidth]{figure1-2.png}
-  \caption{schematic representation of a millirobot actuated by a magnetic hammer}
+  \caption{Schematic representation and picture of a millirobot with a magnetic hammer}
   \label{millirobot}
 \end{figure}
 
@@ -309,10 +309,12 @@ Our team is currently working on obtaining the closed loop control into the clin
 \section{CONCLUSIONS}
 
 A magnetic hammer system for millirobot driven by MRI scanners was studied. The system allows producing large pulsed forces to penetrate body tissue.\par
-The hammer is composed of a ferromagnetic sphere moving inside a tube. On the posterior side of the robot, there is a spring that allows to change the direction of the sphere smoothly. On the anterior side, a hard metal rod act as an impact plate to transfer the momentum of the ferromagnetic sphere to the body of the robot.\par
-The system is driven by an external magnetic field, produced by an MRI scanner. The main field magnetizes the sphere and the gradient produces the forces necessary to move the sphere.\par
- A complex modelization allows the computation of the position of the sphere as a function of the time. The magnetic flux density and the gradient are computed using a semi-analytical method and allow an accurate calculation of the force applied to the sphere. The speed of the sphere after impact is computed from the coefficient of restitution. The rotation of the sphere is also calculated, allowing the calculation of the drag produced by the sliding of the sphere inside the tube.\par
-The coefficients of restitutions were measured experimentally for different rod size and materials. The best material tested is Titanium. This material also has the advantage of being lightweight. This property is useful to achieve neutral buoyancy of the millirobot. 
+The hammer is composed of a ferromagnetic sphere moving inside a tube. On the posterior side of the robot, there is a spring that allows changing the direction of the sphere smoothly. On the anterior side, a hard metal rod act as an impact plate to transfer the momentum of the ferromagnetic sphere to the body of the robot.
+The system is driven by an external magnetic field, produced by an MRI scanner. The main field magnetizes the sphere, and the gradient creates the forces necessary to move the sphere.\par
+ A complex modelization allows the computation of the position of the sphere as a function of the time. The magnetic flux density and the gradient are computed using a semi-analytical method and allow an accurate calculation of the force applied to the sphere. The velocity of the sphere after impact is computed from the coefficient of restitution. The rotation of the sphere is also calculated, allowing an accurate computation of the drag produced by the sliding of the sphere inside the tube.\par
+The coefficients of restitutions (CoR) depends on the materials of the colliding objects but also on their shape and sizes. CoR values were experimentally measured. These measurements showed that Titanium impact plates exhibit large CoR. This material also has the advantage of being lightweight. It is a useful property to achieve neutral buoyancy of millirobots. In additions, Titanium is a bio-compatible material. This makes Titanium the best choice for impact plates of magnetic hammers.\par
+A desktop-size magnetic test bench was built to reduce experimental cost related to the use of a clinical MRI scanner. A magnetic hammer was tested with a partially closed loop control. The impact of the sphere is detected via a microphone. The posterior coil is turn on during a predetermined time to pull the sphere backward. After this time, the posterior coil is turned off, and the anterior coil is turned on until the next impact is detected. Experimental results were compared to the model. The experimental oscillating frequency is in good agreement with the model predictions. That allows the validation our modelization.\par
+In a future work, the control of the magnetic hammer will be implemented and tested into a clinical MRI scanner. The impact will be detected by the MRI signal instead of a microphone. The miniaturization of the robot will also be studied.
 
 \addtolength{\textheight}{-12cm}   % This command serves to balance the column lengths
                                   % on the last page of the document manually. It shortens
