@@ -113,7 +113,7 @@ The impact velocity initially increases and ultimately saturates, reaching a res
 v_{\text{imp},\text{SS}}=\frac{2 \sqrt{\frac{F_{\text{mag}} \left(\left(e^2+1\right) F_{\text{mag}}-\left(e^2-1\right) k L+\sqrt{\left(2-2 e^4\right) k L F_{\text{mag}}+\left(1+e^2\right)^2 F_{\text{mag}}^2}\right)}{k m_s}}}{1-e^2}
 \end{equation}
 
-In the above equation, $e$ is the coefficient of restitution for the sphere-impact plate, and $m_s$ is the mass of the sphere in kgs.
+In the above equation, $e$ is the coefficient of restitution for the sphere-impact plate system, and $m_s$ is the mass of the sphere in kgs.
 \begin{figure}
 	\includegraphics[width=\linewidth]{Closedloop_Impact_velocity.eps}
 	\caption{Closed loop impact velocity for 50 contacts}
@@ -206,13 +206,13 @@ Once the magnetic moment $m$ is obtained, the force on the sphere can be calcula
 \subsection{Simulation results}
 
 \begin{figure}
-	\includegraphics[width=\linewidth]{delTvsVop_R2.eps}
+	\includegraphics[width=\linewidth]{delTvsVop_R3.eps}
 	\caption{Time between impacts vs. Initial velocity for different spring-end switching times}
 	\label{delTvsVop}
 \end{figure}
 
 \begin{figure}
-	\includegraphics[width=\linewidth]{delTvsTs_R1.eps}
+	\includegraphics[width=\linewidth]{delTvsTs_R2.eps}
 	\caption{Time between impacts vs. Switching times for different initial velocities}
 	\label{delTvsTs}
 \end{figure}
@@ -289,7 +289,6 @@ Robots are inserted inside the acrylic tube holding the coils. They are held by 
 
 \begin{table}[]
 \centering
-\scriptsize
 \caption{Properties of the coils used in the desktop-size test bench}
 \label{coil_table}
 \begin{tabular}{|l|l||l|l|}
