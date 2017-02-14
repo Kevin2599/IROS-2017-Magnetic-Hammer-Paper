@@ -52,7 +52,7 @@ Engineering, University of Houston, Houston, TX 70004, USA
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{abstract}
 
-Untethered navigation of millirobots within a human body using an MRI scanner is a promising technology for minimally invasive surgery or drug delivery. However, the magnetic field and gradient values are too small to produce forces large enough to penetrate tissue. This paper presents a method to produce large pulsed forces on millirobots. A ferromagnetic sphere is placed inside the robot body and can move back and forth. This movement is created by alternatively changing the magnetic gradient direction. On the posterior side, a spring allows the sphere to change direction smoothly. On the forward side, a hard rod creates a surface for the sphere to impact. This impact results in a large pulsed force. This system has first been modeled and simulated. Different control strategies are presented and experimentally tested. Finally, open loop results in an MRI scanner are presented.
+Untethered navigation of millirobots within a human body using an MRI scanner is a promising technology for minimally invasive surgery or drug delivery. However, the magnetic field and gradient values are too small to produce forces large enough to penetrate tissue. This paper presents a method to produce large pulsed forces on millirobots. A ferromagnetic sphere is placed inside the robot body and can move back and forth. This movement is created by alternatively changing the magnetic gradient direction. On the posterior side, a spring allows the sphere to change direction smoothly. On the forward side, a hard rod creates a surface for the sphere to impact. This impact results in a large pulsed force. This system has first been modeled and simulated. Different control strategies are presented and experimentally tested. Finally, the system was tested to penetrate artificial tissues. 
 
 \end{abstract}
 
@@ -67,7 +67,7 @@ A magnetic test bench has been developed to make experimental tests more practic
 
 \begin{figure}
   \includegraphics[width=\linewidth]{figure1-2.png}
-  \caption{Schematic representation and picture of a millirobot with a magnetic hammer}
+  \caption{schematic representation of a millirobot actuated by a magnetic hammer}
   \label{millirobot}
 \end{figure}
 
@@ -77,19 +77,54 @@ The paper is organized as follow: first, the system is mathematically modeled, a
 \section{Theoretical study}
 
 \subsection{Mechanical modelization}
+The motion of the sphere between two consecutive impacts can be divided into 2  phases, based on the forces that act on it. The magnetic gradient force $F_{mag}$ and friction force $F_{friction}$ act on the sphere during its motion along the free length of the tube, $L$ (See Fig. \ref{FBD} (i),(ii)). When the spring is compressed, its reaction force $F_{spring}$ acts on the ball as well (See Fig. \ref{FBD} (iii)). The directions of $F_{mag}$ and $F_{friction}$  change depending on the direction of motion of the sphere. Inside an MRI machine, the magnitude of $F_{mag}$ is constant in all three Cartesian directions \cite{CMR:CMR20163}. The same has been assumed for developing analytical and numerical models in this paper. The formula for calculating $F_{mag}$ is presented in  (\ref{force}). Friction is considered to be negligible because of the relatively low weight of the sphere, and assuming perfect rolling. The spring force is straightforward, and is given by
 
-The motion of the sphere between two consecutive impacts can be divided into 4 different phases, based on the forces that act on it. The magnetic gradient force $F_mag$ and friction force $F_f$ act on the sphere during its motion along the free length of the tube (See Fig. 2a,d). When the spring is compressed, its reaction force $F_s$ acts on the ball as well(See Fig. 2 b,c).
+\begin{equation}
+F_{\text{spring}}=k x
+\label{spring_force}
+\end{equation}
 
+where $x$ is the compression length, and $k$ is the spring constant. To maximize the average impact velocity over an arbitrary $n$ number of contacts, the input magnetic gradient should always be in the same direction as the motion of the sphere. This is equivalent to a perfectly closed-loop system where the gradient signal switches direction along with the sphere, as shown in (\ref{Closed_loop_gradient}).
+
+\begin{equation}
+F_{\text{mag}}=
+\begin{array}{cc}
+\{ & 
+\begin{array}{cc}
++F_{\text{mag}} & x' (t)\geq 0 \\
+-F_{\text{mag}} & x' (t)<0 \\
+\end{array}
+\\
+\end{array}
+\label{Closed_loop_gradient}
+\end{equation}
+
+An analytical model was developed by solving the system ODE, to predict the impact velocity for each impact, given a set of input parameters. The output of this model is shown in figure \ref{Closedloop_Impact_velocity}.
+The impact velocity initially increases and ultimately saturates, reaching a resonant/steady-state value. This happens when the energy lost by the sphere during impact equals the energy gained by it during the rest of the cycle. An analytical formula was derived to predict the resonant/steady-state impact velocity, for a given set of input parameters. This is given by (\ref{Resonant_CLvelocity}).
+\begin{figure}
+	\includegraphics[width=\linewidth]{FBD.eps}
+	\caption{(i) Free length of sphere travel, $L$; (ii) Free body diagram of sphere when spring is not compressed, (iii) when spring is compressed}
+	\label{FBD}
+\end{figure}
+
+ 
+
+\begin{equation}
+v_{\text{imp},\text{SS}}=\frac{2 \sqrt{\frac{F_{\text{mag}} \left(\left(e^2+1\right) F_{\text{mag}}-\left(e^2-1\right) k L+\sqrt{\left(2-2 e^4\right) k L F_{\text{mag}}+\left(1+e^2\right)^2 F_{\text{mag}}^2}\right)}{k m_s}}}{1-e^2}
+\end{equation}
+
+In the above equation, $e$ is the coefficient of restitution for the sphere-impact plate, and $m_s$ is the mass of the sphere in kgs.
 \begin{figure}
 	\includegraphics[width=\linewidth]{Closedloop_Impact_velocity.eps}
 	\caption{Closed loop impact velocity for 50 contacts}
 	\label{Closedloop_Impact_velocity}
+	
 \end{figure}
 
 \subsection{Magnetic field calculation}
 
 The magnetic field generated by an MRI scanner can be separated into two components. The first is a constant, strong and uniform magnetic field $B_0$. This field is used to align the magnetic moments of the protons. Commercial MRI scanners have $B_0$ typically ranging from 1.5 to 3 T. The second component of the field is the magnetic gradient. It is used to encode the MRI signal spatially. The flux density $\mathbf{G}$ produced by the gradient coils is superposed to $B_0$ and linearly varies with position. A computer controls its value.\par
-The modelisation of the field inside the uniformity sphere of an MRI scanner is straightforward. It is the sum of $B_0$ and $\mathbf{G}$. $\mathbf{G}$ is directly proportional to the current inside the gradient coils.
+The modelisation of the field inside the uniformity sphere of an MRI scanner is straightforward. It is the sum of $B_0$ and $\mathbf{G}$. $\mathbf{G}$ is directly proportional to the current inside the gradient coils. 
 
 \begin{equation}
 \mathbf{B}=\mathbf{B_0}+\mathbf{G},~~~
@@ -127,7 +162,7 @@ B_\theta=\frac{\mu _0.I.z}{2.\pi.\delta ^{2}.\beta.\rho   }\left [ \left ( a^2-\
 \end{equation}
 
 \begin{figure}
-  \includegraphics[width=\linewidth]{single_loop.eps}
+  \includegraphics[width=\linewidth]{single_loop.png}
   \caption{Geometry and variables used in equation \cref{Bz1loop,Bteta1loop,delta,beta}}
   \label{single_loop_geometry}
 \end{figure}
@@ -171,6 +206,25 @@ Once the magnetic moment $m$ is obtained, the force on the sphere can be calcula
 \subsection{Simulation results}
 
 \begin{figure}
+	\includegraphics[width=\linewidth]{delTvsVop_R2.eps}
+	\caption{Time between impacts vs. Initial velocity for different spring-end switching times}
+	\label{delTvsVop}
+\end{figure}
+
+\begin{figure}
+	\includegraphics[width=\linewidth]{delTvsTs_R1.eps}
+	\caption{Time between impacts vs. Switching times for different initial velocities}
+	\label{delTvsTs}
+\end{figure}
+
+\begin{figure}
+	\includegraphics[width=\linewidth]{Tswitch_cases_1to6.eps}
+	\caption{Six domains for spring-end switching time; Red and Green represent $F_mag$ towards anterior and posterior respecively. Arrow represents ball motion direction.}
+	\label{Tswitch}
+\end{figure}
+
+
+\begin{figure}
   \includegraphics[width=\linewidth]{close_vs_open_loop.eps}
   \caption{Geometry and variables used in equation \cref{Bz1loop,Bteta1loop,delta,beta}}
   \label{close_vs_open_loop}
@@ -179,7 +233,7 @@ Once the magnetic moment $m$ is obtained, the force on the sphere can be calcula
 
 \section{Experimental determination of model parameters}
 
-\subsection{Impact coefficient of restitution}
+\subsection{Impact coefficient of resititution}
 
 The coefficient of restitution $e$ was determined using the time interval between two consecutive bounces of the sphere when dropped from a given height, onto the impact rod. The measurements were made using 1" long impact rods for five different materials. As seen in figure \ref{CoR_setup_data}
 
@@ -191,7 +245,7 @@ The coefficient of restitution $e$ was determined using the time interval betwee
 
 \begin{figure}
 	\includegraphics[width=\columnwidth]{CoR_measurements.eps}
-	\caption{Measured coefficient of restitution as a function of rods diameter for different materials. Each point represents 3 trials.}
+	\caption{Measured coefficient of restitution as a function of rods diameter for different materials}
 	\label{CoR_Results}
 \end{figure}
 
@@ -224,7 +278,7 @@ In all other cases, the torque applied to the sphere is equal to the kinetic fri
 
 A desktop-size single axis magnetic setup was built to reduce the cost related to clinical MRI experiments. It is composed of two solenoid coils oriented along the same axis and separated by a distance $d$. The coils are used to produce both the magnetizing field and the gradient. The properties of the coils are shown in \cref{coil_table}.\par
 The system is shown in figure \cref{magnetic_setup}.The two coils are held by an acrylic tube. They can slide and it and be locked in place to adjust the distance between the two coils and therefore change the maximum field and gradient values. The acrylic tube is transparent, allowing for visual access to the robot.
-Each coil is powered via a Syren 25 switch mode power supply. A Hall-effect-based current sensor is used to perform a PID regulation of the current. It is necessary to control the current inside the coils and not only the voltage. Indeed, the produced magnetic field is directly proportional to the current whereas the voltage is related to the magnetic flux variation and the voltage drop produced by Joule effect losses. The current regulation is performed via a dSPACE ds1103 real time controller. \par
+Each coil is powered via a Syren 25 switch mode power supply. A Hall-effect-based current sensor is used to perform a PID regulation of the current. It is necessary to control the current inside the coils and not only the voltage. Indeed, the produced magnetic field is directly proportional to the current whereas the voltage is related to the magnetic flux variation and the voltage drop produced by Joule effect losses.\par
 Robots are inserted inside the acrylic tube holding the coils. They are held by a second, smaller tube that guides them along the system axis. Robots can be free to move along the coil axis or held in place. A picture of the system is provided in figure ?.
 
 \begin{figure}
@@ -234,7 +288,6 @@ Robots are inserted inside the acrylic tube holding the coils. They are held by 
 \end{figure}
 
 \begin{table}[]
-\scriptsize
 \centering
 \caption{Properties of the coils used in the desktop-size test bench}
 \label{coil_table}
@@ -244,7 +297,7 @@ Internal Radius    & 12.7 mm                   & Electrical resistance          
 External Radius    & 45.8 mm                   & Inductance                                                                                 & 1.59 mH    \\ \hline
 Length             & 65 mm                     & \begin{tabular}[c]{@{}l@{}}Max current change rate \\ Voltage = 25 V\end{tabular}          & 15,700 A/s \\ \hline
 Wire               & 10 AWG                    & Maximum continuous current                                                                 & 15 A       \\ \hline
-Wire cross-section & 5.26 mm$^2$ & \begin{tabular}[c]{@{}l@{}}Flux density on system center\\ I = 15 A d = 50 mm\end{tabular} & 11 mT      \\ \hline
+Wire cross-section & 5.26 mm\textasciicircum 2 & \begin{tabular}[c]{@{}l@{}}Flux density on system center\\ I = 15 A d = 50 mm\end{tabular} & 11 mT      \\ \hline
 Number of turns    & 265                       & \begin{tabular}[c]{@{}l@{}}Gradient on system center\\  I = 15 A d = 50 mm\end{tabular}    & 0.45 T/m   \\ \hline
 \end{tabular}
 \end{table}
@@ -253,11 +306,11 @@ Number of turns    & 265                       & \begin{tabular}[c]{@{}l@{}}Grad
 \subsection{Partially closed loop experiment}
 
 The coils are driven by square shaped currents. The current in the coils can either be $I_{max}$ or 0 A. The coil will be said to be “on” when $I=I_{max}$ and “off” when $I=0$ A.\par
-As explained in [], the magnetic hammer cannot work properly if the magnetic field is not synchronized with the position of the sphere. An open loop control is indeed not efficient. The force applied on the sphere (and therefore the magnetic gradient) must change direction when the sphere hits the impact plate and when the sphere changes direction on the spring side.\par
+As explained in [], the magnetic hammer cannot work if the magnetic field is not synchronized with the position of the sphere. An open loop control is indeed not possible. The force applied on the sphere (and therefore the magnetic gradient) must change direction when the sphere hits the impact plate and when the sphere changes direction on the spring side.\par
 Our eventual goal is to use these robots in an MRI scanner, where MRI gradients must be shared for propulsion and position feedback \cite{578}. The nature of our system enables simpler sensing requirements that can be accomplished with a simple microphone, enabling using the MRI primarily for propulsion with less time required for millirobot sensing. The microphone is used to monitor the noise produced by the system. The impact noise creates a larger pulsed signal on the microphone output and can, therefore, be easily detected. When the impact is detected, the anterior coil is turned off while the posterior coil is turned on. The force applied on the sphere now pushes it backward, toward the spring side.\par
 The current stays constant during a time $T_{back}$ after the impact is detected. The anterior coil is subsequently turned on, and the posterior coil is turned off. The force then pushes the sphere forward. The current in the coils is changed again when another impact is detected. This process is repeated indefinitely.\par
 $T_{back}$ is manually tuned while the system is working. It is set to the value that gives the maximum oscillating frequency. This value corresponds to a gradient that changes direction when the sphere velocity is zero on the spring side. It indeed should give the same results as the perfectly closed loop simulations.\par
-The partially closed loop experiment was tested and compared to our model. \ref{freq} shows a comparison of the oscillating frequency as a function of $I_{max}$. On can see first that when $I_{max}$ increases, the oscillating frequency increases. The force on the sphere indeed increases with $I_{max}$ and consequently increases the moving speed of the sphere.
+The partially closed loop experiment was tested on 3 different sizes of robots and compared to our model. Fig ? shows a comparison of the oscillating frequency as a function of $I_max$. On can see first that when $I_{max}$ increases, the oscillating frequency increases. The force on the sphere indeed increases with $I_{max}$ and consequently increases the moving speed of the sphere.
 This figure also shows that the model allows fitting the experimental data accurately. Besides, these results are for robots of different sizes, and the results, therefore, shows that the scaling law provided by the model is correct.
 
 \begin{figure}
@@ -310,12 +363,10 @@ Our team is currently working on obtaining the closed loop control into the clin
 \section{CONCLUSIONS}
 
 A magnetic hammer system for millirobot driven by MRI scanners was studied. The system allows producing large pulsed forces to penetrate body tissue.\par
-The hammer is composed of a ferromagnetic sphere moving inside a tube. On the posterior side of the robot, there is a spring that allows changing the direction of the sphere smoothly. On the anterior side, a hard metal rod act as an impact plate to transfer the momentum of the ferromagnetic sphere to the body of the robot.
-The system is driven by an external magnetic field, produced by an MRI scanner. The main field magnetizes the sphere, and the gradient creates the forces necessary to move the sphere.\par
- A complex modelization allows the computation of the position of the sphere as a function of the time. The magnetic flux density and the gradient are computed using a semi-analytical method and allow an accurate calculation of the force applied to the sphere. The velocity of the sphere after impact is computed from the coefficient of restitution. The rotation of the sphere is also calculated, allowing an accurate computation of the drag produced by the sliding of the sphere inside the tube.\par
-The coefficients of restitutions (CoR) depends on the materials of the colliding objects but also on their shape and sizes. CoR values were experimentally measured. These measurements showed that Titanium impact plates exhibit large CoR. This material also has the advantage of being lightweight. It is a useful property to achieve neutral buoyancy of millirobots. In additions, Titanium is a bio-compatible material. This makes Titanium the best choice for impact plates of magnetic hammers.\par
-A desktop-size magnetic test bench was built to reduce experimental cost related to the use of a clinical MRI scanner. A magnetic hammer was tested with a partially closed loop control. The impact of the sphere is detected via a microphone. The posterior coil is turn on during a predetermined time to pull the sphere backward. After this time, the posterior coil is turned off, and the anterior coil is turned on until the next impact is detected. Experimental results were compared to the model. The experimental oscillating frequency is in good agreement with the model predictions. That allows the validation our modelization.\par
-In a future work, the control of the magnetic hammer will be implemented and tested into a clinical MRI scanner. The impact will be detected by the MRI signal instead of a microphone. The miniaturization of the robot will also be studied.
+The hammer is composed of a ferromagnetic sphere moving inside a tube. On the posterior side of the robot, there is a spring that allows to change the direction of the sphere smoothly. On the anterior side, a hard metal rod act as an impact plate to transfer the momentum of the ferromagnetic sphere to the body of the robot.\par
+The system is driven by an external magnetic field, produced by an MRI scanner. The main field magnetizes the sphere and the gradient produces the forces necessary to move the sphere.\par
+ A complex modelization allows the computation of the position of the sphere as a function of the time. The magnetic flux density and the gradient are computed using a semi-analytical method and allow an accurate calculation of the force applied to the sphere. The speed of the sphere after impact is computed from the coefficient of restitution. The rotation of the sphere is also calculated, allowing the calculation of the drag produced by the sliding of the sphere inside the tube.\par
+The coefficients of restitutions were measured experimentally for different rod size and materials. The best material tested is Titanium. This material also has the advantage of being lightweight. This property is useful to achieve neutral buoyancy of the millirobot. 
 
 \addtolength{\textheight}{-12cm}   % This command serves to balance the column lengths
                                   % on the last page of the document manually. It shortens
