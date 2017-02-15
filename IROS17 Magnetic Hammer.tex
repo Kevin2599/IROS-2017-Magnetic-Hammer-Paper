@@ -23,7 +23,7 @@
 \usepackage{cite}
 \usepackage{mathtools}
 \usepackage{cleveref}
-
+\graphicspath{{./pictures/}}
 
 \title{\LARGE \bf
 Magnetic Hammer Actuation for Tissue Penetration using Millirobots
@@ -53,7 +53,18 @@ Engineering, University of Houston, Houston, TX 70004, USA
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{abstract}
 
-Untethered magnetic navigation of millirobots within a human body using an MRI scanner is a promising technology for minimally invasive surgery or drug delivery. However, the magnetic field and gradient values are too small to produce forces large enough to penetrate tissue. This paper presents a method to produce large pulsed forces on millirobots. A ferromagnetic sphere is placed inside the robot body and can move back and forth. This movement is created by alternatively changing the magnetic gradient direction. On the posterior side, a spring allows the sphere to change direction smoothly. On the forward side, a hard rod creates a surface for the sphere to impact. This impact results in a large pulsed force. This system has first been modeled and simulated. A control strategie is presented and experimentally tested. Finally, preliminary tests inside a clinical MRI scanner were performed. 
+Untethered magnetic navigation of millirobots within a human body using an MRI scanner is a promising technology for minimally invasive surgery or drug delivery.
+Because MRI scanners have a large static magnetic field, they cannot generate torque on magnetic millirobots and must instead use gradient-based pulling.
+ However, gradient values are too small to produce forces large enough to penetrate tissue. 
+ This paper presents a method to produce large pulsed forces on millirobots. 
+ A ferromagnetic sphere is placed inside a hollow robot body and can move back and forth. 
+ This movement is created by alternating the magnetic gradient direction. 
+ On the posterior side, a spring allows the sphere to change direction smoothly. 
+ On the anterior side, a hard rod creates a surface for the sphere to impact. 
+ This impact results in a large pulsed force. 
+ This paper begins with modeling and simulating this system. 
+ Next, a control strategy is presented and experimentally tested.
+  Finally, preliminary tests inside a clinical MRI scanner demonstrate the potential of this actuation system. 
 
 \end{abstract}
 
@@ -61,10 +72,21 @@ Untethered magnetic navigation of millirobots within a human body using an MRI s
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{INTRODUCTION}
 
-The navigation of millimeter-scale robots through the passageways of bodies is currently being studied as a method to perform highly localized drug delivery or perform minimally invasive surgery \cite{7067029,702,mi2020295}. Untethered navigation can be achieved by placing a ferromagnetic piece inside the robot and producing a controlled magnetic field around a patient. Propulsion and steering of millirobots can be accomplished by either moving a permanent magnet assembly around a patient \cite{taylor} or by controlling the current inside electromagnets \cite{MRM21638}. The latest solution is often realized with an MRI scanner which already includes several electromagnets. In that case, the background field magnetizes the ferrous piece of the robot, and the gradients coils produce the magnetic gradient necessary to produce forces. The MRI scanner can be used simultaneously to provide real-time imaging of the operating area as well as positioning of the robots.\par
-The value of the forces generated on the millirobots is proportional to the field gradient strength. Commercial MRI scanner produces gradients in the range of 20 to 40 mT/m. This value could allow the navigation of robots through the body fluids but not the penetration of tissues. Tissue penetration indeed requires larger forces \cite{7139341}. This paper presents a method that allows producing large pulsed forces for tissue penetration. This system has been called magnetic hammer.\par
-The magnetic hammer is a system embedded into the millirobot. The millirobot has a tubular structure in which a ferromagnetic sphere can move back and forth. This movement is produced by alternatively changing the gradient direction. On the posterior side of the millirobot, a spring allows the sphere to change direction smoothly. On the forward side, a hard rod creates a surface for the sphere to impact (impact plate). This impact results in large pulsed forces that allow penetrating body tissues progressively.
-A magnetic test bench has been developed to make experimental tests more practical and less expensive. It includes coils, sensors, power electronics and a real-time controller.\par
+The navigation of millimeter-scale robots through the passageways of bodies is currently being studied as a method to perform highly localized drug delivery or perform minimally invasive surgery \cite{7067029,702,mi2020295}. Untethered navigation can be achieved by placing a ferromagnetic piece inside the robot and producing a controlled magnetic field around a patient. Propulsion and steering of millirobots can be accomplished by either moving a permanent magnet assembly around a patient \cite{taylor} or by controlling the current inside electromagnets \cite{MRM21638}. The latest solution is often realized with an MRI scanner which already includes several electromagnets. In that case, the background field magnetizes the ferrous components of the robot, and the gradients coils produce the magnetic gradient necessary to produce forces. 
+The MRI scanner can be used simultaneously to provide real-time imaging of the operating area as well as positioning of the robots.\par
+The value of the forces generated on the millirobots is proportional to the field gradient strength. 
+Commercial MRI scanner produces gradients in the range of 20 to 40 mT/m. 
+These gradients have enabled robots to navigate fluid-filled regions of the body \cite{martel2007automatic} but are insufficient to penetrate tissue. 
+Tissue penetration requires larger forces \cite{7139341}. 
+This paper presents a method, denoted  \emph{magnetic hammer} actuation, that allows producing large pulsed forces for tissue penetration. 
+The magnetic hammer is a system embedded into the millirobot. 
+The millirobot has a tubular structure in which a ferromagnetic sphere can move back and forth.
+ This movement is produced by alternatively changing the gradient direction. 
+ On the posterior side of the millirobot, a spring allows the sphere to change direction smoothly. 
+ On the anterior side, a hard rod creates a surface for the sphere to impact, the \emph{impact plate}.
+  This impact results in large pulsed forces that allow penetrating body tissues progressively.
+A magnetic test bench has been developed to make experimental tests more practical and less expensive.
+ It includes coils, sensors, power electronics and a real-time controller.\par
 
 \begin{figure}
   \includegraphics[width=\linewidth]{figure1-2.png}
@@ -78,18 +100,25 @@ The paper is organized as follow: first, the system is mathematically modeled, a
 \section{Theoretical study}
 \label{theoretical}
 \subsection{Mechanical modelization}
-The motion of the sphere between two consecutive impacts can be divided into 2  phases, based on the forces that act on it. The magnetic gradient force $F_{mag}$ and friction force $F_{friction}$ act on the sphere during its motion along the free length of the tube, $L$ (See Fig. \ref{FBD} (i),(ii)). When the spring is compressed, its reaction force $F_{spring}$ acts on the ball as well (See Fig. \ref{FBD} (iii)). The directions of $F_{mag}$ and $F_{friction}$  change depending on the direction of motion of the sphere. Inside the homogeneity sphere of an MRI machine, the magnitude of $F_{mag}$ is constant in all three Cartesian directions \cite{CMR:CMR20163}. Outside of the homogeneity sphere, the force can be calculated using the method presented in \cref{magfield,magforce}. Friction is first considered to be negligible because of the relatively low weight of the sphere, and assuming perfect rolling. The spring force calculation is straightforward, and is given by:
+The motion of the sphere between two consecutive impacts can be divided into two  phases, based on the forces that act on the sphere. The magnetic gradient force $F_{mag}$ and friction force $F_{friction}$ act on the sphere during its motion along the free length of the tube, $L$ (see Fig. \ref{FBD} (i),(ii)). 
+When the spring is compressed, its reaction force $F_{spring}$ acts on the ball as well (see Fig. \ref{FBD} (iii)). 
+The directions of $F_{mag}$ and $F_{friction}$  change depending on the direction of motion of the sphere.
+
+ 
 
 \begin{figure}
 	\includegraphics[width=\linewidth]{FBD.eps}
-	\caption{(i) Free length of sphere travel, $L$; (ii) Free body diagram of sphere when spring is not compressed, (iii) when spring is compressed}
+	\caption{(i) Free length of sphere travel, $L$; (ii) Free body diagram of sphere when spring is  compressed, (iii) when spring is notcompressed}
 	\label{FBD}
 \end{figure}
 
-Inside an MRI machine, the magnitude of $F_{mag}$ is constant in all three Cartesian directions \cite{CMR:CMR20163}. The same has been assumed for developing analytical and numerical models in this paper. The formula for calculating $F_{mag}$ is presented in  \cref{force}. Friction is considered to be negligible because of the relatively low weight of the sphere, and assuming perfect rolling. The spring force is straightforward, and is given by,
+Inside an MRI machine, the magnitude of $F_{mag}$ is constant in all three Cartesian directions \cite{CMR:CMR20163}. 
+The same has been assumed for developing analytical and numerical models in this paper. 
+ Outside of the homogeneity sphere, the force can be calculated using the method presented in \cref{magfield,magforce}. 
+The formula for calculating $F_{mag}$ is presented in  \cref{force}. Friction is considered to be negligible because of the relatively low weight of the sphere, and assuming perfect rolling. The spring force is straightforward, and is given by
 
 \begin{equation}
-F_{\text{spring}}=k x
+F_{\text{spring}}=k x,
 \label{spring_force}
 \end{equation}
 
@@ -97,14 +126,13 @@ where $x$ is the compression length, and $k$ is the spring constant. To maximize
 
 \begin{equation}
 F_{\text{mag}}=
-\begin{array}{cc}
-\{ & 
+\begin{cases}
+ 
 \begin{array}{cc}
 +\left|\mathbf{M}\right|  G_x, &x' (t)\geq 0 \\
 -\left|\mathbf{M}\right|  G_x, &x' (t)<0 \\
 \end{array}
-\\
-\end{array}
+\end{cases}
 \label{Closed_loop_gradient}
 \end{equation}
 \linebreak
