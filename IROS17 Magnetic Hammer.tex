@@ -313,8 +313,8 @@ The results, shown in \ref{fig:CoR_Results}, show that and that aluminum offers 
 A desktop-size, single-axis magnetic setup was built to reduce the cost related to clinical MRI experiments.
  It is composed of two solenoid coils oriented along the same axis and separated by a distance $d$. 
  The coils are used to produce both the magnetizing field and the gradient. 
- The properties of the coils are shown in \cref{coil_table}.\par
-The system is shown in figure \cref{magnetic_setup}.
+ The properties of the coils are shown in Table \ref{coil_table}.\par
+The system is shown in \cref{magnetic_setup}.
  The two coils are held by an acrylic tube. 
  They can slide along this tube and be locked in place to adjust the distance between the two coils and therefore change the maximum field and gradient values. 
  The acrylic tube is transparent, allowing for visual access to the robot.
@@ -351,11 +351,11 @@ Number of turns    & 265                       & \begin{tabular}[c]{@{}l@{}}Grad
 
 \subsection{Partially closed loop experiment}
 
-The coils are driven by square shaped currents. 
+The coils are driven by square shaped current waveform. 
 The current in the coils can either be $I_{max}$ or 0 A. 
 The coil will be said to be ``on'' when $I=I_{max}$ and ``off'' when $I=0$ A.\par
 As explained in \cref{clol}, the magnetic hammer cannot work properly if the magnetic field is not synchronized with the position of the sphere.
- An open loop control is inefficient, as shown in Fig.~\ref{CLvsOL}.
+ An open-loop control is inefficient, as shown in Fig.~\ref{CLvsOL}.
   The force applied on the sphere (and therefore the magnetic gradient) must change direction when the sphere hits the impact plate and when the sphere changes direction on the spring side to provide maximum impulse.\par
 Our eventual goal is to use these robots in an MRI scanner, where MRI gradients must be shared for propulsion and position feedback \cite{578}. 
 The nature of our system enables simpler sensing requirements that can be accomplished with a simple microphone. 
@@ -363,16 +363,16 @@ The microphone is used to monitor the noise produced by the system.
 The impact noise creates a larger pulsed signal on the microphone output and can, therefore, be easily detected. 
 When the impact is detected, the anterior coil is turned off while the posterior coil is turned on. 
 The force applied on the sphere now pushes it backward, toward the spring side.\par
-The current stays constant during a time $T_{back}$ after the impact is detected. 
+The current stays constant during a time $T_s$ after the impact is detected. 
 The anterior coil is subsequently turned on, and the posterior coil is turned off. 
 The force then pushes the sphere forward. The current in the coils is changed again when another impact is detected. 
 This process is repeated indefinitely.\par
-$T_{back}$ is manually tuned while the system is working. 
+$T_s$ is manually tuned while the system is working. 
 It is set to the value that gives the maximum oscillating frequency. 
 This value corresponds to a gradient that changes direction when the sphere velocity is zero on the spring side. 
-It should give the same results as the perfectly closed loop simulations.\par
-The partially closed loop experiment was performed and compared to the model. 
-\cref{experiment} shows a comparison of the optimum oscillating frequency as a function of $I_{max}$. 
+It should give the same results as the perfectly closed-loop simulations.\par
+The partially closed-loop experiment was performed and compared to the model. 
+Section \ref{experiment} shows a comparison of the optimum oscillating frequency as a function of $I_{max}$. 
 The simulations are performed for a perfectly closed loop system. 
 When $I_{max}$ increases, the oscillating frequency increases. 
 The force on the sphere  increases with $I_{max}$ and consequently increases the moving speed of the sphere.
