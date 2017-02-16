@@ -1,10 +1,13 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.10)  15 FEB 2017 18:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  15 FEB 2017 18:44
 entering extended mode
-**"./IROS17 Magnetic Hammer.tex"
-("IROS17 Magnetic Hammer.tex"
-LaTeX2e <2016/03/31> patch level 3
-Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
-(ieeeconf.cls
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"IROS17 Magnetic Hammer.tex"
+(./IROS17 Magnetic Hammer.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(./ieeeconf.cls
 Document Class: ieeeconf 2016/4/23 revision V1.6b by Pradeep Misra
 \@IEEEtrantmpdimenA=\dimen102
 \@IEEEtrantmpdimenB=\dimen103
@@ -12,7 +15,8 @@ Document Class: ieeeconf 2016/4/23 revision V1.6b by Pradeep Misra
 \@IEEEtrantmpcountB=\count80
 \@IEEEtrantmptoksA=\toks14
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 794.
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 \@IEEEnormalsizefontbaselineskip=\skip41
@@ -24,42 +28,52 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <16> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <16> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
+
 \IEEEilabelindentA=\dimen104
 \IEEEilabelindentB=\dimen105
 \IEEEilabelindent=\dimen106
@@ -83,30 +97,32 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \@IEEEtmpitemindent=\dimen112
 \c@biography=\count90
 \@IEEEtranrubishbin=\box26
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
- ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 99.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count91
 ))
@@ -115,15 +131,15 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 ** ATTENTION: Overriding command lockouts (line 9).
 ** ATTENTION: Overriding IEEE standard margins (line 12).
-(C:\Users\jleclerc\AppData\Roaming\MiKTeX\2.9\tex\latex\cite\cite.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-(C:\Users\jleclerc\AppData\Roaming\MiKTeX\2.9\tex\latex\mathtools\mathtools.sty
-Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
+(/usr/local/texlive/2015/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2015/05/11 v1.16 mathematical typesetting tools
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count92
 \calc@Bcount=\count93
@@ -136,42 +152,44 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count94
 \calc@Cskip=\skip49
 )
-(C:\Users\jleclerc\AppData\Roaming\MiKTeX\2.9\tex\latex\mathtools\mhsetup.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-Package: amsmath 2016/06/28 v2.15d AMS math features
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
-Package: amstext 2000/06/29 v2.01 AMS text
- ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
-File: amsgen.sty 1999/11/30 v2.0 generic functions
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks16
 \ex@=\dimen117
-)) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen118
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
-Package: amsopn 2016/03/08 v2.02 operator names
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count95
-LaTeX Info: Redefining \frac on input line 199.
+LaTeX Info: Redefining \frac on input line 210.
 \uproot@=\count96
 \leftroot@=\count97
-LaTeX Info: Redefining \overline on input line 297.
+LaTeX Info: Redefining \overline on input line 306.
 \classnum@=\count98
 \DOTSCASE@=\count99
-LaTeX Info: Redefining \ldots on input line 394.
-LaTeX Info: Redefining \dots on input line 397.
-LaTeX Info: Redefining \cdots on input line 518.
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box27
 \strutbox@=\box28
 \big@size=\dimen119
-LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \macc@depth=\count100
 \c@MaxMatrixCols=\count101
 \dotsspace@=\muskip10
@@ -192,8 +210,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 \multlinegap=\skip51
 \multlinetaggap=\skip52
 \mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2739.
-LaTeX Info: Redefining \] on input line 2740.
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
 )
 LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
@@ -209,9 +227,10 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_above_shortintertext_sep=\dimen131
 \l_MT_below_shortintertext_sep=\dimen132
 )
-(C:\Users\jleclerc\AppData\Roaming\MiKTeX\2.9\tex\latex\cleveref\cleveref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2013/12/28 v0.19 Intelligent cross-referencing
-) ("IROS17 Magnetic Hammer.aux"
+)
+(./IROS17 Magnetic Hammer.aux
 
 LaTeX Warning: Label `magfield' multiply defined.
 
@@ -233,7 +252,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
 LaTeX Font Info:    ... okay on input line 45.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
 LaTeX Font Info:    ... okay on input line 45.
- (C:\Users\jleclerc\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+ (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count108
 \scratchdimen=\dimen133
@@ -246,261 +265,300 @@ LaTeX Font Info:    ... okay on input line 45.
 \MPnumerator=\count112
 \makeMPintoPDFobject=\count113
 \everyMPtoPDFconversion=\toks22
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO)
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
-)
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 49.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) <./pictures/figure1-2.png, id=1, 415.5525pt x 401.70074pt>
+)
+<./pictures/figure1-2.png, id=1, 415.5525pt x 401.70074pt>
 File: ./pictures/figure1-2.png Graphic file (type png)
 
 <use ./pictures/figure1-2.png>
 Package pdftex.def Info: ./pictures/figure1-2.png used on input line 92.
 (pdftex.def)             Requested size: 245.71811pt x 237.5285pt.
 Package epstopdf Info: Source file: <./pictures/FBD.eps>
-(epstopdf)                    date: 2017-02-15 18:08:00
-(epstopdf)                    size: 77352 bytes
+(epstopdf)                    date: 2017-02-14 23:33:43
+(epstopdf)                    size: 75615 bytes
 (epstopdf)             Output file: <./pictures/FBD-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-15 18:08:00
+(epstopdf)                    date: 2017-02-14 23:33:43
 (epstopdf)                    size: 28551 bytes
-(epstopdf)             Command: <epstopdf --outfile=./pictures/FBD-eps-converted-to.pdf ./pictures/FBD.eps>
-(epstopdf)             \includegraphics on input line 105.
+(epstopdf)             Command: <repstopdf --outfile=./pictures/FBD-eps-convert
+ed-to.pdf ./pictures/FBD.eps>
+(epstopdf)             \includegraphics on input line 106.
 Package epstopdf Info: Output file is already uptodate.
- <./pictures/FBD-eps-converted-to.pdf, id=2, 334.24875pt x 243.91125pt>
+
+<./pictures/FBD-eps-converted-to.pdf, id=2, 334.24875pt x 243.91125pt>
 File: ./pictures/FBD-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./pictures/FBD-eps-converted-to.pdf>
-Package pdftex.def Info: ./pictures/FBD-eps-converted-to.pdf used on input line 105.
+Package pdftex.def Info: ./pictures/FBD-eps-converted-to.pdf used on input line
+ 106.
 (pdftex.def)             Requested size: 245.71811pt x 179.31168pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1{C:/Users/jleclerc/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+ [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
  <./pictures/figure1-2.png>]
 Package epstopdf Info: Source file: <./pictures/Closedloop_Impact_velocity.eps>
-(epstopdf)                    date: 2017-02-15 18:07:59
+
+(epstopdf)                    date: 2017-02-14 23:33:43
 (epstopdf)                    size: 26428 bytes
-(epstopdf)             Output file: <./pictures/Closedloop_Impact_velocity-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-15 18:07:59
+(epstopdf)             Output file: <./pictures/Closedloop_Impact_velocity-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2017-02-14 23:33:43
 (epstopdf)                    size: 11028 bytes
-(epstopdf)             Command: <epstopdf --outfile=./pictures/Closedloop_Impact_velocity-eps-converted-to.pdf ./picture
-s/Closedloop_Impact_velocity.eps>
-(epstopdf)             \includegraphics on input line 119.
+(epstopdf)             Command: <repstopdf --outfile=./pictures/Closedloop_Impa
+ct_velocity-eps-converted-to.pdf ./pictures/Closedloop_Impact_velocity.eps>
+(epstopdf)             \includegraphics on input line 120.
 Package epstopdf Info: Output file is already uptodate.
 
-<./pictures/Closedloop_Impact_velocity-eps-converted-to.pdf, id=12, 841.1425pt x 403.5075pt>
-File: ./pictures/Closedloop_Impact_velocity-eps-converted-to.pdf Graphic file (type pdf)
-
-<use ./pictures/Closedloop_Impact_velocity-eps-converted-to.pdf>
-Package pdftex.def Info: ./pictures/Closedloop_Impact_velocity-eps-converted-to.pdf used on input line 119.
+<./pictures/Closedloop_Impact_velocity-eps-converted-to.pdf, id=13, 841.1425pt 
+x 403.5075pt>
+File: ./pictures/Closedloop_Impact_velocity-eps-converted-to.pdf Graphic file (
+type pdf)
+ <use ./pictures/Closedloop_Impact_velocity-eps-converted-to.pdf>
+Package pdftex.def Info: ./pictures/Closedloop_Impact_velocity-eps-converted-to
+.pdf used on input line 120.
 (pdftex.def)             Requested size: 245.71811pt x 117.87616pt.
- [2 <./pictures/FBD-eps-converted-to.pdf> <./pictures/Closedloop_Impact_velocity-eps-converted-to.pdf>] <./pictures/CLin
-put.pdf, id=65, 1734.48pt x 822.07124pt>
+
+<./pictures/CLinput.pdf, id=14, 1734.48pt x 822.07124pt>
 File: ./pictures/CLinput.pdf Graphic file (type pdf)
 
 <use ./pictures/CLinput.pdf>
-Package pdftex.def Info: ./pictures/CLinput.pdf used on input line 165.
+Package pdftex.def Info: ./pictures/CLinput.pdf used on input line 166.
 (pdftex.def)             Requested size: 245.71811pt x 116.45645pt.
- <./pictures/single_loop.pdf, id=66, 548.0475pt x 406.51875pt>
+ [2 <./pictures/FBD-eps-converted-to.pdf> <./pictures/Closedloop_Impact_velocit
+y-eps-converted-to.pdf>]
+<./pictures/single_loop.pdf, id=67, 548.0475pt x 406.51875pt>
 File: ./pictures/single_loop.pdf Graphic file (type pdf)
 
 <use ./pictures/single_loop.pdf>
-Package pdftex.def Info: ./pictures/single_loop.pdf used on input line 213.
+Package pdftex.def Info: ./pictures/single_loop.pdf used on input line 214.
 (pdftex.def)             Requested size: 245.71811pt x 182.26802pt.
- <./pictures/Femm_matlab_comparison.png, id=67, 662.475pt x 590.205pt>
+
+<./pictures/Femm_matlab_comparison.png, id=68, 662.475pt x 590.205pt>
 File: ./pictures/Femm_matlab_comparison.png Graphic file (type png)
 
 <use ./pictures/Femm_matlab_comparison.png>
-Package pdftex.def Info: ./pictures/Femm_matlab_comparison.png used on input line 222.
+Package pdftex.def Info: ./pictures/Femm_matlab_comparison.png used on input li
+ne 223.
 (pdftex.def)             Requested size: 245.71811pt x 218.91277pt.
 Package epstopdf Info: Source file: <./pictures/CLvsOL.eps>
-(epstopdf)                    date: 2017-02-15 18:07:59
+(epstopdf)                    date: 2017-02-15 18:40:19
 (epstopdf)                    size: 54871 bytes
 (epstopdf)             Output file: <./pictures/CLvsOL-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-15 18:07:59
+(epstopdf)                    date: 2017-02-15 18:40:19
 (epstopdf)                    size: 18636 bytes
-(epstopdf)             Command: <epstopdf --outfile=./pictures/CLvsOL-eps-converted-to.pdf ./pictures/CLvsOL.eps>
-(epstopdf)             \includegraphics on input line 234.
+(epstopdf)             Command: <repstopdf --outfile=./pictures/CLvsOL-eps-conv
+erted-to.pdf ./pictures/CLvsOL.eps>
+(epstopdf)             \includegraphics on input line 235.
 Package epstopdf Info: Output file is already uptodate.
- <./pictures/CLvsOL-eps-converted-to.pdf, id=68, 934.49126pt x 408.52625pt>
+
+<./pictures/CLvsOL-eps-converted-to.pdf, id=69, 934.49126pt x 408.52625pt>
 File: ./pictures/CLvsOL-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./pictures/CLvsOL-eps-converted-to.pdf>
-Package pdftex.def Info: ./pictures/CLvsOL-eps-converted-to.pdf used on input line 234.
+Package pdftex.def Info: ./pictures/CLvsOL-eps-converted-to.pdf used on input l
+ine 235.
 (pdftex.def)             Requested size: 245.71811pt x 107.4174pt.
  [3 <./pictures/CLinput.pdf> <./pictures/single_loop.pdf>]
 Package epstopdf Info: Source file: <./pictures/Tswitch_cases_1to6.eps>
-(epstopdf)                    date: 2017-02-15 18:08:00
-(epstopdf)                    size: 149225 bytes
-(epstopdf)             Output file: <./pictures/Tswitch_cases_1to6-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-15 18:08:00
+(epstopdf)                    date: 2017-02-15 17:26:36
+(epstopdf)                    size: 144918 bytes
+(epstopdf)             Output file: <./pictures/Tswitch_cases_1to6-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2017-02-15 18:40:19
 (epstopdf)                    size: 53299 bytes
-(epstopdf)             Command: <epstopdf --outfile=./pictures/Tswitch_cases_1to6-eps-converted-to.pdf ./pictures/Tswitc
-h_cases_1to6.eps>
-(epstopdf)             \includegraphics on input line 257.
+(epstopdf)             Command: <repstopdf --outfile=./pictures/Tswitch_cases_1
+to6-eps-converted-to.pdf ./pictures/Tswitch_cases_1to6.eps>
+(epstopdf)             \includegraphics on input line 258.
 Package epstopdf Info: Output file is already uptodate.
 
-<./pictures/Tswitch_cases_1to6-eps-converted-to.pdf, id=117, 684.5575pt x 413.545pt>
-File: ./pictures/Tswitch_cases_1to6-eps-converted-to.pdf Graphic file (type pdf)
-
-<use ./pictures/Tswitch_cases_1to6-eps-converted-to.pdf>
-Package pdftex.def Info: ./pictures/Tswitch_cases_1to6-eps-converted-to.pdf used on input line 257.
+<./pictures/Tswitch_cases_1to6-eps-converted-to.pdf, id=118, 684.5575pt x 413.5
+45pt>
+File: ./pictures/Tswitch_cases_1to6-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use ./pictures/Tswitch_cases_1to6-eps-converted-to.pdf>
+Package pdftex.def Info: ./pictures/Tswitch_cases_1to6-eps-converted-to.pdf use
+d on input line 258.
 (pdftex.def)             Requested size: 245.71811pt x 148.44067pt.
 Package epstopdf Info: Source file: <./pictures/delTvsVop_R3.eps>
-(epstopdf)                    date: 2017-02-15 18:08:00
+(epstopdf)                    date: 2017-02-15 17:26:36
 (epstopdf)                    size: 50252 bytes
-(epstopdf)             Output file: <./pictures/delTvsVop_R3-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-15 18:08:00
-(epstopdf)                    size: 19488 bytes
-(epstopdf)             Command: <epstopdf --outfile=./pictures/delTvsVop_R3-eps-converted-to.pdf ./pictures/delTvsVop_R3
-.eps>
-(epstopdf)             \includegraphics on input line 269.
+(epstopdf)             Output file: <./pictures/delTvsVop_R3-eps-converted-to.p
+df>
+(epstopdf)                    date: 2017-02-15 18:42:55
+(epstopdf)                    size: 19051 bytes
+(epstopdf)             Command: <repstopdf --outfile=./pictures/delTvsVop_R3-ep
+s-converted-to.pdf ./pictures/delTvsVop_R3.eps>
+(epstopdf)             \includegraphics on input line 270.
 Package epstopdf Info: Output file is already uptodate.
 
-<./pictures/delTvsVop_R3-eps-converted-to.pdf, id=118, 827.09pt x 326.21875pt>
+<./pictures/delTvsVop_R3-eps-converted-to.pdf, id=119, 934.49126pt x 408.52625p
+t>
 File: ./pictures/delTvsVop_R3-eps-converted-to.pdf Graphic file (type pdf)
-
-<use ./pictures/delTvsVop_R3-eps-converted-to.pdf>
-Package pdftex.def Info: ./pictures/delTvsVop_R3-eps-converted-to.pdf used on input line 269.
-(pdftex.def)             Requested size: 245.71811pt x 96.91563pt.
- [4 <./pictures/Femm_matlab_comparison.png> <./pictures/CLvsOL-eps-converted-to.pdf> <./pictures/Tswitch_cases_1to6-eps-
-converted-to.pdf>]
+ <use ./pictures/delTvsVop_R3-eps-converted-to.pdf>
+Package pdftex.def Info: ./pictures/delTvsVop_R3-eps-converted-to.pdf used on i
+nput line 270.
+(pdftex.def)             Requested size: 245.71811pt x 107.4174pt.
+ [4 <./pictures/Femm_matlab_comparison.png> <./pictures/CLvsOL-eps-converted-to
+.pdf> <./pictures/Tswitch_cases_1to6-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./pictures/delTvsTs_R2.eps>
-(epstopdf)                    date: 2017-02-15 18:08:00
+(epstopdf)                    date: 2017-02-15 17:26:36
 (epstopdf)                    size: 21895 bytes
-(epstopdf)             Output file: <./pictures/delTvsTs_R2-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-15 18:08:00
-(epstopdf)                    size: 12474 bytes
-(epstopdf)             Command: <epstopdf --outfile=./pictures/delTvsTs_R2-eps-converted-to.pdf ./pictures/delTvsTs_R2.e
-ps>
-(epstopdf)             \includegraphics on input line 280.
+(epstopdf)             Output file: <./pictures/delTvsTs_R2-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2017-02-15 18:42:55
+(epstopdf)                    size: 12954 bytes
+(epstopdf)             Command: <repstopdf --outfile=./pictures/delTvsTs_R2-eps
+-converted-to.pdf ./pictures/delTvsTs_R2.eps>
+(epstopdf)             \includegraphics on input line 281.
 Package epstopdf Info: Output file is already uptodate.
 
-<./pictures/delTvsTs_R2-eps-converted-to.pdf, id=187, 895.345pt x 399.4925pt>
+<./pictures/delTvsTs_R2-eps-converted-to.pdf, id=188, 934.49126pt x 408.52625pt
+>
 File: ./pictures/delTvsTs_R2-eps-converted-to.pdf Graphic file (type pdf)
-
-<use ./pictures/delTvsTs_R2-eps-converted-to.pdf>
-Package pdftex.def Info: ./pictures/delTvsTs_R2-eps-converted-to.pdf used on input line 280.
-(pdftex.def)             Requested size: 245.71811pt x 109.63828pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+ <use ./pictures/delTvsTs_R2-eps-converted-to.pdf>
+Package pdftex.def Info: ./pictures/delTvsTs_R2-eps-converted-to.pdf used on in
+put line 281.
+(pdftex.def)             Requested size: 245.71811pt x 107.4174pt.
 Package epstopdf Info: Source file: <./pictures/CoR_setup_data.eps>
-(epstopdf)                    date: 2017-02-15 18:07:59
+(epstopdf)                    date: 2017-02-15 17:26:36
 (epstopdf)                    size: 6797240 bytes
-(epstopdf)             Output file: <./pictures/CoR_setup_data-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-15 18:07:59
+(epstopdf)             Output file: <./pictures/CoR_setup_data-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2017-02-15 18:40:19
 (epstopdf)                    size: 368183 bytes
-(epstopdf)             Command: <epstopdf --outfile=./pictures/CoR_setup_data-eps-converted-to.pdf ./pictures/CoR_setup_
-data.eps>
-(epstopdf)             \includegraphics on input line 293.
+(epstopdf)             Command: <repstopdf --outfile=./pictures/CoR_setup_data-
+eps-converted-to.pdf ./pictures/CoR_setup_data.eps>
+(epstopdf)             \includegraphics on input line 294.
 Package epstopdf Info: Output file is already uptodate.
 
-<./pictures/CoR_setup_data-eps-converted-to.pdf, id=188, 722.7pt x 542.025pt>
+<./pictures/CoR_setup_data-eps-converted-to.pdf, id=189, 722.7pt x 542.025pt>
 File: ./pictures/CoR_setup_data-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./pictures/CoR_setup_data-eps-converted-to.pdf>
-Package pdftex.def Info: ./pictures/CoR_setup_data-eps-converted-to.pdf used on input line 293.
+Package pdftex.def Info: ./pictures/CoR_setup_data-eps-converted-to.pdf used on
+ input line 294.
 (pdftex.def)             Requested size: 245.71811pt x 184.28606pt.
 Package epstopdf Info: Source file: <./pictures/CoR_measurements.eps>
-(epstopdf)                    date: 2017-02-15 18:07:59
-(epstopdf)                    size: 41693 bytes
-(epstopdf)             Output file: <./pictures/CoR_measurements-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-15 18:07:59
+(epstopdf)                    date: 2017-02-15 17:28:30
+(epstopdf)                    size: 41075 bytes
+(epstopdf)             Output file: <./pictures/CoR_measurements-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2017-02-15 18:40:19
 (epstopdf)                    size: 39903 bytes
-(epstopdf)             Command: <epstopdf --outfile=./pictures/CoR_measurements-eps-converted-to.pdf ./pictures/CoR_meas
-urements.eps>
-(epstopdf)             \includegraphics on input line 299.
+(epstopdf)             Command: <repstopdf --outfile=./pictures/CoR_measurement
+s-eps-converted-to.pdf ./pictures/CoR_measurements.eps>
+(epstopdf)             \includegraphics on input line 300.
 Package epstopdf Info: Output file is already uptodate.
 
-<./pictures/CoR_measurements-eps-converted-to.pdf, id=189, 510.90875pt x 526.96875pt>
+<./pictures/CoR_measurements-eps-converted-to.pdf, id=190, 510.90875pt x 526.96
+875pt>
 File: ./pictures/CoR_measurements-eps-converted-to.pdf Graphic file (type pdf)
-
-<use ./pictures/CoR_measurements-eps-converted-to.pdf>
-Package pdftex.def Info: ./pictures/CoR_measurements-eps-converted-to.pdf used on input line 299.
+ <use ./pictures/CoR_measurements-eps-converted-to.pdf>
+Package pdftex.def Info: ./pictures/CoR_measurements-eps-converted-to.pdf used 
+on input line 300.
 (pdftex.def)             Requested size: 245.71811pt x 253.44066pt.
- [5 <./pictures/delTvsVop_R3-eps-converted-to.pdf> <./pictures/delTvsTs_R2-eps-converted-to.pdf> <./pictures/CoR_setup_d
-ata-eps-converted-to.pdf>]
-<./pictures/Magnetic_setup.jpg, id=228, 936.49875pt x 540.21825pt>
+
+Underfull \vbox (badness 6608) has occurred while \output is active []
+
+ [5 <./pictures/delTvsVop_R3-eps-converted-to.pdf> <./pictures/delTvsTs_R2-eps-
+converted-to.pdf> <./pictures/CoR_setup_data-eps-converted-to.pdf> <./pictures/
+CoR_measurements-eps-converted-to.pdf>]
+<./pictures/Magnetic_setup.jpg, id=232, 936.49875pt x 540.21825pt>
 File: ./pictures/Magnetic_setup.jpg Graphic file (type jpg)
- <use ./pictures/Magnetic_setup.jpg>
-Package pdftex.def Info: ./pictures/Magnetic_setup.jpg used on input line 330.
+
+<use ./pictures/Magnetic_setup.jpg>
+Package pdftex.def Info: ./pictures/Magnetic_setup.jpg used on input line 331.
 (pdftex.def)             Requested size: 245.71811pt x 141.73933pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 335.
+               Default added (so using `tbp') on input line 336.
 
 
-Overfull \hbox (10.21516pt too wide) in paragraph at lines 339--348
+Overfull \hbox (10.21516pt too wide) in paragraph at lines 340--349
  [][] 
  []
 
+
+Underfull \vbox (badness 1917) has occurred while \output is active []
+
 Package epstopdf Info: Source file: <./pictures/figure3.eps>
-(epstopdf)                    date: 2017-02-15 18:08:00
-(epstopdf)                    size: 54866 bytes
+(epstopdf)                    date: 2017-02-14 23:33:43
+(epstopdf)                    size: 54070 bytes
 (epstopdf)             Output file: <./pictures/figure3-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-15 18:08:00
+(epstopdf)                    date: 2017-02-14 23:33:43
 (epstopdf)                    size: 52422 bytes
-(epstopdf)             Command: <epstopdf --outfile=./pictures/figure3-eps-converted-to.pdf ./pictures/figure3.eps>
-(epstopdf)             \includegraphics on input line 384.
+(epstopdf)             Command: <repstopdf --outfile=./pictures/figure3-eps-con
+verted-to.pdf ./pictures/figure3.eps>
+(epstopdf)             \includegraphics on input line 385.
 Package epstopdf Info: Output file is already uptodate.
-<./pictures/figure3-eps-converted-to.pdf, id=229, 643.40375pt x 501.875pt>
+
+<./pictures/figure3-eps-converted-to.pdf, id=233, 643.40375pt x 501.875pt>
 File: ./pictures/figure3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./pictures/figure3-eps-converted-to.pdf>
-Package pdftex.def Info: ./pictures/figure3-eps-converted-to.pdf used on input line 384.
+Package pdftex.def Info: ./pictures/figure3-eps-converted-to.pdf used on input 
+line 385.
 (pdftex.def)             Requested size: 245.71811pt x 191.66406pt.
- [6 <./pictures/CoR_measurements-eps-converted-to.pdf> <./pictures/Magnetic_setup.jpg>] <./pictures/tests_in_MRI.png, id
-=237, 222.8325pt x 206.57175pt>
+ [6 <./pictures/Magnetic_setup.jpg>] <./pictures/tests_in_MRI.png, id=238, 222.
+8325pt x 206.57175pt>
 File: ./pictures/tests_in_MRI.png Graphic file (type png)
- <use ./pictures/tests_in_MRI.png>
-Package pdftex.def Info: ./pictures/tests_in_MRI.png used on input line 463.
+
+<use ./pictures/tests_in_MRI.png>
+Package pdftex.def Info: ./pictures/tests_in_MRI.png used on input line 464.
 (pdftex.def)             Requested size: 150.0pt x 139.05481pt.
- [7 <./pictures/figure3-eps-converted-to.pdf> <./pictures/tests_in_MRI.png>] ("IROS17 Magnetic Hammer.bbl"
+ [7 <./pictures/figure3-eps-converted-to.pdf> <./pictures/tests_in_MRI.png>] (.
+/IROS17 Magnetic Hammer.bbl
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
@@ -518,36 +576,45 @@ Before submitting the final camera ready copy, remember to:
 
 [8
 
-] ("IROS17 Magnetic Hammer.aux")
+] (./IROS17 Magnetic Hammer.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5018 strings out of 493333
- 87032 string characters out of 3139185
- 167687 words of memory out of 3000000
- 8481 multiletter control sequences out of 15000+200000
- 43565 words of font info for 86 fonts, out of 3000000 for 9000
+ 5009 strings out of 493089
+ 87291 string characters out of 6134842
+ 168264 words of memory out of 5000000
+ 8426 multiletter control sequences out of 15000+600000
+ 43565 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,14n,31p,1632b,295s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
-i5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr
-i8a.pfb>
-Output written on "IROS17 Magnetic Hammer.pdf" (8 pages, 1841410 bytes).
+ 38i,14n,31p,1630b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/201
+5/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2015/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2015/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf-dist/fonts/
+type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/ur
+w/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/ut
+mbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "IROS17 Magnetic Hammer.pdf" (8 pages, 1806499 bytes).
 PDF statistics:
- 319 PDF objects out of 1000 (max. 8388607)
+ 322 PDF objects out of 1000 (max. 8388607)
+ 173 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
