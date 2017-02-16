@@ -164,7 +164,7 @@ In the above equations, $x_{cs}$ is the maximum compression distance of the spri
 
 \begin{figure}
 	\includegraphics[width=\linewidth]{CLinput.pdf}
-	\caption{Closed loop input gradient for 50 impacts; $k$ = 50 N/m; $e$ = 0.9; $F_{mag}$ = 1.5e-3 N; $L$ = 0.03 m; $m_s$ = 5.58e-4 kg; $r_s$ = 2.5 mm.}
+	\caption{Closed loop input gradient for 50 impacts; $k$ = 50 N/m; $e$ = 0.9; $F_{mag}$ = 1.5e-3 N; $L$ = 0.03 m; $m_s$ = 5.58e-4 kg; $r_s$ = 0.0025 mm.}
 	\label{CLinput}
 	
 \end{figure}
@@ -221,7 +221,7 @@ The flux density has to be calculated for each solenoid. The total flux density 
 
 \begin{figure}
   \includegraphics[width=\linewidth]{Femm_matlab_comparison.png}
-  \caption{Comparison between the flux density computed the semi-analytical method with Matlab and the flux density computed via a finite elements method with FEMM.}
+  \caption{Comparison between the flux density computed with the semi-analytical method with {\sc Matlab} and the flux density computed via a finite element method with FEMM.}
   \label{Femm_matlab_comparison}
 \end{figure}
 
@@ -233,7 +233,7 @@ The ferromagnetic sphere is small compared to the coil system and can be conside
 
 \begin{figure}
 	\includegraphics[width=\linewidth]{CLvsOL.eps}
-	\caption{Comparison of average impact velocities between closed loop and open loop inputs. The average was calculated over 100 impacts for the open loop inputs.}
+	\caption{Comparison of average impact velocities between closed-loop and open-loop inputs. The average was calculated over impacts 100 to 200 for the open-loop inputs.}
 	\label{CLvsOL}
 \end{figure}
 
@@ -253,7 +253,7 @@ Once the magnetic moment $\mathbf{m}$ is obtained, the force on the sphere can b
 \subsubsection{Perfectly closed loop vs. open loop system}
 \label{clol}
 
-A numerical model was used to simulate the system dynamics for different input gradients. Average impact velocities over 100 contacts were compared for a perfectly closed loop pulsed input, and open loop inputs with sinusoidal and square profiles. As seen in figure \ref{CLvsOL}, closed loop control produces approximately 3 times greater average impact velocity as compared to open loop sinusoidal and square waves, over a range of frequencies. As with the analytical model in section II-A, the simulation assumes that robot translation along its axis is zero. While the absolute values of impact velocity and force will be different when the capsule is free to move along the axis, the closed loop input can still be expected to produce higher forces than open loop inputs. Further, for a given open loop frequency, the variation of impact velocity over multiple contacts was found to be random for both square and sinusoidal inputs. It is not possible to reach the resonant state using a constant frequency input of any form. For a given set of input parameters, there exists only one path, or control input, that enables the system to reach a resonant state. 
+A numerical model was used to simulate the system dynamics for different input gradients. Average impact velocities over impacts 100 to 200 were compared for a perfectly closed loop pulsed input, and open loop inputs with sinusoidal and square profiles. As seen in figure \ref{CLvsOL}, closed loop control produces approximately three times greater average impact velocity as compared to open loop sinusoidal and square waves, over all frequencies. As with the analytical model in section II-A, the simulation assumes that the robot capsule does not translate along its axis. While the absolute values of impact velocity and force will be different when the capsule is free to move, the closed-loop input can still be expected to produce higher forces than open-loop inputs. Further, for a given open-loop frequency, the variation of impact velocity over multiple contacts was found to be random for both square and sinusoidal inputs. It is not possible to reach the resonant state using a constant frequency input of any form. For a given set of input parameters, there exists only one path, or control input, that enables the system to reach a resonant state. 
 \begin{figure}
 	\includegraphics[width=\linewidth]{Tswitch_cases_1to6.eps}
 	\caption{Six domains for spring-end switching time; red and green represent $F_{mag}$ towards anterior and posterior respectively. Direction of colored arrow represents direction of ball motion.}
@@ -263,7 +263,7 @@ A numerical model was used to simulate the system dynamics for different input g
 
 \subsubsection{Partially closed loop system}
 
-To implement a perfectly closed loop system, sensing is required at both the spring and impact ends. While sensing at the impact end can be done using a microphone sensor (see section III-B), it is harder to detect sphere reversal at the spring end. For experiments of the magnetic hammer on our test bench, a partially closed loop system was implemented with only impact end sensing using a microphone. The sensor detected each impact and triggered a reversal in the direction of the gradient force. The switching time $t_s$ at the spring end was manually set at different values. There are six regimes for $t_s$, for a given set of geometric and material properties as shown in \cref{Tswitch}. In \cref{Tswitch}(i), the initial velocity $v_{0^+}$ and $t_s$ are low enough that the sphere reverses direction before reaching the spring. In this case, $v_{0^+} < 2aL$, where $a=F_{mag}/m_s$. Fig. \ref{Tswitch}(ii) represents the case when $v_{0^+}$ is high enough such that spring compression is unavoidable even for $t_s = 0$. In \cref{Tswitch}(iii), the signal switch happens after spring compression starts but before it bottoms out. Fig. \ref{Tswitch}(iv) represents perfect closed loop switching. In \cref{Tswitch}(v), the signal is switched after maximum compression, before the sphere reaches $x_s=0$. Fig. \ref{Tswitch}(vi) represents switching after spring rebound and before the next impact. There is also a possible seventh case where the switching happens after one entire impact cycle. This case is not relevant and serves more as an upper limit of practical $t_s$ values. 
+To implement a perfectly closed loop system, sensing is required at both the spring and impact ends. While sensing at the impact end can be done using a microphone sensor (see section III-B), it is harder to detect sphere reversal at the spring end. For experiments of the magnetic hammer on our test bench, a partially closed-loop system was implemented with only impact end sensing using a microphone. The sensor detected each impact and triggered a reversal in the direction of the gradient force. The switching time $t_s$ at the spring end was manually set at different values. There are six regimes for $t_s$, for a given set of geometric and material properties as shown in \cref{Tswitch}. In \cref{Tswitch}(i), the initial velocity $v_{0^+}$ and $t_s$ are low enough that the sphere reverses direction before reaching the spring. In this case, $v_{0^+} < 2aL$, where $a=F_{mag}/m_s$. Fig. \ref{Tswitch}(ii) represents the case when $v_{0^+}$ is high enough that spring compression is unavoidable even for $t_s = 0$. In \cref{Tswitch}(iii), the signal switch happens after spring compression starts but before it bottoms out. Fig. \ref{Tswitch}(iv) represents perfect closed loop switching. In \cref{Tswitch}(v), the signal is switched after maximum compression, but before the sphere reaches $x_s=0$. Fig. \ref{Tswitch}(vi) represents switching after spring rebound and before the next impact. There is also a possible seventh case where the switching happens after one entire impact cycle. This case is not relevant and serves more as an upper limit of practical $t_s$ values. 
 
 
 \begin{figure}
@@ -272,9 +272,9 @@ To implement a perfectly closed loop system, sensing is required at both the spr
 	\label{delTvsVop}
 \end{figure}
 
-Simulations were done for the partially closed loop system to identify effects of different $t_s$ values. The variation of time between impacts $\Delta t_{imp}$, with changes in $t_s$ and initial velocity $v_{0^+}$ have been plotted. In \cref{delTvsVop}, it is seen that $\Delta t_{imp}$ increases linearly till a point, after which it starts dropping. For a given $t_s$, the linearly increasing region represents the case where the ball reverses before reaching the spring (See \cref{Tswitch}(i)). Beyond the critical point, the sphere compresses the spring and reaches the impact plate faster for higher values of $v_{0^+}$. For higher values of $t_s$, the linear region disappears for low $v_{0^+}$ values because the sphere is not brought to rest before reaching the spring. For high values of $v_{0^+}$, $\Delta t_{imp}$ converges for all values of $t_s$ because the switching happens after the sphere completes an impact cycle. Further, it is seen that for a given value of $v_{0^+}$, the time between impacts is lowest for the resonant value of $t_s$ calculated from \cref{tres6}. \par
+Simulations were done for the partially closed loop system to identify effects of different $t_s$ values. The variation of time between impacts $\Delta t_{imp}$, with changes in $t_s$ and initial velocity $v_{0^+}$ have been plotted. In \cref{delTvsVop}, it is seen that $\Delta t_{imp}$ increases linearly, then starts dropping. For a given $t_s$, the linearly increasing region represents the case where the ball reverses before reaching the spring (See \cref{Tswitch}(i)). Beyond the critical point, the sphere compresses the spring and reaches the impact plate faster for higher values of $v_{0^+}$. For higher values of $t_s$, the linear region disappears for low $v_{0^+}$ values because the sphere is not brought to rest before reaching the spring. For high values of $v_{0^+}$, $\Delta t_{imp}$ converges for all values of $t_s$ because the switching happens after the sphere completes an impact cycle. Further, it is seen that for a given value of $v_{0^+}$, the time between impacts is lowest for the resonant value of $t_s$ calculated from \cref{tres6}. \par
 
-For $v_{0^+}=0.15\text{ m/s}$ in \cref{delTvsTs}, there is a linear increase in $\Delta t_{imp}$ till $t_s$ reaches a critical point. This linear region represents the case shown in \cref{Tswitch}(i). Beyond this, $\Delta t_{imp}$ decreases with increasing $t_s$ (\cref{Tswitch}(ii),(iii)), until the latter reaches its perfectly closed loop value. At this point $\Delta t_{imp}$ reaches a minimum value (\cref{Tswitch}(iv)). As $t_s$ increases beyond this, the $\Delta t_{imp}$ keeps increasing (\cref{Tswitch}(v),(vi)), until it saturates because the signal is switched after the duration of the entire impact cycle. The linear range does not exist for higher values of $v_{0^+}$. Using these models, we intend to design a control law that will help push $t_s$ values closer to perfectly closed loop values for subsequent impacts.
+Fig. \ref{delTvsTs} shows $\Delta t_{imp}$ as a function of $t_s$. For $v_{0^+}=0.15\text{ m/s}$, there is a linear increase in $\Delta t_{imp}$ till $t_s$ reaches a critical point. This linear region represents the case shown in \cref{Tswitch}(i). Beyond this, $\Delta t_{imp}$ decreases with increasing $t_s$ (\cref{Tswitch}(ii),(iii)), until the latter reaches its perfectly closed-loop value. At this point $\Delta t_{imp}$ reaches a minimum value (\cref{Tswitch}(iv)). As $t_s$ increases beyond this, the $\Delta t_{imp}$ keeps increasing (\cref{Tswitch}(v),(vi)), until it saturates because the signal is switched after the duration of the entire impact cycle. The linear range does not exist for higher values of $v_{0^+}$. Using these models, we intend to design a control law that will help push $t_s$ values closer to perfectly closed-loop values for subsequent impacts.
 
 
 \begin{figure}
@@ -286,9 +286,9 @@ For $v_{0^+}=0.15\text{ m/s}$ in \cref{delTvsTs}, there is a linear increase in 
 
 \section{Experimental determination of Impact coefficient of resititution}
 \label{cor_det}
-The coefficient of restitution $e$ was determined using the time interval between two consecutive bounces of the sphere when dropped from a given height, onto the impact rod. The measurements were made using 38.1 mm long impact rods for five different materials. Impact rods were held by a drill chuck. A length of 10.0 mm of the impact rods was sticking out of the chuck, as seen in Fig.~\ref{CoR_setup_data}.
+The coefficient of restitution $e$ was determined using the time interval between two consecutive bounces of the sphere when dropped from a given height onto the impact rod. The measurements were made using 38.1 mm long impact rods for five different materials. Impact rods were held by a drill chuck. A length of 10.0 mm of the impact rods was sticking out of the chuck. The experimental setup is shown in \cref{CoR_setup_data}.
 
-The results, shown in \ref{fig:CoR_Results}, show that and that aluminum offers the largest coefficient of restitution, followed by Titanium an Brass. The densities of titanium, brass, aluminum, stainless steel, and copper are 4500, 8500, 2720, 7600 and 8940 kg/m$^3$ respectively. This data, coupled with a desired for a lightweight millirobot suggests that aluminum is the best material for an impact plate.
+The results, shown in fig. \ref{CoR_Results}, show that and that aluminum offers the largest coefficient of restitution, followed by titanium and brass. The densities of aluminum, titanium, stainless steel, brass, and copper are 2720, 4500, 7600, 8500, and 8940 kg/m$^3$ respectively. This data, coupled with a desire for a lightweight millirobot suggests that aluminum is the best material for an impact plate. Bio-compatibility of the material used is another constraint.
 
 \begin{figure}
 	\includegraphics[width=\columnwidth]{CoR_setup_data.eps}
@@ -299,7 +299,7 @@ The results, shown in \ref{fig:CoR_Results}, show that and that aluminum offers 
 \begin{figure}
 	\includegraphics[width=\columnwidth]{CoR_measurements.eps}
 	\caption{Measured coefficient of restitution $e$ as a function of rod diameter for different materials}
-	\label{fig:CoR_Results}
+	\label{CoR_Results}
 \end{figure}
 
 
@@ -383,7 +383,7 @@ The next subsection adds the effect of friction to the model.
 
 \begin{figure}
   \includegraphics[width=\linewidth]{figure3.eps}
-  \caption{Comparison between the oscillating frequency obtained experimentally and with the model as a function of the current in the coils $I_{max}$}
+  \caption{Comparison between the oscillating frequency obtained experimentally and with the model as a function of the current in the coils $I_{max}$.}
   \label{freq}
 \end{figure}
 
@@ -392,28 +392,28 @@ The next subsection adds the effect of friction to the model.
 To improve the model accuracy, the friction between the moving sphere and the other components of the millirobot was included into the model. 
 The sphere can be rolling or sliding inside the tube. 
 The modelization is based on the method described in \cite{00319120303009}. 
-The rotation speed $\omega$ is first computed and drag is calculated from this result.\par
+The rotation speed $\dot{\theta}$ is first computed and drag is calculated from this result.\par
 The friction on the tube produces a torque on the sphere. 
 It is assumed that the coefficient of static friction is equal to the coefficient of kinetic friction $\mu_k$. 
-The equation used to calculate the angular velocity variation $\frac{\mathrm{d\omega } }{\mathrm{d} t}$ of the sphere is different whether the sphere is rolling or sliding. 
+The equation used to calculate the angular velocity variation $\frac{\mathrm{d\dot{\theta} } }{\mathrm{d} t}$ of the sphere is different whether the sphere is rolling or sliding. 
 The distinction between this two different behavior is made by calculating the relative velocities $V_{rel}$ of the sphere and the tube surface (see \cref{relV}). \par
 
 
 \begin{equation}
-V_{rel}=V-r\omega
+V_{rel}=V-r\dot{\theta}
 \label{relV}
 \end{equation}
 
  
-If the relative speed is inferior to 0.005 m/s and if the force applied to the sphere is smaller than the kinetic friction, the sphere is considered to be rolling inside the tube and the drag is null. $\frac{\mathrm{d\omega } }{\mathrm{d} t}$ can be calculated with:
+If the relative speed is inferior to 0.005 m/s and if the force applied to the sphere is smaller than the kinetic friction, the sphere is considered to be rolling inside the tube and the drag is null. $\frac{\mathrm{d\dot{\theta} } }{\mathrm{d} t}$ can be calculated with:
 
 \begin{equation}
-\frac{\mathrm{d\omega } }{\mathrm{d} t}=r\frac{\mathrm{dV } }{\mathrm{d} t}
+\frac{\mathrm{d\dot{\theta} } }{\mathrm{d} t}=r\frac{\mathrm{dV } }{\mathrm{d} t}
 \label{domega}
 \end{equation}
 
-In all other cases, the torque applied to the sphere is equal to the kinetic friction force multiplied by the sphere radius. The drag is equal to the kinetic friction force.\par
-Results of simulations are shown in figure \ref{freq}. The addition of the friction greatly improves the model accuracy.
+In all other cases, the torque applied to the sphere is equal to the kinetic friction force multiplied by the sphere radius. The drag is equal to the kinetic friction force \mu_k = 0.2.\par
+Results of simulations are shown in Fig. \ref{freq}. The addition of the friction greatly improves the model accuracy.
 
 %\section{Tissue penetration test}
 %\begin{table}[h]
@@ -442,22 +442,22 @@ Results of simulations are shown in figure \ref{freq}. The addition of the frict
  %  \end{figure}
 \section{Preliminary tests in clinical MRI}
 \label{MRI_tests}
-Preliminary tests of magnetic hammers were performed into a clinical 1.5T Siemens MRI scanner. 
+Preliminary tests of magnetic hammers were performed in a clinical 3T Siemens MRI scanner. 
 No closed-loop control was implemented. 
 The magnetic gradient  oscillated at a constant frequency. 
 As seen before, the system does not work optimally in these conditions. 
 At low frequencies, the ferromagnetic sphere completely stops on both sides of the millirobot. 
-All the kinetic energy is lost at these times, and the magnetic hammer, therefore, exhibits  poor performances. 
+All the kinetic energy is lost at these times, and the magnetic hammer, therefore, performs poorly. 
 The aim of this tests is to prove that MRI scanners are suitable to produce the desired force on the magnetic sphere inside the millirobot and provide a pulsed force.\par
-A 50 mm long, 7 mm diameter robot was build for this test. 
+A 50 mm long, 7 mm diameter robot was built for this test. 
 A 2Hz square gradient with an amplitude of 23 mT/m was applied to it. 
 This frequency is slow enough to allow the sphere to stop on both sides completely. 
-A sample of sheep brain was used as a tissue sample to penetrate.\par
-Once the gradient wave was started, the sphere began to move back and forth while the robot was moving toward the sample at each impact.
- The robot then began to penetrate the sample. It went 9 mm deep inside it and stopped progressing (see\cref{MRI_test}). 
+A sheep brain hemisphere was used as tissue sample to penetrate.\par
+Once the gradient wave was started, the sphere began to move back and forth while the robot was moving toward the sample at each impact, at an average speed of 1.9 mm/s.
+ The robot then began to penetrate the sample. It went 9 mm deep inside it and stopped progressing (see \cref{MRI_test}). 
 This experiment demonstrated the suitability of MRI scanner to drive magnetic hammers. \par
 Future work will implement closed loop control on the clinical MRI scanner to transfer energy efficiently. 
-The MRI signal will be used to compute the position of the magnetic sphere at a frequency greater than 20 Hz, as in~\cite{578}.
+The MRI signal could be used to compute the position of the magnetic sphere at a frequency greater than 20 Hz, as we did in~\cite{578}.
 
 \begin{figure}
 \centering
@@ -469,19 +469,19 @@ The MRI signal will be used to compute the position of the magnetic sphere at a 
 \section{CONCLUSIONS}
 \label{conclusion}
 A magnetic hammer system for a millirobot driven by the gradient fields of an MRI scanner was studied. 
-The system enables producing the large pulsed forces necessary to penetrate body tissue.\par
+The system enables producing the forces large enough to penetrate body tissue.\par
 The hammer is composed of a ferromagnetic sphere moving inside a tube. 
 On the posterior side of the robot, there is a spring that allows changing the direction of the sphere smoothly. 
 On the anterior side, a hard metal rod act as an impact plate to transfer the momentum of the ferromagnetic sphere to the body of the robot.\par
-The system is driven by an external magnetic field, produced by an MRI scanner. 
+The system is driven by an external magnetic field, such as that produced by an MRI scanner. 
 The main field magnetizes the sphere and the gradient produces the forces necessary to move the sphere.\par
- A complex modelization allows the computation of the position of the sphere as a function of the time. 
+ A complex modelization allows the computation of the position of the sphere as a function of time. 
  The magnetic flux density and the gradient are computed using a semi-analytical method and allow an accurate calculation of the force applied to the sphere. 
  The speed of the sphere after impact is computed from the coefficient of restitution. 
  The rotation of the sphere is also calculated, allowing an accurate calculation of the drag produced by the sliding of the sphere inside the tube.\par
-The coefficients of restitutions (CoR) depends on the materials of the colliding objects but also on their shape and sizes. 
-CoR values were experimentally measured. 
-These measurements showed that aluminum impact plates exhibit large CoR. 
+The coefficients of restitution $e$ depend on the materials of the colliding objects but also on their shape and sizes. 
+Values of $e$ were experimentally measured. 
+These measurements showed that aluminum impact plates have the highest values of $e$. 
 This material also has the advantage of being lightweight, useful property to achieve neutral buoyancy of millirobots. 
 In addition, titanium is a bio-compatible material. 
 This makes titanium the best choice for impact plates of magnetic hammers.\par

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.2.9)  15 FEB 2017 20:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.2.9)  15 FEB 2017 21:12
 entering extended mode
 **"./IROS17 Magnetic Hammer.tex"
 ("IROS17 Magnetic Hammer.tex"
@@ -383,11 +383,11 @@ Package pdftex.def Info: ./pictures/Femm_matlab_comparison.png used on input li
 ne 223.
 (pdftex.def)             Requested size: 245.71811pt x 218.91277pt.
 Package epstopdf Info: Source file: <./pictures/CLvsOL.eps>
-(epstopdf)                    date: 2017-02-15 18:03:17
-(epstopdf)                    size: 54871 bytes
+(epstopdf)                    date: 2017-02-15 20:44:02
+(epstopdf)                    size: 54828 bytes
 (epstopdf)             Output file: <./pictures/CLvsOL-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-15 18:03:17
-(epstopdf)                    size: 18636 bytes
+(epstopdf)                    date: 2017-02-15 20:44:08
+(epstopdf)                    size: 18570 bytes
 (epstopdf)             Command: <epstopdf --outfile=./pictures/CLvsOL-eps-conve
 rted-to.pdf ./pictures/CLvsOL.eps>
 (epstopdf)             \includegraphics on input line 235.
@@ -500,7 +500,7 @@ Package pdftex.def Info: ./pictures/CoR_measurements-eps-converted-to.pdf used
 on input line 300.
 (pdftex.def)             Requested size: 245.71811pt x 253.44066pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 6608) has occurred while \output is active []
 
  [5 <./pictures/delTvsVop_R3-eps-converted-to.pdf> <./pictures/delTvsTs_R2-eps-
 converted-to.pdf> <./pictures/CoR_setup_data-eps-converted-to.pdf> <./pictures/
@@ -542,8 +542,24 @@ File: ./pictures/figure3-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./pictures/figure3-eps-converted-to.pdf used on input 
 line 385.
 (pdftex.def)             Requested size: 245.71811pt x 191.66406pt.
- [6 <./pictures/Magnetic_setup.jpg>] <./pictures/tests_in_MRI.png, id=237, 222.
-8325pt x 206.57175pt>
+ [6 <./pictures/Magnetic_setup.jpg>]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.415 ...s equal to the kinetic friction force \mu
+                                                  _k = 0.2.\par
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.415 ...e kinetic friction force \mu_k = 0.2.\par
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+<./pictures/tests_in_MRI.png, id=237, 222.8325pt x 206.57175pt>
 File: ./pictures/tests_in_MRI.png Graphic file (type png)
 
 <use ./pictures/tests_in_MRI.png>
@@ -575,12 +591,12 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  5012 strings out of 493335
- 86649 string characters out of 3139261
+ 86641 string characters out of 3139261
  167567 words of memory out of 3000000
  8475 multiletter control sequences out of 15000+200000
  43565 words of font info for 86 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,14n,31p,1637b,295s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,14n,31p,1636b,295s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Program Files/MiKTeX 2.9/font
@@ -601,7 +617,7 @@ ogram Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utm
 r8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "IROS17 Magnetic Hammer.pdf" (8 pages, 1841610 bytes).
+Output written on "IROS17 Magnetic Hammer.pdf" (8 pages, 1842162 bytes).
 PDF statistics:
  319 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
