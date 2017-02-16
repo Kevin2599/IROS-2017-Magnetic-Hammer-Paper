@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.2.9)  15 FEB 2017 19:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.2.9)  15 FEB 2017 20:09
 entering extended mode
 **"./IROS17 Magnetic Hammer.tex"
 ("IROS17 Magnetic Hammer.tex"
@@ -317,23 +317,23 @@ File: ./pictures/figure1-2.png Graphic file (type png)
 Package pdftex.def Info: ./pictures/figure1-2.png used on input line 92.
 (pdftex.def)             Requested size: 245.71811pt x 237.5285pt.
 Package epstopdf Info: Source file: <./pictures/FBD.eps>
-(epstopdf)                    date: 2017-02-15 17:32:03
-(epstopdf)                    size: 77352 bytes
+(epstopdf)                    date: 2017-02-15 19:57:44
+(epstopdf)                    size: 76922 bytes
 (epstopdf)             Output file: <./pictures/FBD-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-15 17:32:03
-(epstopdf)                    size: 28551 bytes
+(epstopdf)                    date: 2017-02-15 19:59:46
+(epstopdf)                    size: 28974 bytes
 (epstopdf)             Command: <epstopdf --outfile=./pictures/FBD-eps-converte
 d-to.pdf ./pictures/FBD.eps>
 (epstopdf)             \includegraphics on input line 106.
 Package epstopdf Info: Output file is already uptodate.
 
-<./pictures/FBD-eps-converted-to.pdf, id=2, 334.24875pt x 243.91125pt>
+<./pictures/FBD-eps-converted-to.pdf, id=2, 333.245pt x 254.9525pt>
 File: ./pictures/FBD-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./pictures/FBD-eps-converted-to.pdf>
 Package pdftex.def Info: ./pictures/FBD-eps-converted-to.pdf used on input line
  106.
-(pdftex.def)             Requested size: 245.71811pt x 179.31168pt.
+(pdftex.def)             Requested size: 245.71811pt x 187.99275pt.
  [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
@@ -500,7 +500,7 @@ Package pdftex.def Info: ./pictures/CoR_measurements-eps-converted-to.pdf used
 on input line 300.
 (pdftex.def)             Requested size: 245.71811pt x 253.44066pt.
 
-Underfull \vbox (badness 6608) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5 <./pictures/delTvsVop_R3-eps-converted-to.pdf> <./pictures/delTvsTs_R2-eps-
 converted-to.pdf> <./pictures/CoR_setup_data-eps-converted-to.pdf> <./pictures/
@@ -576,11 +576,11 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  5012 strings out of 493335
  86649 string characters out of 3139261
- 168567 words of memory out of 3000000
+ 167567 words of memory out of 3000000
  8475 multiletter control sequences out of 15000+200000
  43565 words of font info for 86 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,14n,31p,1632b,295s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,14n,31p,1637b,295s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Program Files/MiKTeX 2.9/font
@@ -601,7 +601,7 @@ ogram Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utm
 r8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "IROS17 Magnetic Hammer.pdf" (8 pages, 1841354 bytes).
+Output written on "IROS17 Magnetic Hammer.pdf" (8 pages, 1841610 bytes).
 PDF statistics:
  319 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
