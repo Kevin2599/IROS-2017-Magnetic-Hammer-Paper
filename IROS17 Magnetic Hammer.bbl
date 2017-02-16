@@ -57,6 +57,10 @@ James~C Simpson, John~E Lane, Christopher~D Immer, and Robert~C Youngquist.
   current loop.
 \newblock {\em NASA Technical report}, 2001.
 
+\bibitem{femm}
+Finite Element~Method Magnetics.
+\newblock http://www.femm.info.
+
 \bibitem{578}
 Ouajdi Felfoul, Aaron~T Becker, Georgios Fagogenis, and Pierre~E Dupont.
 \newblock Simultaneous steering and imaging of magnetic particles using mri

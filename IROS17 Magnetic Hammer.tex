@@ -210,11 +210,7 @@ B_\theta=\frac{\mu _0.I.z}{2.\pi.\delta ^{2}.\beta.\rho   }\left [ \left ( a^2-\
 \end{equation}
 
 \begin{figure}
-<<<<<<< HEAD
-  \includegraphics[width=\linewidth]{single_loop-eps-converted-to.pdf}
-=======
   \includegraphics[width=\linewidth]{single_loop.pdf}
->>>>>>> origin/master
   \caption{Geometry and variables used in equation \cref{Bz1loop,Bteta1loop,delta,beta}}
   \label{single_loop_geometry}
 \end{figure}
@@ -236,7 +232,7 @@ The ferromagnetic sphere is small compared to the coil system and can be conside
 
 \begin{figure}
 	\includegraphics[width=\linewidth]{CLvsOL.eps}
-	\caption{Comparison of average impact velocities between closed loop and open loop inputs. The averagg was calculated over 100 impacts for the open loop inputs.}
+	\caption{Comparison of average impact velocities between closed loop and open loop inputs. The average was calculated over 100 impacts for the open loop inputs.}
 	\label{CLvsOL}
 \end{figure}
 
@@ -254,6 +250,7 @@ Once the magnetic moment $\mathbf{m}$ is obtained, the force on the sphere can b
 \subsection{Simulation results}
 
 \subsubsection{Perfectly closed loop vs. open loop system}
+\label{clol}
 
 A numerical model was used to simulate the system dynamics for different input gradients. Average impact velocities over 100 contacts were compared for a perfectly closed loop pulsed input, and open loop inputs with sinusoidal and square profiles. As seen in figure \ref{CLvsOL}, closed loop control produces approximately 3 times greater average impact velocity as compared to open loop sinusoidal and square waves, over a range of frequencies. As with the analytical model in section II A, the simulation assumes that robot translation along its axis is zero. While the absolute values of impact velocity and force will be different when the capsule is free to move along the axis, the closed loop input can still be expected to produce higher forces than open loop inputs. Further, for a given open loop frequency, the variation of impact velocity over multiple contacts was found to be random for both square and sinusoidal inputs. It is not possible to reach the resonant state using a constant frequency input of any form. For a given set of input parameters, there exists only one path, or control input, that enables the system to reach a resonant state. 
 \begin{figure}
@@ -290,9 +287,7 @@ In \cref{delTvsTs}, it is observed that for $v_{0^+}=0.15\text{ m/s}$, there is 
 \label{cor_det}
 The coefficient of restitution $e$ was determined using the time interval between two consecutive bounces of the sphere when dropped from a given height, onto the impact rod. The measurements were made using 38.1 mm long impact rods for five different materials. Impact rods were held by a drill chuck. A length of 10.0 mm of the impact rods was sticking out of the chuck, as seen in Fig.~\ref{CoR_setup_data}.
 
-The results, shown in \ref{fig:CoR_Results}, show that larger diameter rods have higher coefficients of restitution, and that titanium offers the largest coefficient of restitution, followed by XXXXXXX.
-The densities of titanium brass, aluminum, stainless steel, and copper are XXXXXXXXX.
-This data, coupled with a desired for a lightweight millirobot suggests that XXX is the best material for an impact plate.
+The results, shown in \ref{fig:CoR_Results}, show that and that aluminum offers the largest coefficient of restitution, followed by Titanium an Brass. The densities of titanium, brass, aluminum, stainless steel, and copper are 4500, 8500, 2720, 7600 and 8940 kg/m$^3$ respectively. This data, coupled with a desired for a lightweight millirobot suggests that aluminum is the best material for an impact plate.
 
 \begin{figure}
 	\includegraphics[width=\columnwidth]{CoR_setup_data.eps}
@@ -358,8 +353,8 @@ Number of turns    & 265                       & \begin{tabular}[c]{@{}l@{}}Grad
 The coils are driven by square shaped currents. 
 The current in the coils can either be $I_{max}$ or 0 A. 
 The coil will be said to be ``on'' when $I=I_{max}$ and ``off'' when $I=0$ A.\par
-As explained in \cref{simulation_results}, the magnetic hammer cannot work properly if the magnetic field is not synchronized with the position of the sphere.
- An open loop control is inefficient, as shown in Fig.~\ref{fig:closeVsOpenLoop}.
+As explained in \cref{clol}, the magnetic hammer cannot work properly if the magnetic field is not synchronized with the position of the sphere.
+ An open loop control is inefficient, as shown in Fig.~\ref{CLvsOL}.
   The force applied on the sphere (and therefore the magnetic gradient) must change direction when the sphere hits the impact plate and when the sphere changes direction on the spring side to provide maximum impulse.\par
 Our eventual goal is to use these robots in an MRI scanner, where MRI gradients must be shared for propulsion and position feedback \cite{578}. 
 The nature of our system enables simpler sensing requirements that can be accomplished with a simple microphone. 
@@ -386,7 +381,6 @@ This difference probably comes from the lack of friction in the model.
 The next subsection adds the effect of friction to the model.
 
 \begin{figure}
-\label{experiment}
   \includegraphics[width=\linewidth]{figure3.eps}
   \caption{Comparison between the oscillating frequency obtained experimentally and with the model as a function of the current in the coils $I_{max}$}
   \label{freq}
@@ -417,7 +411,8 @@ If the relative speed is inferior to 0.005 m/s and if the force applied to the s
 \label{domega}
 \end{equation}
 
-In all other cases, the torque applied to the sphere is equal to the kinetic friction force multiplied by the sphere radius. The drag is equal to the kinetic friction force.
+In all other cases, the torque applied to the sphere is equal to the kinetic friction force multiplied by the sphere radius. The drag is equal to the kinetic friction force.\par
+Results of simulations are shown in figure \ref{freq}. The addition of the friction greatly improves the model accuracy.
 
 %\section{Tissue penetration test}
 %\begin{table}[h]
