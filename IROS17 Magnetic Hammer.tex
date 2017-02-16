@@ -373,11 +373,11 @@ This value corresponds to a gradient that changes direction when the sphere velo
 It should give the same results as the perfectly closed-loop simulations.\par
 The partially closed-loop experiment was performed and compared to the model. 
 Section \ref{experiment} shows a comparison of the optimum oscillating frequency as a function of $I_{max}$. 
-The simulations are performed for a perfectly closed loop system. 
+The simulations are performed for a perfectly-closed loop system. 
 When $I_{max}$ increases, the oscillating frequency increases. 
 The force on the sphere  increases with $I_{max}$ and consequently increases the moving speed of the sphere.
 This figure also shows that the model without friction has the same slope as the experimental data. 
-However, the simulations signals are approximately 1 Hz faster than the experimentation. 
+However, the simulation signals are approximately 1 Hz faster than the experiment. 
 This difference probably comes from the lack of friction in the model. 
 The next subsection adds the effect of friction to the model.
 
@@ -392,7 +392,7 @@ The next subsection adds the effect of friction to the model.
 To improve the model accuracy, the friction between the moving sphere and the other components of the millirobot was included into the model. 
 The sphere can be rolling or sliding inside the tube. 
 The modelization is based on the method described in \cite{00319120303009}. 
-The rotation speed $\omega$ is first computed and drag is calculated from this result.\par
+The rotation speed $\dot{\theta} $ is first computed and drag is calculated from this result.\par
 The friction on the tube produces a torque on the sphere. 
 It is assumed that the coefficient of static friction is equal to the coefficient of kinetic friction $\mu_k$. 
 The equation used to calculate the angular velocity variation $\frac{\mathrm{d\omega } }{\mathrm{d} t}$ of the sphere is different whether the sphere is rolling or sliding. 
@@ -482,9 +482,8 @@ The main field magnetizes the sphere and the gradient produces the forces necess
 The coefficients of restitutions (CoR) depends on the materials of the colliding objects but also on their shape and sizes. 
 CoR values were experimentally measured. 
 These measurements showed that aluminum impact plates exhibit large CoR. 
-This material also has the advantage of being lightweight, useful property to achieve neutral buoyancy of millirobots. 
-In addition, titanium is a bio-compatible material. 
-This makes titanium the best choice for impact plates of magnetic hammers.\par
+This material also has the advantage of being lightweight, a useful property to achieve neutral buoyancy of millirobots. 
+Titanium also performs well, is lightweight and is a bio-compatible material.\par
 A desktop-size magnetic test bench was built to reduce experimental cost related to the use of a clinical MRI scanner. 
 A magnetic hammer was tested with a partially closed loop control. 
 The impact of the sphere is detected via a microphone. 
@@ -493,7 +492,7 @@ The posterior coil is turn on during a predetermined time to pull the sphere bac
  Experimental results were compared to the model.
   The experimental oscillating frequency is in good agreement with the model predictions. 
   This validates our modelization.\par
-In future work, the control of the magnetic hammer will be implemented and tested into a clinical MRI scanner. 
+In future work, the control of the magnetic hammer will be implemented and tested in a clinical MRI scanner. 
 The impact will be detected with the MRI signal instead of a microphone. 
 The tradeoffs involved in miniaturization of the robot will also be studied.
 
