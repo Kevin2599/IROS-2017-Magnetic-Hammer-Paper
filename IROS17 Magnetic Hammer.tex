@@ -165,7 +165,7 @@ In the above equations, $x_{cs}$ is the maximum compression distance of the spri
 \begin{figure}
 	\includegraphics[width=\linewidth]{CLinput.pdf}
 <<<<<<< HEAD
-	\caption{Closed loop input gradient for 50 impacts; $k$ = 50 N/m; $e$ = 0.9; $F_{mag}$ = 1.5e-3 N; $L$ = 0.03 m; $m_s$ = 5.58e-4 kg; $r_s$ = 0.0025 mm.}
+	\caption{Closed loop input gradient for 50 impacts; $k$ = 50 N/m; $e$ = 0.9; $F_{mag}$ = 1.5e-3 N; $L$ = 0.03 m; $m_s$ = 5.58e-4 kg; $r_s$ = 0.0025 m.}
 =======
 	\caption{Closed loop input gradient for 50 impacts; $k$ = 50 N/m; $e$ = 0.9; $F_{mag}$ = 1.5e-3 N; $L$ = 0.03 m; $m_s$ = 5.58e-4 kg; $r_s$ = 0.0025 m.}
 >>>>>>> origin/master
@@ -396,11 +396,9 @@ The next subsection adds the effect of friction to the model.
 To improve the model accuracy, the friction between the moving sphere and the other components of the millirobot was included into the model. 
 The sphere can be rolling or sliding inside the tube. 
 The modelization is based on the method described in \cite{00319120303009}. 
-<<<<<<< HEAD
-The rotation speed $\dot{\theta}$ is first computed and drag is calculated from this result.\par
-=======
+
 The rotation speed $\dot{\theta} $ is first computed and drag is calculated from this result.\par
->>>>>>> origin/master
+
 The friction on the tube produces a torque on the sphere. 
 It is assumed that the coefficient of static friction is equal to the coefficient of kinetic friction $\mu_k$. 
 The equation used to calculate the angular velocity variation $\frac{\mathrm{d\dot{\theta} } }{\mathrm{d} t}$ of the sphere is different whether the sphere is rolling or sliding. 
@@ -420,7 +418,7 @@ If the relative speed is inferior to 0.005 m/s and if the force applied to the s
 \label{domega}
 \end{equation}
 
-In all other cases, the torque applied to the sphere is equal to the kinetic friction force multiplied by the sphere radius. The drag is equal to the kinetic friction force \mu_k = 0.2.\par
+In all other cases, the torque applied to the sphere is equal to the kinetic friction force multiplied by the sphere radius. The drag is equal to the kinetic friction force $\mu_k$ = 0.2.\par
 Results of simulations are shown in Fig. \ref{freq}. The addition of the friction greatly improves the model accuracy.
 
 %\section{Tissue penetration test}
@@ -448,7 +446,7 @@ Results of simulations are shown in Fig. \ref{freq}. The addition of the frictio
  %      magnetic core versus DC bias magnetic field}
  %     \label{figurelabel}
  %  \end{figure}
-\section{Preliminary tests in clinical MRI}
+\section{Preliminary tests in clinical mri}
 \label{MRI_tests}
 Preliminary tests of magnetic hammers were performed in a clinical 3T Siemens MRI scanner. 
 No closed-loop control was implemented. 
@@ -487,20 +485,20 @@ The main field magnetizes the sphere and the gradient produces the forces necess
  The magnetic flux density and the gradient are computed using a semi-analytical method and allow an accurate calculation of the force applied to the sphere. 
  The speed of the sphere after impact is computed from the coefficient of restitution. 
  The rotation of the sphere is also calculated, allowing an accurate calculation of the drag produced by the sliding of the sphere inside the tube.\par
-<<<<<<< HEAD
+
 The coefficients of restitution $e$ depend on the materials of the colliding objects but also on their shape and sizes. 
 Values of $e$ were experimentally measured. 
 These measurements showed that aluminum impact plates have the highest values of $e$. 
 This material also has the advantage of being lightweight, useful property to achieve neutral buoyancy of millirobots. 
 In addition, titanium is a bio-compatible material. 
 This makes titanium the best choice for impact plates of magnetic hammers.\par
-=======
-The coefficients of restitutions (CoR) depends on the materials of the colliding objects but also on their shape and sizes. 
-CoR values were experimentally measured. 
-These measurements showed that aluminum impact plates exhibit large CoR. 
+
+The coefficients of restitution ($e$) depends on the materials of the colliding objects but also on their shape and sizes. 
+Values of $e$ were experimentally measured. 
+These measurements showed that aluminum impact plates exhibit large values of $e$. 
 This material also has the advantage of being lightweight, a useful property to achieve neutral buoyancy of millirobots. 
 Titanium also performs well, is lightweight and is a bio-compatible material.\par
->>>>>>> origin/master
+
 A desktop-size magnetic test bench was built to reduce experimental cost related to the use of a clinical MRI scanner. 
 A magnetic hammer was tested with a partially closed loop control. 
 The impact of the sphere is detected via a microphone. 
