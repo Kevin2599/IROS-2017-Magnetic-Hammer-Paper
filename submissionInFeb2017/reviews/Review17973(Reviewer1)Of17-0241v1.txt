@@ -1,0 +1,31 @@
+This paper deal with magnetic hammer actuation for tissue penetration.
+Especially, this paper presents a method to produce large pulsed forces
+on millirobots. The contents of this paper are as follows: concept of
+the robot, mathematical model of magnetic hammer, analysis, preliminary
+experiment. This paper consists of 6 chapters, 15 figures and 12
+references. 
+
+The concept of the system is interesting. However, clarity of
+presentation and thoroughness of results are fair. Please see the
+following major comments.
+
+[major comment : clarity of presentation]
+- The introduction of the each equation is not clear.Especially,
+equation(3)-(8), (10)-(13).
+- The method of the simulation or the experiment are not clearly
+described in chapter II –V, respectively. 
+- What is the difference about perfectly closed loop, open loop and
+partially closed loop?
+- What is the meaning of the following sentences “This is equivalent to
+a perfectly closed-loop system where the gradient signal switches
+direction when the sphere switches direction.”. Why?
+
+[major comment : thoroughness of results]
+-The method and result (especially, experiment part) does not support
+your concept enough. The further implementation is needed to
+demonstrate your idea about magnetic hammer.
+
+[minor comment : clarity of presentation]
+- There are many abbreviation, which is not introduced (ODE, FEMM,
+etc). 
+- What is desktop the experiments?
