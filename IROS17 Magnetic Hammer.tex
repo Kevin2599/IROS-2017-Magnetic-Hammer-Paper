@@ -260,6 +260,7 @@ A numerical model was used to simulate the system dynamics for different input g
 
 
 \subsubsection{Partially closed loop system}
+\label{pcl}
 
 To implement a perfectly closed loop system, sensing is required at both the spring and impact ends. While sensing at the impact end can be done using a microphone sensor (see section III-B), it is harder to detect sphere reversal at the spring end. For experiments of the magnetic hammer on our test bench, a partially closed-loop system was implemented with only impact end sensing using a microphone. The sensor detected each impact and triggered a reversal in the direction of the gradient force. The switching time $t_s$ at the spring end was manually set at different values. There are six regimes for $t_s$, for a given set of geometric and material properties as shown in \cref{Tswitch}. In \cref{Tswitch}(i), the initial velocity $v_{0^+}$ and $t_s$ are low enough that the sphere reverses direction before reaching the spring. In this case, $v_{0^+} < 2aL$, where $a=F_{mag}/m_s$. Fig. \ref{Tswitch}(ii) represents the case when $v_{0^+}$ is high enough that spring compression is unavoidable even for $t_s = 0$. In \cref{Tswitch}(iii), the signal switch happens after spring compression starts but before it bottoms out. Fig. \ref{Tswitch}(iv) represents perfect closed loop switching. In \cref{Tswitch}(v), the signal is switched after maximum compression, but before the sphere reaches $x_s=0$. Fig. \ref{Tswitch}(vi) represents switching after spring rebound and before the next impact. There is also a possible seventh case where the switching happens after one entire impact cycle. This case is not relevant and serves more as an upper limit of practical $t_s$ values. 
 
@@ -476,7 +477,7 @@ The MRI signal could be used to compute the position of the magnetic sphere at a
 
 An iterative design process was used to achieve a successful tissue penetration using the magnetic test bench. A few millirobots were built and tested. \par
 Our observations of the penetration experiments concluded that sharp blades placed on the tip of the millirobot allow for an easier tissue penetration. The blades are placed much like on a hunting arrow tip, and create a fissure in the tissue which allow the movement of the capsule inside the sample. The blades used in our experiments were made of Titanium which a bio-compatible and non-magnetic metal.\par
-Our observations also showed that, when the sphere compresses the spring, the capsule tends to move backward. This effect release the pressure exerted by the millirobot tip on the tissue and therefore make the impact less efficient at penetrating the sample. This issue was solved by using a porcupine needle placed in front of millirobot, at the center of the blades. Porcupine needles are covered with microscopic backward facing barbs. These prevents the needle from being pulled off a tissue once penetrated. These natural porcupine needle cannot be used in an in-vivo medical intervention. They are indeed not sanitizable. However, synthetic porcupine needles can be build [\cite{cho2012microstructured}].\par
+Our observations also showed that, when the sphere compresses the spring, the capsule tends to move backward. This effect release the pressure exerted by the millirobot tip on the tissue and therefore make the impact less efficient at penetrating the sample. This issue was solved by using a porcupine needle placed in front of millirobot, at the center of the blades. Porcupine needles are covered with microscopic backward facing barbs. These prevents the needle from being pulled off a tissue once penetrated. These natural porcupine needle cannot be used in an in-vivo medical intervention. They are indeed not sanitizable. However, synthetic porcupine needles can be build \cite{cho2012microstructured}.\par
 
 \begin{figure}
 	\centering
@@ -485,7 +486,21 @@ Our observations also showed that, when the sphere compresses the spring, the ca
   \label{brain_penetration}
 \end{figure}
 
-Fig. \ref{brain_penetration} show pictures of the most successful penetration test at different moments. The tissue sample used in this experiment is a 10 mm thick lamb brain slice. It was placed in a sample holder made with two acrylic sheets, one on each side. Two holes in the sample holder allowed the millirobot to access and cross the tissue. The millirobot used in this experiment had a diameter of 6 mm. It was using three titatium blades, a porcupine needle and a titanium impact rod. The mechanical parameters of this millirobot is presented in table. The flux density applied by the coils had a maximum value of ?T and a maximum gradient of ?. The control was performed with the partially closed loop method presented in section?.\par
+\begin{table}[]
+\centering
+\caption{Parameters of the millirobot used for the tissue penetration experiment}
+\label{my-label}
+\begin{tabular}{|l|l|}
+\hline
+Millirobot diameter          & 7.5 mm  \\ \hline
+Sphere diameter              & 6.35 mm \\ \hline
+Free length of sphere travel & 15 mm   \\ \hline
+Spring free length           & 10 mm   \\ \hline
+Spring constant              & 35 N/m  \\ \hline
+\end{tabular}
+\end{table}
+
+Fig. \ref{brain_penetration} show pictures of the most successful penetration test at different moments. The tissue sample used in this experiment is a 10 mm thick lamb brain slice. It was placed in a sample holder made with two acrylic sheets, one on each side. Two holes in the sample holder allowed the millirobot to access and cross the tissue. The millirobot used in this experiment had a diameter of 6 mm. It was using three titatium blades, a porcupine needle and a titanium impact rod. The mechanical parameters of this millirobot is presented in table \ref{robot_parameters}. The flux density applied by the coils had a maximum value of ?T and a maximum gradient of ?. The control was performed with the partially closed loop method presented in section \ref{pcl}.\par
 This prototype successfully penetrated the tissue sample in 225 s. This test proves the capability of the magnetic hammer system to penetrate biological tissue.
 
 

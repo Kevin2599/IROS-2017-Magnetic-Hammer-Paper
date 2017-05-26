@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.10)  26 MAY 2017 14:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.10)  26 MAY 2017 14:51
 entering extended mode
 **"./IROS17 Magnetic Hammer.tex"
 ("IROS17 Magnetic Hammer.tex"
@@ -343,20 +343,20 @@ Package pdftex.def Info: ./pictures/Tswitchcases.pdf used on input line 256.
 File: ./pictures/deltVsts_differentVop.pdf Graphic file (type pdf)
 
 <use ./pictures/deltVsts_differentVop.pdf>
-Package pdftex.def Info: ./pictures/deltVsts_differentVop.pdf used on input line 270.
+Package pdftex.def Info: ./pictures/deltVsts_differentVop.pdf used on input line 271.
 (pdftex.def)             Requested size: 245.71811pt x 148.91321pt.
  <./pictures/3Dcontour_view1.pdf, id=242, 912.40875pt x 670.505pt>
 File: ./pictures/3Dcontour_view1.pdf Graphic file (type pdf)
 
 <use ./pictures/3Dcontour_view1.pdf>
-Package pdftex.def Info: ./pictures/3Dcontour_view1.pdf used on input line 275.
+Package pdftex.def Info: ./pictures/3Dcontour_view1.pdf used on input line 276.
 (pdftex.def)             Requested size: 245.71811pt x 180.56815pt.
 
 <./pictures/FrictionForceWithClosedLoopValues.pdf, id=243, 813.15587pt x 462.1302pt>
 File: ./pictures/FrictionForceWithClosedLoopValues.pdf Graphic file (type pdf)
 
 <use ./pictures/FrictionForceWithClosedLoopValues.pdf>
-Package pdftex.def Info: ./pictures/FrictionForceWithClosedLoopValues.pdf used on input line 283.
+Package pdftex.def Info: ./pictures/FrictionForceWithClosedLoopValues.pdf used on input line 284.
 (pdftex.def)             Requested size: 245.71811pt x 139.64145pt.
 
 Underfull \vbox (badness 3428) has occurred while \output is active []
@@ -374,19 +374,19 @@ Package epstopdf Info: Source file: <./pictures/CoR_setup_data.eps>
 (epstopdf)                    size: 368183 bytes
 (epstopdf)             Command: <epstopdf --outfile=./pictures/CoR_setup_data-eps-converted-to.pdf ./pictures/CoR_setup_
 data.eps>
-(epstopdf)             \includegraphics on input line 298.
+(epstopdf)             \includegraphics on input line 299.
 Package epstopdf Info: Output file is already uptodate.
  <./pictures/CoR_setup_data-eps-converted-to.pdf, id=766, 722.7pt x 542.025pt>
 File: ./pictures/CoR_setup_data-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./pictures/CoR_setup_data-eps-converted-to.pdf>
-Package pdftex.def Info: ./pictures/CoR_setup_data-eps-converted-to.pdf used on input line 298.
+Package pdftex.def Info: ./pictures/CoR_setup_data-eps-converted-to.pdf used on input line 299.
 (pdftex.def)             Requested size: 245.71811pt x 184.28606pt.
  <./pictures/CoRdata.pdf, id=767, 512.54483pt x 293.30579pt>
 File: ./pictures/CoRdata.pdf Graphic file (type pdf)
 
 <use ./pictures/CoRdata.pdf>
-Package pdftex.def Info: ./pictures/CoRdata.pdf used on input line 304.
+Package pdftex.def Info: ./pictures/CoRdata.pdf used on input line 305.
 (pdftex.def)             Requested size: 245.71811pt x 140.6151pt.
 
 Underfull \vbox (badness 1655) has occurred while \output is active []
@@ -403,15 +403,15 @@ page group included in a single page
 File: ./pictures/Magnetic_setup.jpg Graphic file (type jpg)
 
 <use ./pictures/Magnetic_setup.jpg>
-Package pdftex.def Info: ./pictures/Magnetic_setup.jpg used on input line 335.
+Package pdftex.def Info: ./pictures/Magnetic_setup.jpg used on input line 336.
 (pdftex.def)             Requested size: 245.71811pt x 141.73933pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 340.
+               Default added (so using `tbp') on input line 341.
 
 
-Overfull \hbox (10.21516pt too wide) in paragraph at lines 344--353
+Overfull \hbox (10.21516pt too wide) in paragraph at lines 345--354
  [][] 
  []
 
@@ -423,27 +423,34 @@ Package epstopdf Info: Source file: <./pictures/figure3.eps>
 (epstopdf)                    date: 2017-05-25 15:55:41
 (epstopdf)                    size: 52422 bytes
 (epstopdf)             Command: <epstopdf --outfile=./pictures/figure3-eps-converted-to.pdf ./pictures/figure3.eps>
-(epstopdf)             \includegraphics on input line 389.
+(epstopdf)             \includegraphics on input line 390.
 Package epstopdf Info: Output file is already uptodate.
 
 <./pictures/figure3-eps-converted-to.pdf, id=930, 643.40375pt x 501.875pt>
 File: ./pictures/figure3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./pictures/figure3-eps-converted-to.pdf>
-Package pdftex.def Info: ./pictures/figure3-eps-converted-to.pdf used on input line 389.
+Package pdftex.def Info: ./pictures/figure3-eps-converted-to.pdf used on input line 390.
 (pdftex.def)             Requested size: 245.71811pt x 191.66406pt.
  <./pictures/tests_in_MRI.png, id=931, 222.8325pt x 206.57175pt>
 File: ./pictures/tests_in_MRI.png Graphic file (type png)
 
 <use ./pictures/tests_in_MRI.png>
-Package pdftex.def Info: ./pictures/tests_in_MRI.png used on input line 470.
+Package pdftex.def Info: ./pictures/tests_in_MRI.png used on input line 471.
 (pdftex.def)             Requested size: 150.0pt x 139.05481pt.
  [7 <./pictures/figure3-eps-converted-to.pdf> <./pictures/tests_in_MRI.png>]
 <./pictures/brain_penetration.png, id=940, 326.4195pt x 410.13225pt>
 File: ./pictures/brain_penetration.png Graphic file (type png)
  <use ./pictures/brain_penetration.png>
-Package pdftex.def Info: ./pictures/brain_penetration.png used on input line 483.
+Package pdftex.def Info: ./pictures/brain_penetration.png used on input line 484.
 (pdftex.def)             Requested size: 190.0pt x 238.73422pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 489.
+
+
+LaTeX Warning: Reference `robot_parameters' on page 8 undefined on input line 503.
 
 ("IROS17 Magnetic Hammer.bbl" [8 <./pictures/brain_penetration.png>]
 Missing character: There is no â in font ptmr7t!
@@ -461,19 +468,20 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the US letter (8.5in X 11in) paper size.
 
-[9
+[9] ("IROS17 Magnetic Hammer.aux")
 
-] ("IROS17 Magnetic Hammer.aux")
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5028 strings out of 493333
- 86921 string characters out of 3139185
+ 5034 strings out of 493333
+ 86985 string characters out of 3139185
  168687 words of memory out of 3000000
- 8490 multiletter control sequences out of 15000+200000
- 43565 words of font info for 86 fonts, out of 3000000 for 9000
+ 8495 multiletter control sequences out of 15000+200000
+ 44672 words of font info for 87 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,14n,31p,1636b,295s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
@@ -490,7 +498,7 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2
 :/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr
 i8a.pfb>
-Output written on "IROS17 Magnetic Hammer.pdf" (9 pages, 3958909 bytes).
+Output written on "IROS17 Magnetic Hammer.pdf" (9 pages, 3959818 bytes).
 PDF statistics:
  1016 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
