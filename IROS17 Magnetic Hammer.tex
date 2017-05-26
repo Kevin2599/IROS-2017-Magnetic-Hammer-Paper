@@ -293,7 +293,7 @@ In all the above models, the friction force was assumed to be zero. Average impa
 \label{cor_det}
 The coefficient of restitution $e$ was determined using the time interval between two consecutive bounces of the sphere when dropped from a given height onto the impact rod. The measurements were made using 38.1 mm long impact rods for five different materials. Impact rods were held by a drill chuck. A length of 10.0 mm of the impact rods was sticking out of the chuck. The experimental setup is shown in \cref{CoR_setup_data}.
 
-The results, shown in fig. \ref{CoR_Results}, show that and that aluminum offers the largest coefficient of restitution, followed by titanium and brass. The densities of aluminum, titanium, stainless steel, brass, and copper are 2720, 4500, 7600, 8500, and 8940 kg/m$^3$ respectively. This data, coupled with a desire for a lightweight millirobot suggests that titanium is the best material for an impact plate. Bio-compatibility of the material used is another constraint.
+The results, shown in fig. \ref{CoR_Results}, show that aluminum offers the largest coefficient of restitution, followed by titanium and brass. The densities of aluminum, titanium, stainless steel, brass, and copper are 2720, 4500, 7600, 8500, and 8940 kg/m$^3$ respectively. This data, coupled with a desire for a lightweight millirobot suggests that titanium is the best material for an impact plate. Bio-compatibility of the material used is another constraint.
 
 \begin{figure}
 	\includegraphics[width=\columnwidth]{CoR_setup_data.eps}
@@ -323,7 +323,7 @@ The system is shown in \cref{magnetic_setup}.
  The two coils are held by an acrylic tube. 
  They can slide along this tube and be locked in place to adjust the distance between the two coils and therefore change the maximum field and gradient values. 
  The acrylic tube is transparent, allowing for visual access to the robot.
-Each coil is powered via a Syren 25 switch mode power supply. 
+Each coil is powered by a Syren 25 regenerative switching power supply. The Syren 25 are manufactured by Dimension Engineering. They can provide continuously a current of 25 A with a maximum voltage of 24 V.
 A Hall-effect-based current sensor is used to perform a PID regulation of the current. 
 It is necessary to control the current inside the coils and not only the voltage. 
 Indeed, the produced magnetic field is directly proportional to the current whereas the voltage is related to the magnetic flux variation and the voltage drop produced by Joule effect losses.\par
