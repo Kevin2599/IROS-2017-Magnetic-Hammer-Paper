@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.10)  26 MAY 2017 14:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.10)  26 MAY 2017 15:08
 entering extended mode
 **"./IROS17 Magnetic Hammer.tex"
 ("IROS17 Magnetic Hammer.tex"
@@ -314,19 +314,19 @@ File: ./pictures/CLinput.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./pictures/CLinput.pdf used on input line 164.
 (pdftex.def)             Requested size: 245.71811pt x 116.45645pt.
  [2 <./pictures/FBD_R1.pdf>]
-<./pictures/single_loop.pdf, id=190, 548.0475pt x 406.51875pt>
+<./pictures/single_loop.pdf, id=188, 548.0475pt x 406.51875pt>
 File: ./pictures/single_loop.pdf Graphic file (type pdf)
  <use ./pictures/single_loop.pdf>
 Package pdftex.def Info: ./pictures/single_loop.pdf used on input line 212.
 (pdftex.def)             Requested size: 245.71811pt x 182.26802pt.
 
-<./pictures/Femm_matlab_comparison.png, id=191, 662.475pt x 590.205pt>
+<./pictures/Femm_matlab_comparison.png, id=189, 662.475pt x 590.205pt>
 File: ./pictures/Femm_matlab_comparison.png Graphic file (type png)
  <use ./pictures/Femm_matlab_comparison.png>
 Package pdftex.def Info: ./pictures/Femm_matlab_comparison.png used on input line 221.
 (pdftex.def)             Requested size: 245.71811pt x 218.91277pt.
 
-<./pictures/ComparisonOfControlInputs.pdf, id=192, 817.50781pt x 442.91158pt>
+<./pictures/ComparisonOfControlInputs.pdf, id=190, 817.50781pt x 442.91158pt>
 File: ./pictures/ComparisonOfControlInputs.pdf Graphic file (type pdf)
 
 <use ./pictures/ComparisonOfControlInputs.pdf>
@@ -339,33 +339,28 @@ File: ./pictures/Tswitchcases.pdf Graphic file (type pdf)
 <use ./pictures/Tswitchcases.pdf>
 Package pdftex.def Info: ./pictures/Tswitchcases.pdf used on input line 256.
 (pdftex.def)             Requested size: 245.71811pt x 143.51793pt.
- <./pictures/deltVsts_differentVop.pdf, id=241, 1358.07375pt x 823.075pt>
-File: ./pictures/deltVsts_differentVop.pdf Graphic file (type pdf)
+ [4 <./pictures/ComparisonOfControlInputs.pdf> <./pictures/Tswitchcases.pdf
 
-<use ./pictures/deltVsts_differentVop.pdf>
+pdfTeX warning: pdflatex.exe (file ./pictures/Tswitchcases.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
+>] <./pictures/deltVsts_differentVop.pdf, id=763, 1358.07375pt x 823.075pt>
+File: ./pictures/deltVsts_differentVop.pdf Graphic file (type pdf)
+ <use ./pictures/deltVsts_differentVop.pdf>
 Package pdftex.def Info: ./pictures/deltVsts_differentVop.pdf used on input line 271.
 (pdftex.def)             Requested size: 245.71811pt x 148.91321pt.
- <./pictures/3Dcontour_view1.pdf, id=242, 912.40875pt x 670.505pt>
-File: ./pictures/3Dcontour_view1.pdf Graphic file (type pdf)
 
-<use ./pictures/3Dcontour_view1.pdf>
+<./pictures/3Dcontour_view1.pdf, id=764, 912.40875pt x 670.505pt>
+File: ./pictures/3Dcontour_view1.pdf Graphic file (type pdf)
+ <use ./pictures/3Dcontour_view1.pdf>
 Package pdftex.def Info: ./pictures/3Dcontour_view1.pdf used on input line 276.
 (pdftex.def)             Requested size: 245.71811pt x 180.56815pt.
 
-<./pictures/FrictionForceWithClosedLoopValues.pdf, id=243, 813.15587pt x 462.1302pt>
+<./pictures/FrictionForceWithClosedLoopValues.pdf, id=765, 813.15587pt x 462.1302pt>
 File: ./pictures/FrictionForceWithClosedLoopValues.pdf Graphic file (type pdf)
 
 <use ./pictures/FrictionForceWithClosedLoopValues.pdf>
 Package pdftex.def Info: ./pictures/FrictionForceWithClosedLoopValues.pdf used on input line 284.
 (pdftex.def)             Requested size: 245.71811pt x 139.64145pt.
-
-Underfull \vbox (badness 3428) has occurred while \output is active []
-
- [4 <./pictures/ComparisonOfControlInputs.pdf> <./pictures/Tswitchcases.pdf
-
-pdfTeX warning: pdflatex.exe (file ./pictures/Tswitchcases.pdf): PDF inclusion: multiple pdfs with page group included i
-n a single page
->]
 Package epstopdf Info: Source file: <./pictures/CoR_setup_data.eps>
 (epstopdf)                    date: 2017-05-25 15:55:41
 (epstopdf)                    size: 6797240 bytes
@@ -376,7 +371,8 @@ Package epstopdf Info: Source file: <./pictures/CoR_setup_data.eps>
 data.eps>
 (epstopdf)             \includegraphics on input line 299.
 Package epstopdf Info: Output file is already uptodate.
- <./pictures/CoR_setup_data-eps-converted-to.pdf, id=766, 722.7pt x 542.025pt>
+
+<./pictures/CoR_setup_data-eps-converted-to.pdf, id=766, 722.7pt x 542.025pt>
 File: ./pictures/CoR_setup_data-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./pictures/CoR_setup_data-eps-converted-to.pdf>
@@ -389,7 +385,7 @@ File: ./pictures/CoRdata.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./pictures/CoRdata.pdf used on input line 305.
 (pdftex.def)             Requested size: 245.71811pt x 140.6151pt.
 
-Underfull \vbox (badness 1655) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5 <./pictures/deltVsts_differentVop.pdf> <./pictures/3Dcontour_view1.pdf
 
@@ -479,7 +475,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  5034 strings out of 493333
  86985 string characters out of 3139185
- 168687 words of memory out of 3000000
+ 167687 words of memory out of 3000000
  8495 multiletter control sequences out of 15000+200000
  44672 words of font info for 87 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -498,7 +494,7 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2
 :/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr
 i8a.pfb>
-Output written on "IROS17 Magnetic Hammer.pdf" (9 pages, 3959818 bytes).
+Output written on "IROS17 Magnetic Hammer.pdf" (9 pages, 3959524 bytes).
 PDF statistics:
  1016 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
