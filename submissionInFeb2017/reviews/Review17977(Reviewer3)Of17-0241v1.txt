@@ -1,0 +1,10 @@
+Dear Authors,
+&#8195;
+The aim of this study was to develop the millirobots with magnetic
+hammer actuation for tissue penetration. This kind of robots was useful
+to deliver drugs for specific tumor/diseases. After the following minor
+revision, this manuscript should be published.
+
+Minor points
+The clear purpose of this study should be described in Abstract and
+Introduction.

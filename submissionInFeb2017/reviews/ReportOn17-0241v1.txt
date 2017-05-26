@@ -1,0 +1,10 @@
+The authors present a method to produce large pulsed forces on
+millirobots with magnetic hammer actuation for tissue penetration,
+which is much relevant to medical robotic applications. Overall, this
+paper is well written and technologically sound. However, the reviewers
+suggest corrections about a number of points that need clarifying such
+as the purpose of study, the derivation of many equations, the method
+of simulation and experiments. We request that you make major revisions
+before it is processed further. Please read the review reports
+carefully and revise the manuscript according to the reviewers'
+comments.

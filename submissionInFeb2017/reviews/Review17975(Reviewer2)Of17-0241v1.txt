@@ -1,0 +1,25 @@
+The paper describes simulation and experimental results for a device
+consisting of a cylindrical tube with an internal impact plate and
+external sharp point at one end, and an internal spring at the other
+end, so that a spherical magnet inside the tube can be driven by an
+oscillating magnetic field to generate impulsive forces at the pointed
+end, so as to penetrate tissue.
+
+The paper is well written and organized, and the subject matter is
+novel and relevant to medical robot applications.  The following minor
+revisions are requested for IROS and RA-L publication:
+--Explain the derivation of equation (2)
+--Clarify whether the rotation of the sphere is modeled in the dynamic
+simulation
+--State how the simulation was implemented, whether in a simulation
+software such as Simulink/Simscape, or coded by the authors, or
+otherwise.
+--Fix P.5 right side "show that and that" error
+--Give the supplier and specifications of the "Syren 25" power supply
+--Section V:  Explain why MRI gradient frequencies other that 2 Hz were
+not applied as in simulation
+--Add discussion and modeling of the effects of air resistance on the
+motion of the sphere in the tube
+--What is the diameter, mass, and magnetization of the magnet used?
+--How were the dimensions and other parameters of the device selected? 
+Was any optimization procedure used in the design?
