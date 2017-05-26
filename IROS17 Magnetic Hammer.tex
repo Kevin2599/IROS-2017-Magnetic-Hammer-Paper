@@ -472,6 +472,23 @@ The MRI signal could be used to compute the position of the magnetic sphere at a
   \label{MRI_test}
 \end{figure}
 
+\section{Tissue penetration experiment}
+
+An iterative design process was used to achieve a successful tissue penetration using the magnetic test bench. A few millirobots were built and tested. \par
+Our observations of the penetration experiments concluded that sharp blades placed on the tip of the millirobot allow for an easier tissue penetration. The blades are placed much like on a hunting arrow tip, and create a fissure in the tissue which allow the movement of the capsule inside the sample. The blades used in our experiments were made of Titanium which a bio-compatible and non-magnetic metal.\par
+Our observations also showed that, when the sphere compresses the spring, the capsule tends to move backward. This effect release the pressure exerted by the millirobot tip on the tissue and therefore make the impact less efficient at penetrating the sample. This issue was solved by using a porcupine needle placed in front of millirobot, at the center of the blades. Porcupine needles are covered with microscopic backward facing barbs. These prevents the needle from being pulled off a tissue once penetrated. These natural porcupine needle cannot be used in an in-vivo medical intervention. They are indeed not sanitizable. However, synthetic porcupine needles can be build [\cite{cho2012microstructured}].\par
+
+\begin{figure}
+	\centering
+  \includegraphics[width=190pt]{brain_penetration.png}
+  \caption{Picture presenting the penetration of a millirobot prototype inside a lamb brain sample.}
+  \label{brain_penetration}
+\end{figure}
+
+Fig. \ref{brain_penetration} show pictures of the most successful penetration test at different moments. The tissue sample used in this experiment is a 10 mm thick lamb brain slice. It was placed in a sample holder made with two acrylic sheets, one on each side. Two holes in the sample holder allowed the millirobot to access and cross the tissue. The millirobot used in this experiment had a diameter of 6 mm. It was using three titatium blades, a porcupine needle and a titanium impact rod. The mechanical parameters of this millirobot is presented in table. The flux density applied by the coils had a maximum value of ?T and a maximum gradient of ?. The control was performed with the partially closed loop method presented in section?.\par
+This prototype successfully penetrated the tissue sample in 225 s. This test proves the capability of the magnetic hammer system to penetrate biological tissue.
+
+
 \section{CONCLUSIONS}
 \label{conclusion}
 A magnetic hammer system for a millirobot driven by the gradient fields of an MRI scanner was studied. 
@@ -485,13 +502,11 @@ The main field magnetizes the sphere and the gradient produces the forces necess
  The magnetic flux density and the gradient are computed using a semi-analytical method and allow an accurate calculation of the force applied to the sphere. 
  The speed of the sphere after impact is computed from the coefficient of restitution. 
  The rotation of the sphere is also calculated, allowing an accurate calculation of the drag produced by the sliding of the sphere inside the tube.\par
-
 The coefficients of restitution ($e$) depends on the materials of the colliding objects but also on their shape and sizes. 
 Values of $e$ were experimentally measured. 
 These measurements showed that aluminum impact plates exhibit large values of $e$. 
 This material also has the advantage of being lightweight, a useful property to achieve neutral buoyancy of millirobots. 
 Titanium also performs well, is lightweight and is a bio-compatible material.\par
-
 A desktop-size magnetic test bench was built to reduce experimental cost related to the use of a clinical MRI scanner. 
 A magnetic hammer was tested with a partially closed loop control. 
 The impact of the sphere is detected via a microphone. 

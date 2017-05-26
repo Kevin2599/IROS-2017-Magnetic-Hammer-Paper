@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.2.9)  26 MAY 2017 12:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.10)  26 MAY 2017 14:39
 entering extended mode
 **"./IROS17 Magnetic Hammer.tex"
 ("IROS17 Magnetic Hammer.tex"
-LaTeX2e <2016/03/31>
+LaTeX2e <2016/03/31> patch level 3
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 (ieeeconf.cls
 Document Class: ieeeconf 2016/4/23 revision V1.6b by Pradeep Misra
@@ -12,7 +12,6 @@ Document Class: ieeeconf 2016/4/23 revision V1.6b by Pradeep Misra
 \@IEEEtrantmpcountB=\count80
 \@IEEEtrantmptoksA=\toks14
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 794.
-
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -25,52 +24,42 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <16> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <16> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1113.
-
 \IEEEilabelindentA=\dimen104
 \IEEEilabelindentB=\dimen105
 \IEEEilabelindent=\dimen106
@@ -102,18 +91,16 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 96.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
@@ -128,12 +115,12 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 ** ATTENTION: Overriding command lockouts (line 9).
 ** ATTENTION: Overriding IEEE standard margins (line 12).
-("C:\Program Files\MiKTeX 2.9\tex\latex\cite\cite.sty"
+(C:\Users\jleclerc\AppData\Roaming\MiKTeX\2.9\tex\latex\cite\cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\mathtools\mathtools.sty"
+(C:\Users\jleclerc\AppData\Roaming\MiKTeX\2.9\tex\latex\mathtools\mathtools.sty
 Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
@@ -149,23 +136,21 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count94
 \calc@Cskip=\skip49
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\mathtools\mhsetup.sty"
+(C:\Users\jleclerc\AppData\Roaming\MiKTeX\2.9\tex\latex\mathtools\mhsetup.sty
 Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-Package: amsmath 2016/03/10 v2.15b AMS math features
+Package: amsmath 2016/06/28 v2.15d AMS math features
 \@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen117
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen118
 )
@@ -224,10 +209,9 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_above_shortintertext_sep=\dimen131
 \l_MT_below_shortintertext_sep=\dimen132
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cleveref\cleveref.sty"
+(C:\Users\jleclerc\AppData\Roaming\MiKTeX\2.9\tex\latex\cleveref\cleveref.sty
 Package: cleveref 2013/12/28 v0.19 Intelligent cross-referencing
-)
-("IROS17 Magnetic Hammer.aux"
+) ("IROS17 Magnetic Hammer.aux"
 
 LaTeX Warning: Label `magfield' multiply defined.
 
@@ -249,7 +233,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
- ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+ (C:\Users\jleclerc\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count108
 \scratchdimen=\dimen133
@@ -263,8 +247,7 @@ LaTeX Font Info:    ... okay on input line 44.
 \makeMPintoPDFobject=\count113
 \everyMPtoPDFconversion=\toks22
 ) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
-)
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
@@ -300,123 +283,106 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 48.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-<./pictures/figure1-2.png, id=1, 475.7775pt x 452.28975pt>
+) <./pictures/figure1-2.png, id=1, 475.7775pt x 452.28975pt>
 File: ./pictures/figure1-2.png Graphic file (type png)
 
 <use ./pictures/figure1-2.png>
 Package pdftex.def Info: ./pictures/figure1-2.png used on input line 91.
 (pdftex.def)             Requested size: 245.71811pt x 233.5909pt.
-
-<./pictures/FBD_R1.pdf, id=3, 299.77563pt x 224.9915pt>
+ <./pictures/FBD_R1.pdf, id=3, 299.77563pt x 224.9915pt>
 File: ./pictures/FBD_R1.pdf Graphic file (type pdf)
-
-<use ./pictures/FBD_R1.pdf>
+ <use ./pictures/FBD_R1.pdf>
 Package pdftex.def Info: ./pictures/FBD_R1.pdf used on input line 105.
 (pdftex.def)             Requested size: 245.71811pt x 184.42212pt.
- [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+[1{C:/Users/jleclerc/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
  <./pictures/figure1-2.png>]
 <./pictures/CLinput.pdf, id=14, 1734.48pt x 822.07124pt>
 File: ./pictures/CLinput.pdf Graphic file (type pdf)
-
-<use ./pictures/CLinput.pdf>
+ <use ./pictures/CLinput.pdf>
 Package pdftex.def Info: ./pictures/CLinput.pdf used on input line 164.
 (pdftex.def)             Requested size: 245.71811pt x 116.45645pt.
  [2 <./pictures/FBD_R1.pdf>]
 <./pictures/single_loop.pdf, id=190, 548.0475pt x 406.51875pt>
 File: ./pictures/single_loop.pdf Graphic file (type pdf)
-
-<use ./pictures/single_loop.pdf>
+ <use ./pictures/single_loop.pdf>
 Package pdftex.def Info: ./pictures/single_loop.pdf used on input line 212.
 (pdftex.def)             Requested size: 245.71811pt x 182.26802pt.
 
 <./pictures/Femm_matlab_comparison.png, id=191, 662.475pt x 590.205pt>
 File: ./pictures/Femm_matlab_comparison.png Graphic file (type png)
-
-<use ./pictures/Femm_matlab_comparison.png>
-Package pdftex.def Info: ./pictures/Femm_matlab_comparison.png used on input li
-ne 221.
+ <use ./pictures/Femm_matlab_comparison.png>
+Package pdftex.def Info: ./pictures/Femm_matlab_comparison.png used on input line 221.
 (pdftex.def)             Requested size: 245.71811pt x 218.91277pt.
 
 <./pictures/ComparisonOfControlInputs.pdf, id=192, 817.50781pt x 442.91158pt>
 File: ./pictures/ComparisonOfControlInputs.pdf Graphic file (type pdf)
 
 <use ./pictures/ComparisonOfControlInputs.pdf>
-Package pdftex.def Info: ./pictures/ComparisonOfControlInputs.pdf used on input
- line 233.
+Package pdftex.def Info: ./pictures/ComparisonOfControlInputs.pdf used on input line 233.
 (pdftex.def)             Requested size: 245.71811pt x 133.12454pt.
- [3 <./pictures/CLinput.pdf> <./pictures/single_loop.pdf> <./pictures/Femm_matl
-ab_comparison.png>]
-<./pictures/Tswitchcases.pdf, id=240, 705.09015pt x 411.82253pt>
+ [3 <./pictures/CLinput.pdf> <./pictures/single_loop.pdf> <./pictures/Femm_matlab_comparison.png>] <./pictures/Tswitchca
+ses.pdf, id=240, 705.09015pt x 411.82253pt>
 File: ./pictures/Tswitchcases.pdf Graphic file (type pdf)
 
 <use ./pictures/Tswitchcases.pdf>
 Package pdftex.def Info: ./pictures/Tswitchcases.pdf used on input line 256.
 (pdftex.def)             Requested size: 245.71811pt x 143.51793pt.
-
-<./pictures/deltVsts_differentVop.pdf, id=241, 1358.07375pt x 823.075pt>
+ <./pictures/deltVsts_differentVop.pdf, id=241, 1358.07375pt x 823.075pt>
 File: ./pictures/deltVsts_differentVop.pdf Graphic file (type pdf)
 
 <use ./pictures/deltVsts_differentVop.pdf>
-Package pdftex.def Info: ./pictures/deltVsts_differentVop.pdf used on input lin
-e 270.
+Package pdftex.def Info: ./pictures/deltVsts_differentVop.pdf used on input line 270.
 (pdftex.def)             Requested size: 245.71811pt x 148.91321pt.
-
-<./pictures/3Dcontour_view1.pdf, id=242, 912.40875pt x 670.505pt>
+ <./pictures/3Dcontour_view1.pdf, id=242, 912.40875pt x 670.505pt>
 File: ./pictures/3Dcontour_view1.pdf Graphic file (type pdf)
 
 <use ./pictures/3Dcontour_view1.pdf>
 Package pdftex.def Info: ./pictures/3Dcontour_view1.pdf used on input line 275.
-
 (pdftex.def)             Requested size: 245.71811pt x 180.56815pt.
 
-<./pictures/FrictionForceWithClosedLoopValues.pdf, id=243, 813.15587pt x 462.13
-02pt>
+<./pictures/FrictionForceWithClosedLoopValues.pdf, id=243, 813.15587pt x 462.1302pt>
 File: ./pictures/FrictionForceWithClosedLoopValues.pdf Graphic file (type pdf)
- <use ./pictures/FrictionForceWithClosedLoopValues.pdf>
-Package pdftex.def Info: ./pictures/FrictionForceWithClosedLoopValues.pdf used 
-on input line 283.
+
+<use ./pictures/FrictionForceWithClosedLoopValues.pdf>
+Package pdftex.def Info: ./pictures/FrictionForceWithClosedLoopValues.pdf used on input line 283.
 (pdftex.def)             Requested size: 245.71811pt x 139.64145pt.
 
 Underfull \vbox (badness 3428) has occurred while \output is active []
 
  [4 <./pictures/ComparisonOfControlInputs.pdf> <./pictures/Tswitchcases.pdf
 
-pdfTeX warning: pdflatex.exe (file ./pictures/Tswitchcases.pdf): PDF inclusion:
- multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./pictures/Tswitchcases.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
 >]
 Package epstopdf Info: Source file: <./pictures/CoR_setup_data.eps>
-(epstopdf)                    date: 2017-02-15 17:32:03
+(epstopdf)                    date: 2017-05-25 15:55:41
 (epstopdf)                    size: 6797240 bytes
-(epstopdf)             Output file: <./pictures/CoR_setup_data-eps-converted-to
-.pdf>
-(epstopdf)                    date: 2017-02-15 21:59:41
+(epstopdf)             Output file: <./pictures/CoR_setup_data-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-25 15:55:41
 (epstopdf)                    size: 368183 bytes
-(epstopdf)             Command: <epstopdf --outfile=./pictures/CoR_setup_data-e
-ps-converted-to.pdf ./pictures/CoR_setup_data.eps>
+(epstopdf)             Command: <epstopdf --outfile=./pictures/CoR_setup_data-eps-converted-to.pdf ./pictures/CoR_setup_
+data.eps>
 (epstopdf)             \includegraphics on input line 298.
 Package epstopdf Info: Output file is already uptodate.
-
-<./pictures/CoR_setup_data-eps-converted-to.pdf, id=766, 722.7pt x 542.025pt>
+ <./pictures/CoR_setup_data-eps-converted-to.pdf, id=766, 722.7pt x 542.025pt>
 File: ./pictures/CoR_setup_data-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./pictures/CoR_setup_data-eps-converted-to.pdf>
-Package pdftex.def Info: ./pictures/CoR_setup_data-eps-converted-to.pdf used on
- input line 298.
+Package pdftex.def Info: ./pictures/CoR_setup_data-eps-converted-to.pdf used on input line 298.
 (pdftex.def)             Requested size: 245.71811pt x 184.28606pt.
-
-<./pictures/CoRdata.pdf, id=767, 512.54483pt x 293.30579pt>
+ <./pictures/CoRdata.pdf, id=767, 512.54483pt x 293.30579pt>
 File: ./pictures/CoRdata.pdf Graphic file (type pdf)
 
 <use ./pictures/CoRdata.pdf>
@@ -427,14 +393,13 @@ Underfull \vbox (badness 1655) has occurred while \output is active []
 
  [5 <./pictures/deltVsts_differentVop.pdf> <./pictures/3Dcontour_view1.pdf
 
-pdfTeX warning: pdflatex.exe (file ./pictures/3Dcontour_view1.pdf): PDF inclusi
-on: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./pictures/3Dcontour_view1.pdf): PDF inclusion: multiple pdfs with page group include
+d in a single page
 > <./pictures/FrictionForceWithClosedLoopValues.pdf
 
-pdfTeX warning: pdflatex.exe (file ./pictures/FrictionForceWithClosedLoopValues
-.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./pictures/CoR_setup_data-eps-converted-to.pdf>]
-<./pictures/Magnetic_setup.jpg, id=837, 936.49875pt x 540.21825pt>
+pdfTeX warning: pdflatex.exe (file ./pictures/FrictionForceWithClosedLoopValues.pdf): PDF inclusion: multiple pdfs with 
+page group included in a single page
+> <./pictures/CoR_setup_data-eps-converted-to.pdf>] <./pictures/Magnetic_setup.jpg, id=837, 936.49875pt x 540.21825pt>
 File: ./pictures/Magnetic_setup.jpg Graphic file (type jpg)
 
 <use ./pictures/Magnetic_setup.jpg>
@@ -452,13 +417,12 @@ Overfull \hbox (10.21516pt too wide) in paragraph at lines 344--353
 
 [6 <./pictures/CoRdata.pdf> <./pictures/Magnetic_setup.jpg>]
 Package epstopdf Info: Source file: <./pictures/figure3.eps>
-(epstopdf)                    date: 2017-02-15 17:32:03
+(epstopdf)                    date: 2017-05-25 15:55:41
 (epstopdf)                    size: 54866 bytes
 (epstopdf)             Output file: <./pictures/figure3-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-15 17:32:03
+(epstopdf)                    date: 2017-05-25 15:55:41
 (epstopdf)                    size: 52422 bytes
-(epstopdf)             Command: <epstopdf --outfile=./pictures/figure3-eps-conv
-erted-to.pdf ./pictures/figure3.eps>
+(epstopdf)             Command: <epstopdf --outfile=./pictures/figure3-eps-converted-to.pdf ./pictures/figure3.eps>
 (epstopdf)             \includegraphics on input line 389.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -466,18 +430,22 @@ Package epstopdf Info: Output file is already uptodate.
 File: ./pictures/figure3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./pictures/figure3-eps-converted-to.pdf>
-Package pdftex.def Info: ./pictures/figure3-eps-converted-to.pdf used on input 
-line 389.
+Package pdftex.def Info: ./pictures/figure3-eps-converted-to.pdf used on input line 389.
 (pdftex.def)             Requested size: 245.71811pt x 191.66406pt.
-
-<./pictures/tests_in_MRI.png, id=931, 222.8325pt x 206.57175pt>
+ <./pictures/tests_in_MRI.png, id=931, 222.8325pt x 206.57175pt>
 File: ./pictures/tests_in_MRI.png Graphic file (type png)
 
 <use ./pictures/tests_in_MRI.png>
 Package pdftex.def Info: ./pictures/tests_in_MRI.png used on input line 470.
 (pdftex.def)             Requested size: 150.0pt x 139.05481pt.
- [7 <./pictures/figure3-eps-converted-to.pdf> <./pictures/tests_in_MRI.png>] ("
-IROS17 Magnetic Hammer.bbl"
+ [7 <./pictures/figure3-eps-converted-to.pdf> <./pictures/tests_in_MRI.png>]
+<./pictures/brain_penetration.png, id=940, 326.4195pt x 410.13225pt>
+File: ./pictures/brain_penetration.png Graphic file (type png)
+ <use ./pictures/brain_penetration.png>
+Package pdftex.def Info: ./pictures/brain_penetration.png used on input line 483.
+(pdftex.def)             Requested size: 190.0pt x 238.73422pt.
+
+("IROS17 Magnetic Hammer.bbl" [8 <./pictures/brain_penetration.png>]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
@@ -493,42 +461,38 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the US letter (8.5in X 11in) paper size.
 
-[8] ("IROS17 Magnetic Hammer.aux")
+[9
+
+] ("IROS17 Magnetic Hammer.aux")
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5014 strings out of 493335
- 86303 string characters out of 3139261
- 168567 words of memory out of 3000000
- 8477 multiletter control sequences out of 15000+200000
+ 5028 strings out of 493333
+ 86921 string characters out of 3139185
+ 168687 words of memory out of 3000000
+ 8490 multiletter control sequences out of 15000+200000
  43565 words of font info for 86 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,14n,31p,1636b,295s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cmextra/cmex7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-mi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utm
-r8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "IROS17 Magnetic Hammer.pdf" (8 pages, 3080203 bytes).
+ 40i,14n,31p,1636b,295s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
+i5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr
+i8a.pfb>
+Output written on "IROS17 Magnetic Hammer.pdf" (9 pages, 3958909 bytes).
 PDF statistics:
- 1012 PDF objects out of 1200 (max. 8388607)
+ 1016 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
