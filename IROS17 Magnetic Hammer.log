@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.2.9)  10 APR 2017 09:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.2.9)  26 MAY 2017 12:58
 entering extended mode
 **"./IROS17 Magnetic Hammer.tex"
 ("IROS17 Magnetic Hammer.tex"
@@ -316,152 +316,86 @@ File: ./pictures/figure1-2.png Graphic file (type png)
 <use ./pictures/figure1-2.png>
 Package pdftex.def Info: ./pictures/figure1-2.png used on input line 91.
 (pdftex.def)             Requested size: 245.71811pt x 233.5909pt.
-Package epstopdf Info: Source file: <./pictures/FBD.eps>
-(epstopdf)                    date: 2017-02-15 19:57:44
-(epstopdf)                    size: 76922 bytes
-(epstopdf)             Output file: <./pictures/FBD-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-04-02 14:57:05
-(epstopdf)                    size: 28974 bytes
-(epstopdf)             Command: <epstopdf --outfile=./pictures/FBD-eps-converte
-d-to.pdf ./pictures/FBD.eps>
-(epstopdf)             \includegraphics on input line 105.
-Package epstopdf Info: Output file is already uptodate.
 
-<./pictures/FBD-eps-converted-to.pdf, id=3, 333.245pt x 254.9525pt>
-File: ./pictures/FBD-eps-converted-to.pdf Graphic file (type pdf)
+<./pictures/FBD_R1.pdf, id=3, 299.77563pt x 224.9915pt>
+File: ./pictures/FBD_R1.pdf Graphic file (type pdf)
 
-<use ./pictures/FBD-eps-converted-to.pdf>
-Package pdftex.def Info: ./pictures/FBD-eps-converted-to.pdf used on input line
- 105.
-(pdftex.def)             Requested size: 245.71811pt x 187.99275pt.
+<use ./pictures/FBD_R1.pdf>
+Package pdftex.def Info: ./pictures/FBD_R1.pdf used on input line 105.
+(pdftex.def)             Requested size: 245.71811pt x 184.42212pt.
  [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
  <./pictures/figure1-2.png>]
-Package epstopdf Info: Source file: <./pictures/Closedloop_Impact_velocity.eps>
-
-(epstopdf)                    date: 2017-02-15 17:32:02
-(epstopdf)                    size: 26428 bytes
-(epstopdf)             Output file: <./pictures/Closedloop_Impact_velocity-eps-
-converted-to.pdf>
-(epstopdf)                    date: 2017-02-15 17:32:02
-(epstopdf)                    size: 11028 bytes
-(epstopdf)             Command: <epstopdf --outfile=./pictures/Closedloop_Impac
-t_velocity-eps-converted-to.pdf ./pictures/Closedloop_Impact_velocity.eps>
-(epstopdf)             \includegraphics on input line 119.
-Package epstopdf Info: Output file is already uptodate.
-
-<./pictures/Closedloop_Impact_velocity-eps-converted-to.pdf, id=14, 841.1425pt 
-x 403.5075pt>
-File: ./pictures/Closedloop_Impact_velocity-eps-converted-to.pdf Graphic file (
-type pdf)
- <use ./pictures/Closedloop_Impact_velocity-eps-converted-to.pdf>
-Package pdftex.def Info: ./pictures/Closedloop_Impact_velocity-eps-converted-to
-.pdf used on input line 119.
-(pdftex.def)             Requested size: 245.71811pt x 117.87616pt.
-
-<./pictures/CLinput.pdf, id=15, 1734.48pt x 822.07124pt>
+<./pictures/CLinput.pdf, id=14, 1734.48pt x 822.07124pt>
 File: ./pictures/CLinput.pdf Graphic file (type pdf)
 
 <use ./pictures/CLinput.pdf>
-Package pdftex.def Info: ./pictures/CLinput.pdf used on input line 165.
+Package pdftex.def Info: ./pictures/CLinput.pdf used on input line 164.
 (pdftex.def)             Requested size: 245.71811pt x 116.45645pt.
- [2 <./pictures/FBD-eps-converted-to.pdf> <./pictures/Closedloop_Impact_velocit
-y-eps-converted-to.pdf>]
-<./pictures/single_loop.pdf, id=68, 548.0475pt x 406.51875pt>
+ [2 <./pictures/FBD_R1.pdf>]
+<./pictures/single_loop.pdf, id=190, 548.0475pt x 406.51875pt>
 File: ./pictures/single_loop.pdf Graphic file (type pdf)
 
 <use ./pictures/single_loop.pdf>
-Package pdftex.def Info: ./pictures/single_loop.pdf used on input line 213.
+Package pdftex.def Info: ./pictures/single_loop.pdf used on input line 212.
 (pdftex.def)             Requested size: 245.71811pt x 182.26802pt.
 
-<./pictures/Femm_matlab_comparison.png, id=69, 662.475pt x 590.205pt>
+<./pictures/Femm_matlab_comparison.png, id=191, 662.475pt x 590.205pt>
 File: ./pictures/Femm_matlab_comparison.png Graphic file (type png)
 
 <use ./pictures/Femm_matlab_comparison.png>
 Package pdftex.def Info: ./pictures/Femm_matlab_comparison.png used on input li
-ne 222.
+ne 221.
 (pdftex.def)             Requested size: 245.71811pt x 218.91277pt.
+
+<./pictures/ComparisonOfControlInputs.pdf, id=192, 817.50781pt x 442.91158pt>
+File: ./pictures/ComparisonOfControlInputs.pdf Graphic file (type pdf)
+
+<use ./pictures/ComparisonOfControlInputs.pdf>
+Package pdftex.def Info: ./pictures/ComparisonOfControlInputs.pdf used on input
+ line 233.
+(pdftex.def)             Requested size: 245.71811pt x 133.12454pt.
  [3 <./pictures/CLinput.pdf> <./pictures/single_loop.pdf> <./pictures/Femm_matl
 ab_comparison.png>]
-Package epstopdf Info: Source file: <./pictures/CLvsOL.eps>
-(epstopdf)                    date: 2017-02-15 21:26:08
-(epstopdf)                    size: 54828 bytes
-(epstopdf)             Output file: <./pictures/CLvsOL-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-15 21:26:08
-(epstopdf)                    size: 18570 bytes
-(epstopdf)             Command: <epstopdf --outfile=./pictures/CLvsOL-eps-conve
-rted-to.pdf ./pictures/CLvsOL.eps>
-(epstopdf)             \includegraphics on input line 234.
-Package epstopdf Info: Output file is already uptodate.
+<./pictures/Tswitchcases.pdf, id=240, 705.09015pt x 411.82253pt>
+File: ./pictures/Tswitchcases.pdf Graphic file (type pdf)
 
-<./pictures/CLvsOL-eps-converted-to.pdf, id=118, 934.49126pt x 408.52625pt>
-File: ./pictures/CLvsOL-eps-converted-to.pdf Graphic file (type pdf)
+<use ./pictures/Tswitchcases.pdf>
+Package pdftex.def Info: ./pictures/Tswitchcases.pdf used on input line 256.
+(pdftex.def)             Requested size: 245.71811pt x 143.51793pt.
 
-<use ./pictures/CLvsOL-eps-converted-to.pdf>
-Package pdftex.def Info: ./pictures/CLvsOL-eps-converted-to.pdf used on input l
-ine 234.
-(pdftex.def)             Requested size: 245.71811pt x 107.4174pt.
-Package epstopdf Info: Source file: <./pictures/Tswitch_cases_1to6.eps>
-(epstopdf)                    date: 2017-02-15 18:50:19
-(epstopdf)                    size: 143826 bytes
-(epstopdf)             Output file: <./pictures/Tswitch_cases_1to6-eps-converte
-d-to.pdf>
-(epstopdf)                    date: 2017-04-02 14:57:07
-(epstopdf)                    size: 53324 bytes
-(epstopdf)             Command: <epstopdf --outfile=./pictures/Tswitch_cases_1t
-o6-eps-converted-to.pdf ./pictures/Tswitch_cases_1to6.eps>
-(epstopdf)             \includegraphics on input line 257.
-Package epstopdf Info: Output file is already uptodate.
+<./pictures/deltVsts_differentVop.pdf, id=241, 1358.07375pt x 823.075pt>
+File: ./pictures/deltVsts_differentVop.pdf Graphic file (type pdf)
 
-<./pictures/Tswitch_cases_1to6-eps-converted-to.pdf, id=119, 689.57625pt x 424.
-58624pt>
-File: ./pictures/Tswitch_cases_1to6-eps-converted-to.pdf Graphic file (type pdf
-)
- <use ./pictures/Tswitch_cases_1to6-eps-converted-to.pdf>
-Package pdftex.def Info: ./pictures/Tswitch_cases_1to6-eps-converted-to.pdf use
-d on input line 257.
-(pdftex.def)             Requested size: 245.71811pt x 151.29605pt.
-Package epstopdf Info: Source file: <./pictures/delTvsVop_R3.eps>
-(epstopdf)                    date: 2017-02-15 17:32:03
-(epstopdf)                    size: 50252 bytes
-(epstopdf)             Output file: <./pictures/delTvsVop_R3-eps-converted-to.p
-df>
-(epstopdf)                    date: 2017-02-15 19:21:56
-(epstopdf)                    size: 19051 bytes
-(epstopdf)             Command: <epstopdf --outfile=./pictures/delTvsVop_R3-eps
--converted-to.pdf ./pictures/delTvsVop_R3.eps>
-(epstopdf)             \includegraphics on input line 269.
-Package epstopdf Info: Output file is already uptodate.
+<use ./pictures/deltVsts_differentVop.pdf>
+Package pdftex.def Info: ./pictures/deltVsts_differentVop.pdf used on input lin
+e 270.
+(pdftex.def)             Requested size: 245.71811pt x 148.91321pt.
 
-<./pictures/delTvsVop_R3-eps-converted-to.pdf, id=120, 934.49126pt x 408.52625p
-t>
-File: ./pictures/delTvsVop_R3-eps-converted-to.pdf Graphic file (type pdf)
- <use ./pictures/delTvsVop_R3-eps-converted-to.pdf>
-Package pdftex.def Info: ./pictures/delTvsVop_R3-eps-converted-to.pdf used on i
-nput line 269.
-(pdftex.def)             Requested size: 245.71811pt x 107.4174pt.
- [4 <./pictures/CLvsOL-eps-converted-to.pdf> <./pictures/Tswitch_cases_1to6-eps
--converted-to.pdf>]
-Package epstopdf Info: Source file: <./pictures/delTvsTs_R2.eps>
-(epstopdf)                    date: 2017-02-15 17:32:03
-(epstopdf)                    size: 21895 bytes
-(epstopdf)             Output file: <./pictures/delTvsTs_R2-eps-converted-to.pd
-f>
-(epstopdf)                    date: 2017-02-15 19:21:56
-(epstopdf)                    size: 12954 bytes
-(epstopdf)             Command: <epstopdf --outfile=./pictures/delTvsTs_R2-eps-
-converted-to.pdf ./pictures/delTvsTs_R2.eps>
-(epstopdf)             \includegraphics on input line 280.
-Package epstopdf Info: Output file is already uptodate.
+<./pictures/3Dcontour_view1.pdf, id=242, 912.40875pt x 670.505pt>
+File: ./pictures/3Dcontour_view1.pdf Graphic file (type pdf)
 
-<./pictures/delTvsTs_R2-eps-converted-to.pdf, id=189, 934.49126pt x 408.52625pt
->
-File: ./pictures/delTvsTs_R2-eps-converted-to.pdf Graphic file (type pdf)
- <use ./pictures/delTvsTs_R2-eps-converted-to.pdf>
-Package pdftex.def Info: ./pictures/delTvsTs_R2-eps-converted-to.pdf used on in
-put line 280.
-(pdftex.def)             Requested size: 245.71811pt x 107.4174pt.
+<use ./pictures/3Dcontour_view1.pdf>
+Package pdftex.def Info: ./pictures/3Dcontour_view1.pdf used on input line 275.
+
+(pdftex.def)             Requested size: 245.71811pt x 180.56815pt.
+
+<./pictures/FrictionForceWithClosedLoopValues.pdf, id=243, 813.15587pt x 462.13
+02pt>
+File: ./pictures/FrictionForceWithClosedLoopValues.pdf Graphic file (type pdf)
+ <use ./pictures/FrictionForceWithClosedLoopValues.pdf>
+Package pdftex.def Info: ./pictures/FrictionForceWithClosedLoopValues.pdf used 
+on input line 283.
+(pdftex.def)             Requested size: 245.71811pt x 139.64145pt.
+
+Underfull \vbox (badness 3428) has occurred while \output is active []
+
+ [4 <./pictures/ComparisonOfControlInputs.pdf> <./pictures/Tswitchcases.pdf
+
+pdfTeX warning: pdflatex.exe (file ./pictures/Tswitchcases.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+>]
 Package epstopdf Info: Source file: <./pictures/CoR_setup_data.eps>
 (epstopdf)                    date: 2017-02-15 17:32:03
 (epstopdf)                    size: 6797240 bytes
@@ -471,54 +405,52 @@ Package epstopdf Info: Source file: <./pictures/CoR_setup_data.eps>
 (epstopdf)                    size: 368183 bytes
 (epstopdf)             Command: <epstopdf --outfile=./pictures/CoR_setup_data-e
 ps-converted-to.pdf ./pictures/CoR_setup_data.eps>
-(epstopdf)             \includegraphics on input line 302.
+(epstopdf)             \includegraphics on input line 298.
 Package epstopdf Info: Output file is already uptodate.
 
-<./pictures/CoR_setup_data-eps-converted-to.pdf, id=190, 722.7pt x 542.025pt>
+<./pictures/CoR_setup_data-eps-converted-to.pdf, id=766, 722.7pt x 542.025pt>
 File: ./pictures/CoR_setup_data-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./pictures/CoR_setup_data-eps-converted-to.pdf>
 Package pdftex.def Info: ./pictures/CoR_setup_data-eps-converted-to.pdf used on
- input line 302.
+ input line 298.
 (pdftex.def)             Requested size: 245.71811pt x 184.28606pt.
-Package epstopdf Info: Source file: <./pictures/CoR_measurements.eps>
-(epstopdf)                    date: 2017-02-15 17:32:02
-(epstopdf)                    size: 41693 bytes
-(epstopdf)             Output file: <./pictures/CoR_measurements-eps-converted-
-to.pdf>
-(epstopdf)                    date: 2017-02-15 18:03:19
-(epstopdf)                    size: 39903 bytes
-(epstopdf)             Command: <epstopdf --outfile=./pictures/CoR_measurements
--eps-converted-to.pdf ./pictures/CoR_measurements.eps>
-(epstopdf)             \includegraphics on input line 307.
-Package epstopdf Info: Output file is already uptodate.
 
-<./pictures/CoR_measurements-eps-converted-to.pdf, id=191, 510.90875pt x 526.96
-875pt>
-File: ./pictures/CoR_measurements-eps-converted-to.pdf Graphic file (type pdf)
- <use ./pictures/CoR_measurements-eps-converted-to.pdf>
-Package pdftex.def Info: ./pictures/CoR_measurements-eps-converted-to.pdf used 
-on input line 307.
-(pdftex.def)             Requested size: 245.71811pt x 253.44066pt.
- [5 <./pictures/delTvsVop_R3-eps-converted-to.pdf> <./pictures/delTvsTs_R2-eps-
-converted-to.pdf> <./pictures/CoR_setup_data-eps-converted-to.pdf> <./pictures/
-CoR_measurements-eps-converted-to.pdf>]
-<./pictures/Magnetic_setup.jpg, id=233, 936.49875pt x 540.21825pt>
+<./pictures/CoRdata.pdf, id=767, 512.54483pt x 293.30579pt>
+File: ./pictures/CoRdata.pdf Graphic file (type pdf)
+
+<use ./pictures/CoRdata.pdf>
+Package pdftex.def Info: ./pictures/CoRdata.pdf used on input line 304.
+(pdftex.def)             Requested size: 245.71811pt x 140.6151pt.
+
+Underfull \vbox (badness 1655) has occurred while \output is active []
+
+ [5 <./pictures/deltVsts_differentVop.pdf> <./pictures/3Dcontour_view1.pdf
+
+pdfTeX warning: pdflatex.exe (file ./pictures/3Dcontour_view1.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./pictures/FrictionForceWithClosedLoopValues.pdf
+
+pdfTeX warning: pdflatex.exe (file ./pictures/FrictionForceWithClosedLoopValues
+.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./pictures/CoR_setup_data-eps-converted-to.pdf>]
+<./pictures/Magnetic_setup.jpg, id=837, 936.49875pt x 540.21825pt>
 File: ./pictures/Magnetic_setup.jpg Graphic file (type jpg)
 
 <use ./pictures/Magnetic_setup.jpg>
-Package pdftex.def Info: ./pictures/Magnetic_setup.jpg used on input line 339.
+Package pdftex.def Info: ./pictures/Magnetic_setup.jpg used on input line 335.
 (pdftex.def)             Requested size: 245.71811pt x 141.73933pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 344.
+               Default added (so using `tbp') on input line 340.
 
 
-Overfull \hbox (10.21516pt too wide) in paragraph at lines 348--357
+Overfull \hbox (10.21516pt too wide) in paragraph at lines 344--353
  [][] 
  []
 
+[6 <./pictures/CoRdata.pdf> <./pictures/Magnetic_setup.jpg>]
 Package epstopdf Info: Source file: <./pictures/figure3.eps>
 (epstopdf)                    date: 2017-02-15 17:32:03
 (epstopdf)                    size: 54866 bytes
@@ -527,21 +459,22 @@ Package epstopdf Info: Source file: <./pictures/figure3.eps>
 (epstopdf)                    size: 52422 bytes
 (epstopdf)             Command: <epstopdf --outfile=./pictures/figure3-eps-conv
 erted-to.pdf ./pictures/figure3.eps>
-(epstopdf)             \includegraphics on input line 393.
+(epstopdf)             \includegraphics on input line 389.
 Package epstopdf Info: Output file is already uptodate.
-<./pictures/figure3-eps-converted-to.pdf, id=234, 643.40375pt x 501.875pt>
+
+<./pictures/figure3-eps-converted-to.pdf, id=930, 643.40375pt x 501.875pt>
 File: ./pictures/figure3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./pictures/figure3-eps-converted-to.pdf>
 Package pdftex.def Info: ./pictures/figure3-eps-converted-to.pdf used on input 
-line 393.
+line 389.
 (pdftex.def)             Requested size: 245.71811pt x 191.66406pt.
- [6 <./pictures/Magnetic_setup.jpg>] <./pictures/tests_in_MRI.png, id=239, 222.
-8325pt x 206.57175pt>
+
+<./pictures/tests_in_MRI.png, id=931, 222.8325pt x 206.57175pt>
 File: ./pictures/tests_in_MRI.png Graphic file (type png)
 
 <use ./pictures/tests_in_MRI.png>
-Package pdftex.def Info: ./pictures/tests_in_MRI.png used on input line 474.
+Package pdftex.def Info: ./pictures/tests_in_MRI.png used on input line 470.
 (pdftex.def)             Requested size: 150.0pt x 139.05481pt.
  [7 <./pictures/figure3-eps-converted-to.pdf> <./pictures/tests_in_MRI.png>] ("
 IROS17 Magnetic Hammer.bbl"
@@ -560,18 +493,16 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the US letter (8.5in X 11in) paper size.
 
-[8
-
-] ("IROS17 Magnetic Hammer.aux")
+[8] ("IROS17 Magnetic Hammer.aux")
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5012 strings out of 493335
- 86641 string characters out of 3139261
- 167567 words of memory out of 3000000
- 8475 multiletter control sequences out of 15000+200000
+ 5014 strings out of 493335
+ 86303 string characters out of 3139261
+ 168567 words of memory out of 3000000
+ 8477 multiletter control sequences out of 15000+200000
  43565 words of font info for 86 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,14n,31p,1636b,295s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -595,9 +526,9 @@ ogram Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utm
 r8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "IROS17 Magnetic Hammer.pdf" (8 pages, 1911462 bytes).
+Output written on "IROS17 Magnetic Hammer.pdf" (8 pages, 3080203 bytes).
 PDF statistics:
- 320 PDF objects out of 1000 (max. 8388607)
+ 1012 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
