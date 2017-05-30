@@ -383,70 +383,7 @@ When $I_{max}$ increases, the oscillating frequency increases.
 The force on the sphere  increases with $I_{max}$ and consequently increases the moving speed of the sphere.
 This figure also shows that the model without friction has the same slope as the experimental data. 
 However, the simulation signals are approximately 1 Hz faster than the experiment. 
-This difference probably comes from the lack of friction in the model. 
-The next subsection adds the effect of friction to the model.
 
-\begin{figure}
-  \includegraphics[width=\linewidth]{figure3.eps}
-  \caption{Comparison between the oscillating frequency obtained experimentally and with the model as a function of the current in the coils $I_{max}$.}
-  \label{freq}
-\end{figure}
-
-\subsection{Effect of friction}
-
-To improve the model accuracy, the friction between the moving sphere and the other components of the millirobot was included into the model. 
-The sphere can be rolling or sliding inside the tube. 
-The modelization is based on the method described in \cite{00319120303009}. 
-
-The rotation speed $\dot{\theta} $ is first computed and drag is calculated from this result.\par
-
-The friction on the tube produces a torque on the sphere. 
-It is assumed that the coefficient of static friction is equal to the coefficient of kinetic friction $\mu_k$. 
-The equation used to calculate the angular velocity variation $\frac{\mathrm{d\dot{\theta} } }{\mathrm{d} t}$ of the sphere is different whether the sphere is rolling or sliding. 
-The distinction between this two different behavior is made by calculating the relative velocities $V_{rel}$ of the sphere and the tube surface (see \cref{relV}). \par
-
-
-\begin{equation}
-V_{rel}=V-r\dot{\theta}
-\label{relV}
-\end{equation}
-
- 
-If the relative speed is inferior to 0.005 m/s and if the force applied to the sphere is smaller than the kinetic friction, the sphere is considered to be rolling inside the tube and the drag is null. $\frac{\mathrm{d\dot{\theta} } }{\mathrm{d} t}$ can be calculated with:
-
-\begin{equation}
-\frac{\mathrm{d\dot{\theta} } }{\mathrm{d} t}=r\frac{\mathrm{dV } }{\mathrm{d} t}
-\label{domega}
-\end{equation}
-
-In all other cases, the torque applied to the sphere is equal to the kinetic friction force multiplied by the sphere radius. The drag is equal to the kinetic friction force $\mu_k$ = 0.2.\par
-Results of simulations are shown in Fig. \ref{freq}. The addition of the friction greatly improves the model accuracy.
-
-%\section{Tissue penetration test}
-%\begin{table}[h]
-%\caption{An Example of a Table}
-%\label{table_example}
-%\begin{center}
-%\begin{tabular}{|c||c|}
-%\hline
-%One & Two\\
-%\hline
-%Three & Four\\
-%\hline
-%\end{tabular}
-%\end{center}
-%\end{table}
-
-
-%   \begin{figure}[thpb]
-%      \centering
-%      \framebox{\parbox{3in}{We suggest that you use a text box to insert a graphic (which is ideally a 300 dpi TIFF or EPS file, with all fonts embedded) because, in an document, this method is somewhat more stable than directly inserting a picture.
-%}}
-%      %\includegraphics[scale=1.0]{figurefile}
-%      \caption{Inductance of oscillation winding on amorphous
- %      magnetic core versus DC bias magnetic field}
- %     \label{figurelabel}
- %  \end{figure}
 \section{Preliminary tests in clinical mri}
 \label{MRI_tests}
 Preliminary tests of magnetic hammers were performed in a clinical 3T Siemens MRI scanner. 

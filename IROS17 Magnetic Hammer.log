@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.10)  26 MAY 2017 15:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.10)  29 MAY 2017 21:59
 entering extended mode
 **"./IROS17 Magnetic Hammer.tex"
 ("IROS17 Magnetic Hammer.tex"
@@ -412,43 +412,26 @@ Overfull \hbox (10.21516pt too wide) in paragraph at lines 345--354
  []
 
 [6 <./pictures/CoRdata.pdf> <./pictures/Magnetic_setup.jpg>]
-Package epstopdf Info: Source file: <./pictures/figure3.eps>
-(epstopdf)                    date: 2017-05-25 15:55:41
-(epstopdf)                    size: 54866 bytes
-(epstopdf)             Output file: <./pictures/figure3-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-25 15:55:41
-(epstopdf)                    size: 52422 bytes
-(epstopdf)             Command: <epstopdf --outfile=./pictures/figure3-eps-converted-to.pdf ./pictures/figure3.eps>
-(epstopdf)             \includegraphics on input line 390.
-Package epstopdf Info: Output file is already uptodate.
-
-<./pictures/figure3-eps-converted-to.pdf, id=930, 643.40375pt x 501.875pt>
-File: ./pictures/figure3-eps-converted-to.pdf Graphic file (type pdf)
-
-<use ./pictures/figure3-eps-converted-to.pdf>
-Package pdftex.def Info: ./pictures/figure3-eps-converted-to.pdf used on input line 390.
-(pdftex.def)             Requested size: 245.71811pt x 191.66406pt.
- <./pictures/tests_in_MRI.png, id=931, 222.8325pt x 206.57175pt>
+<./pictures/tests_in_MRI.png, id=930, 222.8325pt x 206.57175pt>
 File: ./pictures/tests_in_MRI.png Graphic file (type png)
-
-<use ./pictures/tests_in_MRI.png>
-Package pdftex.def Info: ./pictures/tests_in_MRI.png used on input line 471.
+ <use ./pictures/tests_in_MRI.png>
+Package pdftex.def Info: ./pictures/tests_in_MRI.png used on input line 408.
 (pdftex.def)             Requested size: 150.0pt x 139.05481pt.
- [7 <./pictures/figure3-eps-converted-to.pdf> <./pictures/tests_in_MRI.png>]
-<./pictures/brain_penetration.png, id=940, 326.4195pt x 410.13225pt>
+
+<./pictures/brain_penetration.png, id=931, 326.4195pt x 410.13225pt>
 File: ./pictures/brain_penetration.png Graphic file (type png)
  <use ./pictures/brain_penetration.png>
-Package pdftex.def Info: ./pictures/brain_penetration.png used on input line 484.
+Package pdftex.def Info: ./pictures/brain_penetration.png used on input line 421.
 (pdftex.def)             Requested size: 190.0pt x 238.73422pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 489.
+               Default added (so using `tbp') on input line 426.
 
 
-LaTeX Warning: Reference `robot_parameters' on page 8 undefined on input line 503.
+LaTeX Warning: Reference `robot_parameters' on page 7 undefined on input line 440.
 
-("IROS17 Magnetic Hammer.bbl" [8 <./pictures/brain_penetration.png>]
+[7 <./pictures/tests_in_MRI.png> <./pictures/brain_penetration.png>] ("IROS17 Magnetic Hammer.bbl"
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
@@ -464,7 +447,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the US letter (8.5in X 11in) paper size.
 
-[9] ("IROS17 Magnetic Hammer.aux")
+[8] ("IROS17 Magnetic Hammer.aux")
 
 LaTeX Warning: There were undefined references.
 
@@ -473,10 +456,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5034 strings out of 493333
- 86985 string characters out of 3139185
+ 5023 strings out of 493333
+ 86744 string characters out of 3139185
  167687 words of memory out of 3000000
- 8495 multiletter control sequences out of 15000+200000
+ 8485 multiletter control sequences out of 15000+200000
  44672 words of font info for 87 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,14n,31p,1636b,295s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -494,9 +477,9 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2
 :/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr
 i8a.pfb>
-Output written on "IROS17 Magnetic Hammer.pdf" (9 pages, 3959360 bytes).
+Output written on "IROS17 Magnetic Hammer.pdf" (8 pages, 3904393 bytes).
 PDF statistics:
- 1016 PDF objects out of 1200 (max. 8388607)
+ 1009 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
