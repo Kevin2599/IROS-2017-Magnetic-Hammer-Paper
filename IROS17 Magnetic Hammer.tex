@@ -27,7 +27,7 @@
 \graphicspath{{./pictures/}}
 
 \title{\LARGE \bf
-Magnetic Hammer Actuation for Tissue Penetration using Millirobots}
+Magnetic Hammer Actuation for Tissue Penetration using a Millirobot}
 
 
 \author{Julien Leclerc, Ashwin Ramakrishnan, Nikolaos V. Tsekos, and Aaron T. Becker % <-this % stops a space
@@ -62,6 +62,7 @@ Because MRI scanners have a large static magnetic field, they cannot generate to
  On the posterior side, a spring allows the sphere to change direction smoothly. 
  On the anterior side, a hard rod creates a surface for the sphere to impact. 
  This impact results in a large pulsed force. 
+ The purpose of this study is to understand the functioning of magnetic hammer actuation and control, as well as demonstration the viability of this mechanism for tissue penetration.
  This paper begins with modeling and simulating this system. 
  Next, a control strategy is presented and experimentally tested.
   Finally, preliminary tests inside a clinical MRI scanner demonstrate the potential of this actuation system. 
@@ -103,7 +104,7 @@ The paper is organized as follows: first, the system is mathematically modeled, 
 The motion of the sphere between two consecutive impacts can be divided into two  phases, based on the forces that act on it. The magnetic gradient force $F_{mag}$ and friction force $F_{friction}$ act on the sphere during its motion along the free length of the tube, $L$ (See Fig. \ref{FBD} (i),(iii)). When the spring is compressed, its reaction force $F_{spring}$ acts on the ball as well (See Fig. \ref{FBD} (ii)). The directions of $F_{mag}$ and $F_{friction}$  change depending on the direction of motion of the sphere. 
 \begin{figure}
 	\includegraphics[width=\linewidth]{FBD_R1.pdf}
-	\caption{(i) Free length of sphere travel, $L$; (ii) Free body diagram of sphere when spring is compressed, (iii) when spring is not compressed}
+	\caption{(i) Free length of sphere travel, $L$; (ii) free body diagram of sphere when spring is compressed, (iii) when spring is not compressed.}
 	\label{FBD}
 \end{figure}
 Inside the homogeneous region of an MRI scanner, the magnitude of $F_{mag}$ is constant \cite{CMR:CMR20163}. The same has been assumed for developing analytical and numerical models in this paper. The formula for calculating $F_{mag}$ is presented in section II-B. Friction is considered to be negligible, but the assumption will be relaxed in later sections. The spring force is straightforward, and is given by
@@ -208,8 +209,8 @@ B_\theta=\frac{\mu _0 I \cdot z}{2\pi\delta ^{2}\beta\rho   }\left [ \left ( a^2
 \label{beta}
 \end{equation}
 
-\begin{figure}
-  \includegraphics[width=\linewidth]{single_loop.pdf}
+\begin{figure}\centering
+  \includegraphics[width=.8\linewidth]{single_loop.pdf}
   \caption{Geometry and variables used in equation \cref{Bz1loop,Bteta1loop,delta,beta}}
   \label{single_loop_geometry}
 \end{figure}
@@ -289,7 +290,7 @@ Simulations were done for the partially closed loop system to identify effects o
 In all the above models, the friction force was assumed to be zero. Average impact velocities over 100 impacts are plotted for varying values of the friction force in Fig. \ref{friction}. The circles represent the ideally-closed loop values, while the curves represent the partially closed-loop values using impact times. Much like the step-out frequency of a stepper motor, average impact velocities drop suddenly for the partially closed-loop system beyond a cut-off driving frequency. This is due to the sphere reversing direction before spring contact, leading to a drop in its net kinetic energy. As friction force increases as a percentage of $F_{mag}$, the partially closed loop system reaches its cutoff frequency, before resonance. This drop in impact velocity is not seen in the fully closed-loop system, for any values of friction. Hence, partially closed-loop control will not produce the maximum possible impact velocity for high values of Coulomb friction force. 
 
 
-\section{Experimental determination of Impact coefficient of resititution}
+\section{Experimental determination of Impact coefficient of restitution}
 \label{cor_det}
 The coefficient of restitution $e$ was determined using the time interval between two consecutive bounces of the sphere when dropped from a given height onto the impact rod. The measurements were made using 38.1 mm long impact rods for five different materials. Impact rods were held by a drill chuck. A length of 10.0 mm of the impact rods was sticking out of the chuck. The experimental setup is shown in \cref{CoR_setup_data}.
 
@@ -412,9 +413,9 @@ The MRI signal could be used to compute the position of the magnetic sphere at a
 
 \section{Tissue penetration experiment}
 
-An iterative design process was used to achieve a successful tissue penetration using the magnetic test bench. A few millirobots were built and tested. \par
+An iterative design process was used to achieve tissue penetration using the magnetic test bench. Seven millirobots were built and tested, varying the tip shape and composition, the tube length, the spring, and the sphere material. \par
 Our observations of the penetration experiments concluded that sharp blades placed on the tip of the millirobot allow for an easier tissue penetration. The blades are placed much like on a hunting arrow tip, and create a fissure in the tissue which allow the movement of the capsule inside the sample. The blades used in our experiments were made of Titanium which a bio-compatible and non-magnetic metal.\par
-Our observations also showed that, when the sphere compresses the spring, the capsule tends to move backward. This effect release the pressure exerted by the millirobot tip on the tissue and therefore make the impact less efficient at penetrating the sample. This issue was solved by using a porcupine needle placed in front of millirobot, at the center of the blades. Porcupine needles are covered with microscopic backward facing barbs. These prevents the needle from being pulled off a tissue once penetrated. These natural porcupine needle cannot be used in an in-vivo medical intervention. They are indeed not sanitizable. However, synthetic porcupine needles can be build \cite{cho2012microstructured}.\par
+Our observations also showed that, when the sphere compresses the spring, the capsule tends to move backward. This effect release the pressure exerted by the millirobot tip on the tissue and therefore make the impact less efficient at penetrating the sample. This issue was solved by using a porcupine needle placed in front of millirobot, at the center of the blades. Porcupine needles are covered with microscopic backward facing barbs. These prevents the needle from being pulled off a tissue once penetrated. Natural porcupine needles cannot be sanitized and so cannot be used in an in-vivo medical intervention. However, synthetic porcupine needles can be built \cite{cho2012microstructured}.\par
 
 \begin{figure}
 	\centering
@@ -425,7 +426,7 @@ Our observations also showed that, when the sphere compresses the spring, the ca
 
 \begin{table}[]
 \centering
-\caption{Parameters of the millirobot used for the tissue penetration experiment}
+\caption{millirobot parameters for  tissue penetration experiment}
 \label{my-label}
 \begin{tabular}{|l|l|}
 \hline
@@ -437,8 +438,13 @@ Spring constant              & 35 N/m  \\ \hline
 \end{tabular}
 \end{table}
 
-Fig. \ref{brain_penetration} show pictures of the most successful penetration test at different moments. The tissue sample used in this experiment is a 10 mm thick lamb brain slice. It was placed in a sample holder made with two acrylic sheets, one on each side. Two holes in the sample holder allowed the millirobot to access and cross the tissue. The millirobot used in this experiment had a diameter of 6 mm. It was using three titatium blades, a porcupine needle and a titanium impact rod. The mechanical parameters of this millirobot is presented in table \ref{robot_parameters}. The flux density applied by the coils had a maximum value of 40 mT and a maximum gradient of 545 mT/m. The control was performed with the partially closed loop method presented in section \ref{pcl}.\par
+
+
+Fig. \ref{brain_penetration} show frames of a video from a representative penetration test. We performed five successful penetration tests and no failures with our final millirobot design.
+The tissue sample used in these experiments were 10 mm thick lamb brain slice. They were placed in a sample holder made with two acrylic sheets, one on each side. Two holes in the sample holder allowed the millirobot to access and cross the tissue. The millirobot used in this experiment had a diameter of 6 mm. It was using three titanium blades, a porcupine needle, and a titanium impact rod. The mechanical parameters of this millirobot is presented in table \ref{robot_parameters}. The flux density applied by the coils had a maximum value of 40 mT and a maximum gradient of 545 mT/m. The control was performed with the partially closed loop method presented in section \ref{pcl}.\par
 This prototype successfully penetrated the tissue sample in 225 s. This test proves the capability of the magnetic hammer system to penetrate biological tissue.
+
+
 
 
 \section{CONCLUSIONS}
