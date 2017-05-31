@@ -64,7 +64,7 @@ Because MRI scanners have a large static magnetic field, they cannot generate to
  This impact results in a large pulsed force. 
  The purpose of this study is to understand the functioning of magnetic hammer actuation and control, as well as demonstration the viability of this mechanism for tissue penetration.
  This paper begins with modeling and simulating this system. 
- Next, a control strategy is presented and experimentally tested.
+ Next, different control strategies are presented and experimentally tested.
   Finally, preliminary tests inside a clinical MRI scanner demonstrate the potential of this actuation system. 
 
 \end{abstract}
@@ -130,11 +130,9 @@ An analytical model was developed by solving the system ODE to predict the impac
 \end{equation}
 In the above equation, $m_s$ is the mass of the sphere in kgs. The radius of the ball $r_s$ indirectly influences the impact velocity through $F_{mag}$ and $m_s$, both of which depend on the volume of the sphere. The variation of $v_{res}$ with changes in $L,e,k,m_s,r_s,F_{mag}$ were plotted and they were all found to be monotonic functions with no critical points. In \cref{Resonant_CLvelocity}, $v_{res}$ tends towards infinity as $e$ tends to 1. In this case there is no loss of energy during collision and hence, the impact velocity indefinitely increases with subsequent impacts. Further, the time between impacts at resonance $t_{res}$, is a constant value and is given by \cref{tres6}.
 
-\begin{equation}
+\begin{align*}
 t_{res}=t_{pos,1}+t_{pos,2}+t_{ant,1}+t_{ant,2}
 \label{tres6}
-\end{equation}	
-\begin{equation}
 t_{pos,1}=\frac{\sqrt{e^2 v_{\text{res}}^2+\frac{2 L F_{\text{mag}}}{m_s}}-e v_{\text{res}}}{\frac{F_{\text{mag}}}{m_s}}
 \label{tres1}
 \end{equation}
