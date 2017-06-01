@@ -355,33 +355,10 @@ Number of turns    & 265                       & \begin{tabular}[c]{@{}l@{}}Grad
 
 \subsection{Partially closed loop experiment}
 
-The coils are driven by square shaped current waveform. 
-The current in the coils can either be $I_{max}$ or 0 A. 
-The coil will be said to be ``on'' when $I=I_{max}$ and ``off'' when $I=0$ A.\par
-As explained in \cref{clol}, the magnetic hammer cannot work properly if the magnetic field is not synchronized with the position of the sphere.
- An open-loop control is inefficient, as shown in Fig.~\ref{CLvsOL}.
-  The force applied on the sphere (and therefore the magnetic gradient) must change direction when the sphere hits the impact plate and when the sphere changes direction on the spring side to provide maximum impulse.\par
-Our eventual goal is to use these robots in an MRI scanner, where MRI gradients must be shared for propulsion and position feedback \cite{578}. 
-The nature of our system enables simpler sensing requirements that can be accomplished with a simple microphone. 
-The microphone is used to monitor the noise produced by the system. 
-The impact noise creates a larger pulsed signal on the microphone output and can, therefore, be easily detected. 
-When the impact is detected, the anterior coil is turned off while the posterior coil is turned on. 
-The force applied on the sphere now pushes it backward, toward the spring side.\par
-The current stays constant during a time $t_s$ after the impact is detected. 
-The anterior coil is subsequently turned on, and the posterior coil is turned off. 
-The force then pushes the sphere forward. The current in the coils is changed again when another impact is detected. 
-This process is repeated indefinitely.\par
-$t_s$ is manually tuned while the system is working. 
-It is set to the value that gives the maximum oscillating frequency. 
-This value corresponds to a gradient that changes direction when the sphere velocity is zero on the spring side. 
-It should give the same results as the perfectly closed-loop simulations.\par
-The partially closed-loop experiment was performed and compared to the model. 
-Section \ref{experiment} shows a comparison of the optimum oscillating frequency as a function of $I_{max}$. 
-The simulations are performed for a perfectly-closed loop system. 
-When $I_{max}$ increases, the oscillating frequency increases. 
-The force on the sphere  increases with $I_{max}$ and consequently increases the moving speed of the sphere.
-This figure also shows that the model without friction has the same slope as the experimental data. 
-However, the simulation signals are approximately 1 Hz faster than the experiment. 
+A system allowing to record the impact velocity of the sphere as well as the driving period of the magnetic hammer was built. A schematic representation and a picture are shown in fig. ?. The main body of the system is a 3d printed tube with thick walls. The magnetic sphere is placed inside the tube and, an impact rod and a spring are placed on the anterior and posterior sides respectively. This constitute the magnetic hammer system. A lasers and a light sensor are placed radially on the tube. A radial holes in the tube allow the passage of the laser beam. The laser is diametrically opposed to the light sensor. The thick walls of the tube allow the encapsulation of the laser and the sensor with epoxy resin.\par
+When moving, the sphere interrupts the laser beam during a time ti inversely proportional to the velocity. By measuring ti one can calculate the average velocity V of the sphere with V=2.Rs/ti. The laser beam was positioned on the anterior side of the robot. Sufficient space was however kept between the impact rod and the laser beam to allow the sphere to release the beam interruption when touching the impact rod. This positioning allow to record the velocity of the sphere just before the impact which we will consider as being equal to the impact velocity. The acquisition of the data was automatic and performed via a National Instrument Crio real-time controller. The controller was programed using Labview. 
+The Crio was used at the same time to control the magnetic hammer. The partially closed loop method was used. The coils are driven by square shaped current waveform. The current in the coils can either be $I_{max}$ or 0 A. The coil will be said to be ``on'' when $I=I_{max}$ and ``off'' when $I=0$ A. A microphone is used to monitor the noise produced by the system. The impact creates a large pulsed signal on the microphone output and can, therefore, be easily detected. When the impact is detected, the anterior coil is turned off while the posterior coil is turned on. The force applied on the sphere pushes it toward the posterior side. The current stays constant during a time $t_s$ after the impact is detected. The anterior coil is subsequently turned on, and the posterior coil is turned off. The force then pushes the sphere forward. The current in the coils is changed again when another impact is detected. This process is repeated indefinitely.\par
+
 
 \section{Preliminary tests in clinical mri}
 \label{MRI_tests}
