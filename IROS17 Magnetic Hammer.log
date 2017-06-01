@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.10)  31 MAY 2017 18:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.10)  1 JUN 2017 13:57
 entering extended mode
 **"./IROS17 Magnetic Hammer.tex"
 ("IROS17 Magnetic Hammer.tex"
@@ -292,110 +292,93 @@ LaTeX Font Info:    Try loading font information for OT1+pcr on input line 48.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) <./pictures/figure1-2.png, id=1, 475.7775pt x 452.28975pt>
+) <./pictures/figure1-2.png, id=1, 475.7775pt x 258.9675pt>
 File: ./pictures/figure1-2.png Graphic file (type png)
 
 <use ./pictures/figure1-2.png>
 Package pdftex.def Info: ./pictures/figure1-2.png used on input line 94.
-(pdftex.def)             Requested size: 245.71811pt x 233.5909pt.
- <./pictures/FBD_R1.pdf, id=3, 289.12735pt x 220.93025pt>
+(pdftex.def)             Requested size: 245.71811pt x 133.7471pt.
+ <./pictures/robots_prototypes.jpg, id=3, 1949.48325pt x 1694.12926pt>
+File: ./pictures/robots_prototypes.jpg Graphic file (type jpg)
+
+<use ./pictures/robots_prototypes.jpg>
+Package pdftex.def Info: ./pictures/robots_prototypes.jpg used on input line 101.
+(pdftex.def)             Requested size: 245.71811pt x 213.52345pt.
+ [1{C:/Users/jleclerc/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+ <./pictures/figure1-2.png>] <./pictures/FBD_R1.pdf, id=15, 289.12735pt x 220.93025pt>
 File: ./pictures/FBD_R1.pdf Graphic file (type pdf)
  <use ./pictures/FBD_R1.pdf>
-Package pdftex.def Info: ./pictures/FBD_R1.pdf used on input line 108.
+Package pdftex.def Info: ./pictures/FBD_R1.pdf used on input line 115.
 (pdftex.def)             Requested size: 245.71811pt x 187.75787pt.
 
-[1{C:/Users/jleclerc/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+LaTeX Warning: Reference `tres6' on page 1 undefined on input line 140.
 
 
-]
-
-LaTeX Warning: Reference `tres6' on page 1 undefined on input line 133.
-
-
-Overfull \hbox (36.1009pt too wide) detected at line 141
+Overfull \hbox (36.1009pt too wide) detected at line 148
 \OML/cmm/m/it/10 t[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 t[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 t[] \OT1/cmr/m/n/10 + \OM
 L/cmm/m/it/10 t[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 t[]t[] \OT1/cmr/m/n/10 = []
  []
 
-[2 <./pictures/figure1-2.png> <./pictures/FBD_R1.pdf>] <./pictures/CLinput.pdf, id=186, 1734.48pt x 822.07124pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2 <./pictures/robots_prototypes.jpg> <./pictures/FBD_R1.pdf>] <./pictures/CLinput.pdf, id=187, 1734.48pt x 822.07124pt
+>
 File: ./pictures/CLinput.pdf Graphic file (type pdf)
-
-<use ./pictures/CLinput.pdf>
-Package pdftex.def Info: ./pictures/CLinput.pdf used on input line 166.
+ <use ./pictures/CLinput.pdf>
+Package pdftex.def Info: ./pictures/CLinput.pdf used on input line 173.
 (pdftex.def)             Requested size: 245.71811pt x 116.45645pt.
- <./pictures/single_loop.pdf, id=187, 548.0475pt x 406.51875pt>
-File: ./pictures/single_loop.pdf Graphic file (type pdf)
 
-<use ./pictures/single_loop.pdf>
-Package pdftex.def Info: ./pictures/single_loop.pdf used on input line 214.
+<./pictures/single_loop.pdf, id=188, 548.0475pt x 406.51875pt>
+File: ./pictures/single_loop.pdf Graphic file (type pdf)
+ <use ./pictures/single_loop.pdf>
+Package pdftex.def Info: ./pictures/single_loop.pdf used on input line 221.
 (pdftex.def)             Requested size: 196.57523pt x 145.81317pt.
- <./pictures/Femm_matlab_comparison.png, id=188, 662.475pt x 590.205pt>
+ [3 <./pictures/CLinput.pdf> <./pictures/single_loop.pdf>] <./pictures/Femm_matlab_comparison.png, id=239, 722.7pt x 542
+.025pt>
 File: ./pictures/Femm_matlab_comparison.png Graphic file (type png)
 
 <use ./pictures/Femm_matlab_comparison.png>
-Package pdftex.def Info: ./pictures/Femm_matlab_comparison.png used on input line 223.
-(pdftex.def)             Requested size: 245.71811pt x 218.91277pt.
+Package pdftex.def Info: ./pictures/Femm_matlab_comparison.png used on input line 230.
+(pdftex.def)             Requested size: 245.71811pt x 184.28606pt.
 
-<./pictures/ComparisonOfControlInputs.pdf, id=189, 817.50781pt x 442.91158pt>
+<./pictures/ComparisonOfControlInputs.pdf, id=240, 817.50781pt x 442.91158pt>
 File: ./pictures/ComparisonOfControlInputs.pdf Graphic file (type pdf)
 
 <use ./pictures/ComparisonOfControlInputs.pdf>
-Package pdftex.def Info: ./pictures/ComparisonOfControlInputs.pdf used on input line 235.
+Package pdftex.def Info: ./pictures/ComparisonOfControlInputs.pdf used on input line 242.
 (pdftex.def)             Requested size: 245.71811pt x 133.12454pt.
- [3 <./pictures/CLinput.pdf> <./pictures/single_loop.pdf>]
-<./pictures/Tswitchcases.pdf, id=239, 289.12735pt x 220.93025pt>
+ <./pictures/Tswitchcases.pdf, id=241, 289.12735pt x 220.93025pt>
 File: ./pictures/Tswitchcases.pdf Graphic file (type pdf)
- <use ./pictures/Tswitchcases.pdf>
-Package pdftex.def Info: ./pictures/Tswitchcases.pdf used on input line 258.
+
+<use ./pictures/Tswitchcases.pdf>
+Package pdftex.def Info: ./pictures/Tswitchcases.pdf used on input line 265.
 (pdftex.def)             Requested size: 245.71811pt x 187.75787pt.
  [4 <./pictures/Femm_matlab_comparison.png> <./pictures/ComparisonOfControlInputs.pdf> <./pictures/Tswitchcases.pdf
 
 pdfTeX warning: pdflatex.exe (file ./pictures/Tswitchcases.pdf): PDF inclusion: multiple pdfs with page group included i
 n a single page
->] <./pictures/deltVsts_differentVop.pdf, id=417, 1358.07375pt x 823.075pt>
+>] <./pictures/deltVsts_differentVop.pdf, id=419, 1358.07375pt x 823.075pt>
 File: ./pictures/deltVsts_differentVop.pdf Graphic file (type pdf)
  <use ./pictures/deltVsts_differentVop.pdf>
-Package pdftex.def Info: ./pictures/deltVsts_differentVop.pdf used on input line 273.
+Package pdftex.def Info: ./pictures/deltVsts_differentVop.pdf used on input line 280.
 (pdftex.def)             Requested size: 245.71811pt x 148.91321pt.
 
-<./pictures/3Dcontour_view1.pdf, id=418, 912.40875pt x 670.505pt>
+<./pictures/3Dcontour_view1.pdf, id=420, 912.40875pt x 670.505pt>
 File: ./pictures/3Dcontour_view1.pdf Graphic file (type pdf)
  <use ./pictures/3Dcontour_view1.pdf>
-Package pdftex.def Info: ./pictures/3Dcontour_view1.pdf used on input line 278.
+Package pdftex.def Info: ./pictures/3Dcontour_view1.pdf used on input line 285.
 (pdftex.def)             Requested size: 245.71811pt x 180.56815pt.
 
-<./pictures/FrictionForceWithClosedLoopValues.pdf, id=419, 813.15587pt x 462.1302pt>
+<./pictures/FrictionForceWithClosedLoopValues.pdf, id=421, 813.15587pt x 462.1302pt>
 File: ./pictures/FrictionForceWithClosedLoopValues.pdf Graphic file (type pdf)
 
 <use ./pictures/FrictionForceWithClosedLoopValues.pdf>
-Package pdftex.def Info: ./pictures/FrictionForceWithClosedLoopValues.pdf used on input line 286.
+Package pdftex.def Info: ./pictures/FrictionForceWithClosedLoopValues.pdf used on input line 293.
 (pdftex.def)             Requested size: 245.71811pt x 139.64145pt.
-Package epstopdf Info: Source file: <./pictures/CoR_setup_data.eps>
-(epstopdf)                    date: 2017-05-31 15:45:23
-(epstopdf)                    size: 6797240 bytes
-(epstopdf)             Output file: <./pictures/CoR_setup_data-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-31 15:45:23
-(epstopdf)                    size: 368183 bytes
-(epstopdf)             Command: <epstopdf --outfile=./pictures/CoR_setup_data-eps-converted-to.pdf ./pictures/CoR_setup_
-data.eps>
-(epstopdf)             \includegraphics on input line 301.
-Package epstopdf Info: Output file is already uptodate.
-
-<./pictures/CoR_setup_data-eps-converted-to.pdf, id=420, 722.7pt x 542.025pt>
-File: ./pictures/CoR_setup_data-eps-converted-to.pdf Graphic file (type pdf)
-
-<use ./pictures/CoR_setup_data-eps-converted-to.pdf>
-Package pdftex.def Info: ./pictures/CoR_setup_data-eps-converted-to.pdf used on input line 301.
-(pdftex.def)             Requested size: 245.71811pt x 184.28606pt.
- <./pictures/CoRdata.pdf, id=421, 512.54483pt x 293.30579pt>
-File: ./pictures/CoRdata.pdf Graphic file (type pdf)
-
-<use ./pictures/CoRdata.pdf>
-Package pdftex.def Info: ./pictures/CoRdata.pdf used on input line 307.
-(pdftex.def)             Requested size: 245.71811pt x 140.6151pt.
-
-Underfull \vbox (badness 4531) has occurred while \output is active []
-
  [5 <./pictures/deltVsts_differentVop.pdf> <./pictures/3Dcontour_view1.pdf
 
 pdfTeX warning: pdflatex.exe (file ./pictures/3Dcontour_view1.pdf): PDF inclusion: multiple pdfs with page group include
@@ -404,46 +387,69 @@ d in a single page
 
 pdfTeX warning: pdflatex.exe (file ./pictures/FrictionForceWithClosedLoopValues.pdf): PDF inclusion: multiple pdfs with 
 page group included in a single page
->] <./pictures/Magnetic_test_bench.png, id=479, 2074.75125pt x 1686.90225pt>
-File: ./pictures/Magnetic_test_bench.png Graphic file (type png)
- <use ./pictures/Magnetic_test_bench.png>
-Package pdftex.def Info: ./pictures/Magnetic_test_bench.png used on input line 338.
-(pdftex.def)             Requested size: 245.71811pt x 199.76831pt.
+>]
+Package epstopdf Info: Source file: <./pictures/CoR_setup_data.eps>
+(epstopdf)                    date: 2017-05-31 15:45:23
+(epstopdf)                    size: 6797240 bytes
+(epstopdf)             Output file: <./pictures/CoR_setup_data-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-31 15:45:23
+(epstopdf)                    size: 368183 bytes
+(epstopdf)             Command: <epstopdf --outfile=./pictures/CoR_setup_data-eps-converted-to.pdf ./pictures/CoR_setup_
+data.eps>
+(epstopdf)             \includegraphics on input line 308.
+Package epstopdf Info: Output file is already uptodate.
+ <./pictures/CoR_setup_data-eps-converted-to.pdf, id=479, 722.7pt x 542.025pt>
+File: ./pictures/CoR_setup_data-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./pictures/CoR_setup_data-eps-converted-to.pdf>
+Package pdftex.def Info: ./pictures/CoR_setup_data-eps-converted-to.pdf used on input line 308.
+(pdftex.def)             Requested size: 245.71811pt x 184.28606pt.
+ <./pictures/CoRdata.pdf, id=480, 512.54483pt x 293.30579pt>
+File: ./pictures/CoRdata.pdf Graphic file (type pdf)
+
+<use ./pictures/CoRdata.pdf>
+Package pdftex.def Info: ./pictures/CoRdata.pdf used on input line 314.
+(pdftex.def)             Requested size: 245.71811pt x 140.6151pt.
+ <./pictures/Magnetic_test_bench.jpg, id=481, 1556.214pt x 1265.32726pt>
+File: ./pictures/Magnetic_test_bench.jpg Graphic file (type jpg)
+
+<use ./pictures/Magnetic_test_bench.jpg>
+Package pdftex.def Info: ./pictures/Magnetic_test_bench.jpg used on input line 345.
+(pdftex.def)             Requested size: 245.71811pt x 199.77278pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 343.
+               Default added (so using `tbp') on input line 350.
 
 
-Overfull \hbox (10.21516pt too wide) in paragraph at lines 347--356
+Overfull \hbox (10.21516pt too wide) in paragraph at lines 354--363
  [][] 
  []
 
-[6 <./pictures/CoR_setup_data-eps-converted-to.pdf> <./pictures/CoRdata.pdf> <./pictures/Magnetic_test_bench.png>]
-<./pictures/tests_in_MRI.png, id=584, 222.8325pt x 206.57175pt>
+[6 <./pictures/CoR_setup_data-eps-converted-to.pdf> <./pictures/CoRdata.pdf> <./pictures/Magnetic_test_bench.jpg>]
+<./pictures/tests_in_MRI.png, id=586, 222.8325pt x 206.57175pt>
 File: ./pictures/tests_in_MRI.png Graphic file (type png)
  <use ./pictures/tests_in_MRI.png>
-Package pdftex.def Info: ./pictures/tests_in_MRI.png used on input line 410.
+Package pdftex.def Info: ./pictures/tests_in_MRI.png used on input line 417.
 (pdftex.def)             Requested size: 150.0pt x 139.05481pt.
-
-<./pictures/brain_penetration.png, id=585, 326.4195pt x 410.13225pt>
+ [7 <./pictures/tests_in_MRI.png>] <./pictures/brain_penetration.png, id=592, 326.4195pt x 410.13225pt>
 File: ./pictures/brain_penetration.png Graphic file (type png)
  <use ./pictures/brain_penetration.png>
-Package pdftex.def Info: ./pictures/brain_penetration.png used on input line 423.
+Package pdftex.def Info: ./pictures/brain_penetration.png used on input line 430.
 (pdftex.def)             Requested size: 190.0pt x 238.73422pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 428.
+               Default added (so using `tbp') on input line 435.
 
 
-LaTeX Warning: Reference `robot_parameters' on page 7 undefined on input line 445.
+LaTeX Warning: Reference `robot_parameters' on page 8 undefined on input line 452.
 
-[7 <./pictures/tests_in_MRI.png>] ("IROS17 Magnetic Hammer.bbl"
+("IROS17 Magnetic Hammer.bbl" [8 <./pictures/brain_penetration.png>]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
- [8 <./pictures/brain_penetration.png>])
+)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -466,10 +472,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5020 strings out of 493333
- 86742 string characters out of 3139185
+ 5028 strings out of 493333
+ 86943 string characters out of 3139185
  167687 words of memory out of 3000000
- 8483 multiletter control sequences out of 15000+200000
+ 8489 multiletter control sequences out of 15000+200000
  44672 words of font info for 87 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,14n,31p,1636b,295s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -487,9 +493,9 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2
 :/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr
 i8a.pfb>
-Output written on "IROS17 Magnetic Hammer.pdf" (9 pages, 19182461 bytes).
+Output written on "IROS17 Magnetic Hammer.pdf" (9 pages, 7053808 bytes).
 PDF statistics:
- 666 PDF objects out of 1000 (max. 8388607)
+ 668 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

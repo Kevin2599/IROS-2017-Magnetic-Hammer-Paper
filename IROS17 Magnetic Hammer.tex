@@ -92,12 +92,19 @@ Different control strategies are studied. The open loop control switches the mag
 
 \begin{figure}
   \includegraphics[width=\linewidth]{figure1-2.png}
-  \caption{Schematic representation of a millirobot actuated by a magnetic hammer (top), hardware prototype (bottom).}
+  \caption{Schematic representation of a millirobot actuated by a magnetic hammer.}
   \label{millirobot}
   \vspace{-2em}
 \end{figure}
 
-The paper is organized as follows: first, the system is mathematically modeled, and its behavior is studied in \cref{theoretical}. Secondly, parameters for the model are experimentally measured (see \cref{cor_det}). Different materials for the impact plate are compared. Thirdly, the magnetic test bench is described and the test of a magnetic hammer is presented (see \cref{experiment}). Results are compared to the mathematical model. Next, preliminary results from an open-loop test performed in a clinical MRI scanner are presented in \cref{MRI_tests}. The last section (\cref{conclusion}) is a conclusion of this study.
+\begin{figure}
+  \includegraphics[width=\linewidth]{robots_prototypes.jpg}
+  \caption{Picture of 3 millirobots prototypes actuated by a magnetic hammer.}
+  \label{prototypes}
+  \vspace{-2em}
+\end{figure}
+
+The paper is organized as follows: first, the system is mathematically modeled, and its behavior is studied in \cref{theoretical}. Secondly, parameters for the model are experimentally measured (see \cref{cor_det}). Different materials for the impact plate are compared. Thirdly, the magnetic test bench is described and the test of a magnetic hammer is presented (see \cref{experiment}). Results are compared to the mathematical model. Next, preliminary results from an open-loop test performed in a clinical MRI scanner are presented in \cref{MRI_tests}. The last Section (\cref{conclusion}) is a conclusion of this study.
 
 
 \section{Theoretical study}
@@ -109,7 +116,7 @@ The motion of the sphere between two consecutive impacts can be divided into two
 	\caption{(i) Free length of sphere travel, $L$; (ii) free body diagram of sphere when spring is compressed, (iii) when spring is not compressed.}
 	\label{FBD}
 \end{figure}
-Inside the homogeneous region of an MRI scanner, the magnitude of $F_{mag}$ is constant \cite{CMR:CMR20163}. The same has been assumed for developing analytical and numerical models in this paper. The formula for calculating $F_{mag}$ is presented in section II-B. Friction is considered to be negligible, but the assumption will be relaxed in later sections. The spring force is straightforward, and is given by
+Inside the homogeneous region of an MRI scanner, the magnitude of $F_{mag}$ is constant \cite{CMR:CMR20163}. The same has been assumed for developing analytical and numerical models in this paper. The formula for calculating $F_{mag}$ is presented in Section II-B. Friction is considered to be negligible, but the assumption will be relaxed in later sections. The spring force is straightforward, and is given by
 \begin{equation}
 F_{\text{spring}}=k x,
 \label{spring_force}
@@ -221,7 +228,7 @@ The flux density must be calculated for each solenoid. The total flux density is
 
 \begin{figure}
   \includegraphics[width=\linewidth]{Femm_matlab_comparison.png}
-  \caption{Comparison between the flux density computed with the semi-analytical method with {\sc Matlab} and the flux density computed via a finite element method with FEMM.}
+  \caption{Comparison between the flux density computed with the semi-analytical method with {\sc Matlab} and the flux density computed via a finite element method with FEMM. The maximum difference is 0.8 \%.}
   \label{Femm_matlab_comparison}
 \end{figure}
 
@@ -242,10 +249,10 @@ The ferromagnetic sphere is magnetized by the externally applied field $\mathbf{
 Once the magnetic moment $\mathbf{m}$ is obtained, the force on the sphere can be calculated using \cref{force}.
 
 \begin{align}
-\mathbf{m}&=\mathbf{M}.V \label{mag}\\
-\mathbf{H}_d&=N.\mathbf{H}_{app}\label{hd}\\
-\mathbf{M}&=\frac{\mathbf{H}_{app}\left ( \mu_r-1  \right )}{2.N.\mu_r-1} \label{mag2}\\
-\mathbf{F}&=\mathbf{\nabla}(\mathbf{m}.\mathbf{B}) \label{force}
+\mathbf{m}&=\mathbf{M}\cdot V \label{mag}\\
+\mathbf{H}_d&=N\cdot \mathbf{H}_{app}\label{hd}\\
+\mathbf{M}&=\frac{\mathbf{H}_{app}\left ( \mu_r-1  \right )}{2\cdot N\cdot \mu_r-1} \label{mag2}\\
+\mathbf{F}&=\mathbf{\nabla}(\mathbf{m}\cdot \mathbf{B}) \label{force}
 \end{align}
 
 \subsection{Simulation results}
@@ -253,7 +260,7 @@ Once the magnetic moment $\mathbf{m}$ is obtained, the force on the sphere can b
 \subsubsection{Perfectly closed loop vs. open loop system}
 \label{clol}
 
-A numerical model was used to simulate the system dynamics for different input gradients. Average impact velocities over impacts 100 to 200 were compared for a perfectly closed loop pulsed input, and open loop inputs with sinusoidal and square profiles. As seen in figure \ref{CLvsOL}, closed loop control produces approximately three times greater average impact velocity as compared to open loop sinusoidal and square waves, over all frequencies. As with the analytical model in section II-A, the simulation assumes that the robot capsule does not translate along its axis. While the absolute values of impact velocity and force will be different when the capsule is free to move, the closed-loop input can still be expected to produce higher forces than open-loop inputs. Further, for a given open-loop frequency, the variation of impact velocity over multiple contacts was found to be random for both square and sinusoidal inputs. It is not possible to reach the resonant state using a constant frequency input of any form. For a given set of input parameters, there exists only one path, or control input, that enables the system to reach a resonant state. 
+A numerical model was used to simulate the system dynamics for different input gradients. Average impact velocities over impacts 100 to 200 were compared for a perfectly closed loop pulsed input, and open loop inputs with sinusoidal and square profiles. As seen in figure \ref{CLvsOL}, closed loop control produces approximately three times greater average impact velocity as compared to open loop sinusoidal and square waves, over all frequencies. As with the analytical model in Section II-A, the simulation assumes that the robot capsule does not translate along its axis. While the absolute values of impact velocity and force will be different when the capsule is free to move, the closed-loop input can still be expected to produce higher forces than open-loop inputs. Further, for a given open-loop frequency, the variation of impact velocity over multiple contacts was found to be random for both square and sinusoidal inputs. It is not possible to reach the resonant state using a constant frequency input of any form. For a given set of input parameters, there exists only one path, or control input, that enables the system to reach a resonant state. 
 \begin{figure}
 	\includegraphics[width=\linewidth]{Tswitchcases.pdf}
 	\caption{Six domains for spring-end switching time; green and red represent $F_{mag}$ towards anterior and posterior respectively. Direction of colored arrow represents direction of ball motion.}
@@ -264,7 +271,7 @@ A numerical model was used to simulate the system dynamics for different input g
 \subsubsection{Partially closed loop system}
 \label{pcl}
 
-To implement a perfectly closed loop system, sensing is required at both the spring and impact ends. While sensing at the impact end can be done using a microphone sensor (see section III-B), it is harder to detect sphere reversal at the spring end. For experiments of the magnetic hammer on our test bench, a partially closed-loop system was implemented with only impact end sensing using a microphone. The sensor detected each impact and triggered a reversal in the direction of the gradient force. The switching time $t_s$ at the spring end was manually set at different values. There are six regimes for $t_s$, for a given set of geometric and material properties as shown in \cref{Tswitch}. In \cref{Tswitch}(i), the initial velocity $v_{0^+}$ and $t_s$ are low enough that the sphere reverses direction before reaching the spring. In this case, $v_{0^+} < 2aL$, where $a=F_{mag}/m_s$. Fig. \ref{Tswitch}(ii) represents the case when $v_{0^+}$ is high enough that spring compression is unavoidable even for $t_s = 0$. In \cref{Tswitch}(iii), the signal switch happens after spring compression starts but before it bottoms out. Fig. \ref{Tswitch}(iv) represents perfect closed loop switching. In \cref{Tswitch}(v), the signal is switched after maximum compression, but before the sphere reaches $x_s=0$. Fig. \ref{Tswitch}(vi) represents switching after spring rebound and before the next impact. There is also a possible seventh case where the switching happens after one entire impact cycle. This case is not relevant and serves more as an upper limit of practical $t_s$ values. 
+To implement a perfectly closed loop system, sensing is required at both the spring and impact ends. While sensing at the impact end can be done using a microphone sensor (see Section III-B), it is harder to detect sphere reversal at the spring end. For experiments of the magnetic hammer on our test bench, a partially closed-loop system was implemented with only impact end sensing using a microphone. The sensor detected each impact and triggered a reversal in the direction of the gradient force. The switching time $t_s$ at the spring end was manually set at different values. There are six regimes for $t_s$, for a given set of geometric and material properties as shown in \cref{Tswitch}. In \cref{Tswitch}(i), the initial velocity $v_{0^+}$ and $t_s$ are low enough that the sphere reverses direction before reaching the spring. In this case, $v_{0^+} < 2aL$, where $a=F_{mag}/m_s$. Fig. \ref{Tswitch}(ii) represents the case when $v_{0^+}$ is high enough that spring compression is unavoidable even for $t_s = 0$. In \cref{Tswitch}(iii), the signal switch happens after spring compression starts but before it bottoms out. Fig. \ref{Tswitch}(iv) represents perfect closed loop switching. In \cref{Tswitch}(v), the signal is switched after maximum compression, but before the sphere reaches $x_s=0$. Fig. \ref{Tswitch}(vi) represents switching after spring rebound and before the next impact. There is also a possible seventh case where the switching happens after one entire impact cycle. This case is not relevant and serves more as an upper limit of practical $t_s$ values. 
 
 Simulations were done for the partially closed loop system to identify effects of different $t_s$ values. The variation of time between impacts $\Delta t_{imp}$, with changes in $t_s$ and initial velocity $v_{0^+}$ have been plotted. Fig. \ref{delTvsTs} shows $\Delta t_{imp}$ as a function of $t_s$. For $v_{0^+}=0.15\text{ m/s}$, there is a linear increase in $\Delta t_{imp}$ till $t_s$ reaches a critical point. This linear region represents the case shown in \cref{Tswitch}(i). Beyond this, $\Delta t_{imp}$ decreases with increasing $t_s$ (\cref{Tswitch}(ii),(iii)), until the latter reaches its perfectly closed-loop value. At this point $\Delta t_{imp}$ reaches a minimum value (\cref{Tswitch}(iv)). As $t_s$ increases beyond this, the $\Delta t_{imp}$ keeps increasing (\cref{Tswitch}(v),(vi)), until it saturates because the signal is switched after the duration of the entire impact cycle. The linear range does not exist for higher values of $v_{0^+}$. Using these models, we intend to design a control law that will help push $t_s$ values closer to perfectly closed-loop values for subsequent impacts.
 
@@ -335,7 +342,7 @@ Robots can be free to move along the coil axis or held in place.
 A picture of the system is provided in \cref{magnetic_setup}.
 
 \begin{figure}
-  \includegraphics[width=\linewidth]{Magnetic_test_bench.png}
+  \includegraphics[width=\linewidth]{Magnetic_test_bench.jpg}
   \caption{Picture of the magnetic test bench.}
   \label{magnetic_setup}
 \end{figure}
@@ -442,7 +449,7 @@ Spring constant              & 35 N/m  \\ \hline
 
 
 Fig. \ref{brain_penetration} show frames of a video from a representative penetration test. We performed five successful penetration tests and no failures with our final millirobot design.
-The tissue sample used in these experiments were 10 mm thick lamb brain slice. They were placed in a sample holder made with two acrylic sheets, one on each side. Two holes in the sample holder allowed the millirobot to access and cross the tissue. The millirobot used in this experiment had a diameter of 6 mm. It was using three titanium blades, a porcupine needle, and a titanium impact rod. The mechanical parameters of this millirobot is presented in table \ref{robot_parameters}. The flux density applied by the coils had a maximum value of 40 mT and a maximum gradient of 545 mT/m. The control was performed with the partially closed loop method presented in section \ref{pcl}.\par
+The tissue sample used in these experiments were 10 mm thick lamb brain slice. They were placed in a sample holder made with two acrylic sheets, one on each side. Two holes in the sample holder allowed the millirobot to access and cross the tissue. The millirobot used in this experiment had a diameter of 6 mm. It was using three titanium blades, a porcupine needle, and a titanium impact rod. The mechanical parameters of this millirobot is presented in table \ref{robot_parameters}. The flux density applied by the coils had a maximum value of 40 mT and a maximum gradient of 545 mT/m. The control was performed with the partially closed loop method presented in Section \ref{pcl}.\par
 This prototype successfully penetrated the tissue sample in 225 s. This test proves the capability of the magnetic hammer system to penetrate biological tissue.
 
 
