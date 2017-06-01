@@ -114,15 +114,15 @@ Inside the homogeneous region of an MRI scanner, the magnitude of $F_{mag}$ is c
 F_{\text{spring}}=k x,
 \label{spring_force}
 \end{equation}
-where $x$ is the compression length, and $k$ is the spring constant. In the perfectly closed loop system, the magnetic gradient direction is changed when the sphere hits the impact plate and when the spring reaches full compression. These two moments also corresponds to the two changes in the sphere movement direction. In addition, to maximize the impact velocity, the magnetic force, and therefore, the magnetic gradient, are oriented in the same direction as the sphere velocity vector. In the simulations, the sphere will naturally change direction after impact and after the full compression of the spring. The perfectly closed loop system can, indeed, be easily modeled by applying a magnetic gradient in the same direction as the sphere velocity.
+where $x$ is the compression length, and $k$ is the spring constant. In the perfectly closed loop system, the magnetic gradient direction is changed when the sphere hits the impact plate and when the spring reaches full compression. These two events represent the instances when the sphere changes direction. In addition, to maximize the impact velocity, the magnetic force, and therefore, the magnetic gradient, are oriented in the same direction as the sphere velocity vector. In the simulations, the sphere changes direction after impact, and after the full compression of the spring. The perfectly closed-loop system can therefore be easily modeled by applying a magnetic gradient that is always in the same direction as the sphere velocity.
 
-An analytical model was developed by solving the system of differential equations to predict the impact velocity for each impact, given a set of input parameters. The sphere-impact plate system is assumed to have a coefficient of restitution, $e$. This model assumes that the robot capsule does not move. For all values of $e$, the impact velocity initially increases and ultimately saturates, reaching a resonant value. This happens when the energy lost by the sphere during impact equals the energy gained by it during the rest of the cycle. A higher $e$ results in a higher impact velocity.  Figure \ref{CLinput} shows a sample closed-loop pulsed magnetic gradient input for 50 impacts. The frequency initially varies until it settles to a constant value at resonance. An analytical formula was derived to predict the resonant impact velocity, for a given set of input parameters. This is given by \cref{Resonant_CLvelocity}.
-%\begin{figure}
-%	\includegraphics[width=\linewidth]{Closedloop_Impact_velocity.eps}
-%	\caption{Closed loop impact velocity for 150 impacts; $k$ = 50 N/m; $e$ = 0.9; $F_{mag}$ = 1.5e-3 N; $L$ = 0.03 m; $m_s$ = 5.58e-4 kg; $r_s$ = 2.5 mm.}
-%	\label{Closedloop_Impact_velocity}
-%	
-%\end{figure}
+An analytical model was developed by solving the system of differential equations to predict the impact velocity for each impact, given a set of input parameters. The sphere-impact plate system is assumed to have a coefficient of restitution, $e$. This model assumes that the robot capsule does not move. As seen in \cref{Closedloop_Impact_velocity}, the impact velocity initially increases and ultimately saturates for all values of $e$ between 0 and 1. The system reaches a resonant state when the impact velocity saturates. This happens when the energy lost by the sphere during impact equals the energy gained by it during the rest of the cycle. A higher $e$ results in a higher impact velocity.  An analytical formula was derived to predict the resonant impact velocity, for a given set of input parameters. This is given by \cref{Resonant_CLvelocity}.
+\begin{figure}
+	\includegraphics[width=\linewidth]{Closedloop_Impact_velocity.eps}
+	\caption{Closed loop impact velocity for 150 impacts; $k$ = 50 N/m; $e$ = 0.9; $F_{mag}$ = 1.5e-3 N; $L$ = 0.03 m; $m_s$ = 5.58e-4 kg; $r_s$ = 2.5 mm.}
+	\label{Closedloop_Impact_velocity}
+	
+\end{figure}
 \begin{equation}
 \resizebox{\linewidth}{!}
 {$
@@ -130,12 +130,13 @@ An analytical model was developed by solving the system of differential equation
 	$}
 \label{Resonant_CLvelocity}
 \end{equation}
-In the above equation, $m_s$ is the mass of the sphere in kgs. The radius of the ball $r_s$ indirectly influences the impact velocity through $F_{mag}$ and $m_s$, both of which depend on the volume of the sphere. The variation of $v_{res}$ with changes in $L,e,k,m_s,r_s,F_{mag}$ were plotted and they were all found to be monotonic functions with no critical points. In \cref{Resonant_CLvelocity}, $v_{res}$ tends towards infinity as $e$ tends to 1. In this case there is no loss of energy during collision and hence, the impact velocity indefinitely increases with subsequent impacts. Further, the time between impacts at resonance $t_{res}$, is a constant value and is given by \cref{tres6}.
-
+In the above equation, $m_s$ is the mass of the sphere in kg. The radius of the ball $r_s$ indirectly influences the impact velocity through $F_{mag}$ and $m_s$, both of which depend on the volume of the sphere. The variation of $v_{res}$ with changes in $L,e,k,m_s,r_s,F_{mag}$ were plotted and they were all found to be monotonic functions with no critical points. In \cref{Resonant_CLvelocity}, $v_{res}$ tends towards infinity as $e$ tends to 1. In this case there is no loss of energy during collision and hence, the impact velocity indefinitely increases with subsequent impacts. Further, the time between impacts at resonance, $t_{res}$, is a constant value and is given by \cref{tres6}. $t_{res}$ is calculated by adding up the time taken for the sphere to travel through each of the four phases of motion: $x_s =$ (i) $L$ to 0, (ii) 0 to $-x_{cs}$, (iii) $-x_{cs}$ to 0, and (iv) 0 to $L$. The durations of motion for each of these individual phases are calculated by solving the equations of motion with the forces acting as shown in \cref{FBD}. Friction has been assumed to be negligible for these calculations.
 %\begin{align*}
 \begin{equation}
 t_{res}=t_{pos,1}+t_{pos,2}+t_{ant,1}+t_{ant,2}
-%\label{tres6}
+\label{tres6}
+\end{equation}
+\begin{equation}
 t_{pos,1}=\frac{\sqrt{e^2 v_{\text{res}}^2+\frac{2 L F_{\text{mag}}}{m_s}}-e v_{\text{res}}}{\frac{F_{\text{mag}}}{m_s}}
 \label{tres1}
 \end{equation}
@@ -158,16 +159,16 @@ x_{cs}=\frac{\sqrt{e^2 k m_s v_{\text{res}}^2+2 k L F_{\text{mag}}+F_{\text{mag}
 \end{equation}
 
 
-In the above equations, $x_{cs}$ is the maximum compression distance of the spring (See Fig. \ref{FBD} (i)), and $\omega$ represents the natural frequency of the spring-mass system. The value of $x_{cs}$ can be used to select an appropriate free length for the spring, to ensure that it does not bottom out during compression. The values $t_{pos,1}$, $t_{pos,2}$, $t_{ant,1}$ and $t_{ant,2}$ represent the time for the ball to move from $x_S =$ (i) $L$ to 0, (ii) 0 to $-x_{cs}$, (iii) $-x_{cs}$ to 0, and (iv) 0 to $L$ respectively, in a perfectly closed-loop system with optimal gradient switching.
+In the above equations, $x_{cs}$ is the maximum compression distance of the spring (See Fig. \ref{FBD} (i)), and $\omega$ represents the natural frequency of the spring-mass system. The value of $x_{cs}$ can be used to select an appropriate free length for the spring, to ensure that it does not bottom out during compression. The values $t_{pos,1}$, $t_{pos,2}$, $t_{ant,1}$ and $t_{ant,2}$ represent the time for the sphere to move from $x_s =$ (i) $L$ to 0, (ii) 0 to $-x_{cs}$, (iii) $-x_{cs}$ to 0, and (iv) 0 to $L$ respectively, in a perfectly closed-loop system with optimal gradient switching.
 
 
-
-\begin{figure}
-	\includegraphics[width=\linewidth]{CLinput.pdf}
-	\caption{Closed loop input gradient for 50 impacts; $k$ = 50 N/m; $e$ = 0.9; $F_{mag}$ = 1.5e-3 N; $L$ = 0.03 m; $m_s$ = 5.58e-4 kg; $r_s$ = 0.0025 m.}
-	\label{CLinput}
-	
-\end{figure}
+%
+%\begin{figure}
+%	\includegraphics[width=\linewidth]{CLinput.pdf}
+%	\caption{Closed loop input gradient for 50 impacts; $k$ = 50 N/m; $e$ = 0.9; $F_{mag}$ = 1.5e-3 N; $L$ = 0.03 m; $m_s$ = 5.58e-4 kg; $r_s$ = 0.0025 m.}
+%	\label{CLinput}
+%	
+%\end{figure}
 
 \subsection{Magnetic field calculation}
 \label{magfield}
@@ -274,11 +275,7 @@ Simulations were done for the partially closed loop system to identify effects o
 	\caption[Variation of time between impacts with switching time for partially closed-loop control]{Plot of $\Delta t$ vs. $t_s$ for different values of $v_{o^+}$.}
 	\label{delTvsTs}
 \end{figure}
-\begin{figure}
-	\includegraphics[width=\linewidth]{3Dcontour_view1.pdf}
-	\caption[3D contour plot of time between impacts vs. switching time vs. initial velocity - 1]{3D contour plot of $\Delta t$ vs. $t_s$ plotted for different values of $v_{o+}$.   $t_s$ is a control parameter and $\Delta t$ can be obtained by sensing.  Together, $\Delta t$ and $t_s$ can be used to estimate $v_{o+}$ with our estimator.}
-	\label{3Dcontour}
-\end{figure}
+
 
 \subsubsection{Effect of Coulomb friction}
 \label{frictionwriteup}
@@ -288,27 +285,20 @@ Simulations were done for the partially closed loop system to identify effects o
 	\label{friction}
 	
 \end{figure}
-In all the above models, the friction force was assumed to be zero. Average impact velocities over 100 impacts are plotted for varying values of the friction force in Fig. \ref{friction}. The circles represent the ideally-closed loop values, while the curves represent the partially closed-loop values using impact times. Much like the step-out frequency of a stepper motor, average impact velocities drop suddenly for the partially closed-loop system beyond a cut-off driving frequency. This is due to the sphere reversing direction before spring contact, leading to a drop in its net kinetic energy. As friction force increases as a percentage of $F_{mag}$, the partially closed loop system reaches its cutoff frequency, before resonance. This drop in impact velocity is not seen in the fully closed-loop system, for any values of friction. Hence, partially closed-loop control will not produce the maximum possible impact velocity for high values of Coulomb friction force. 
+In all the above models, the friction force was assumed to be zero. Average impact velocities over 100 impacts are plotted for varying values of the friction force in Fig. \ref{friction}. The circles represent the perfectly closed-loop values, while the curves represent the partially closed-loop values using impact times. Much like the step-out frequency of a stepper motor, average impact velocities drop suddenly for the partially closed-loop system beyond a cut-off driving frequency. This is due to the sphere reversing direction before spring contact, leading to a drop in its net kinetic energy. As friction force increases as a percentage of $F_{mag}$, the partially closed loop system reaches its cutoff frequency, before resonance. This drop in impact velocity is not seen in the perfectly closed-loop system for any values of friction since the spring is always compressed to its maximum limit. Hence, partially closed-loop control will not produce the maximum possible impact velocity for high values of Coulomb friction force. 
 
 
 \section{Experimental determination of Impact coefficient of restitution}
 \label{cor_det}
 The coefficient of restitution $e$ was determined using the time interval between two consecutive bounces of the sphere when dropped from a given height onto the impact rod. The measurements were made using 38.1 mm long impact rods for five different materials. Impact rods were held by a drill chuck. A length of 10.0 mm of the impact rods was sticking out of the chuck. The experimental setup is shown in \cref{CoR_setup_data}.
 
-The results, shown in fig. \ref{CoR_Results}, show that aluminum offers the largest coefficient of restitution, followed by titanium and brass. The densities of aluminum, titanium, stainless steel, brass, and copper are 2720, 4500, 7600, 8500, and 8940 kg/m$^3$ respectively. This data, coupled with a desire for a lightweight millirobot suggests that titanium is the best material for an impact plate. Bio-compatibility of the material used is another constraint.
+The results, shown in fig. \ref{CoR_setup_data} (c), show that titanium offers the largest coefficient of restitution. The densities of aluminum, titanium, stainless steel, brass, and copper are 2720, 4500, 7600, 8500, and 8940 kg/m$^3$ respectively. This data, coupled with a desire for a lightweight millirobot suggests that titanium is the best material for an impact plate. Bio-compatibility of the material used is another constraint.
 
 \begin{figure}
-	\includegraphics[width=\columnwidth]{CoR_setup_data.eps}
-	\caption{Experimental setup for measuring the coefficient of restitution $e$}
+	\includegraphics[width=\columnwidth]{CoR_setup_data.pdf}
+	\caption{(a) Microphone output showing multiple bounces of sphere (b) Experimental setup for measuring the coefficient of restitution, $e$ (c) Measured values of $e$ for different materials and rod diameters}
 	\label{CoR_setup_data}
 \end{figure}
-
-\begin{figure}
-	\includegraphics[width=\columnwidth]{CoRdata.pdf}
-	\caption[Comparison of measured coefficients of restitution for different materials]{Measured coefficient of restitution $e$ as a function of rod diameter for different materials}
-	\label{CoR_Results}
-\end{figure}
-
 
 
 
