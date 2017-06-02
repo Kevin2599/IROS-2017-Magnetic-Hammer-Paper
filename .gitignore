@@ -6,3 +6,7 @@
 *.gz
 
 *.log
+
+*.log
+
+*.aux

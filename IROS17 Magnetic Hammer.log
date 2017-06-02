@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.10)  2 JUN 2017 16:11
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  2 JUN 2017 07:59
->>>>>>> Stashed changes
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  2 JUN 2017 17:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -244,7 +240,6 @@ LaTeX Warning: Label `magfield@cref' multiply defined.
 )
 \openout1 = `"IROS17 Magnetic Hammer.aux"'.
 
-<<<<<<< Updated upstream
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
 LaTeX Font Info:    ... okay on input line 45.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
@@ -257,22 +252,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
 LaTeX Font Info:    ... okay on input line 45.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
 LaTeX Font Info:    ... okay on input line 45.
- (C:\Users\jleclerc\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
-=======
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
  (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
->>>>>>> Stashed changes
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count108
 \scratchdimen=\dimen133
@@ -325,12 +305,6 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
 Package grfext Info: Graphics extension search list:
-<<<<<<< Updated upstream
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
-)
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 49.
-=======
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
@@ -339,8 +313,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 48.
->>>>>>> Stashed changes
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 49.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
@@ -356,29 +329,18 @@ Package pdftex.def Info: ./pictures/figure1-2.png used on input line 95.
 File: ./pictures/robots_prototypes.jpg Graphic file (type jpg)
 
 <use ./pictures/robots_prototypes.jpg>
-<<<<<<< Updated upstream
-Package pdftex.def Info: ./pictures/robots_prototypes.jpg used on input line 102.
-=======
 Package pdftex.def Info: ./pictures/robots_prototypes.jpg used on input line 10
-1.
->>>>>>> Stashed changes
+2.
 (pdftex.def)             Requested size: 245.71811pt x 213.52345pt.
  [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
-<<<<<<< Updated upstream
- <./pictures/figure1-2.png>] <./pictures/FBD_R1.pdf, id=16, 289.12735pt x 220.93025pt>
-File: ./pictures/FBD_R1.pdf Graphic file (type pdf)
- <use ./pictures/FBD_R1.pdf>
-Package pdftex.def Info: ./pictures/FBD_R1.pdf used on input line 116.
-=======
  <./pictures/figure1-2.png>]
-<./pictures/FBD_R1.pdf, id=16, 289.12735pt x 220.93025pt>
+<./pictures/FBD_R1.pdf, id=17, 289.12735pt x 220.93025pt>
 File: ./pictures/FBD_R1.pdf Graphic file (type pdf)
 
 <use ./pictures/FBD_R1.pdf>
-Package pdftex.def Info: ./pictures/FBD_R1.pdf used on input line 115.
->>>>>>> Stashed changes
+Package pdftex.def Info: ./pictures/FBD_R1.pdf used on input line 116.
 (pdftex.def)             Requested size: 245.71811pt x 187.75787pt.
 Package epstopdf Info: Source file: <./pictures/Closedloop_Impact_velocity.eps>
 
@@ -388,76 +350,50 @@ Package epstopdf Info: Source file: <./pictures/Closedloop_Impact_velocity.eps>
 converted-to.pdf>
 (epstopdf)                    date: 2017-02-14 23:33:43
 (epstopdf)                    size: 11028 bytes
-<<<<<<< Updated upstream
-(epstopdf)             Command: <epstopdf --outfile=./pictures/Closedloop_Impact_velocity-eps-converted-to.pdf ./picture
-s/Closedloop_Impact_velocity.eps>
+(epstopdf)             Command: <repstopdf --outfile=./pictures/Closedloop_Impa
+ct_velocity-eps-converted-to.pdf ./pictures/Closedloop_Impact_velocity.eps>
 (epstopdf)             \includegraphics on input line 129.
 Package epstopdf Info: Output file is already uptodate.
 
-<./pictures/Closedloop_Impact_velocity-eps-converted-to.pdf, id=17, 841.1425pt x 403.5075pt>
-File: ./pictures/Closedloop_Impact_velocity-eps-converted-to.pdf Graphic file (type pdf)
-
-<use ./pictures/Closedloop_Impact_velocity-eps-converted-to.pdf>
-Package pdftex.def Info: ./pictures/Closedloop_Impact_velocity-eps-converted-to.pdf used on input line 129.
-=======
-(epstopdf)             Command: <repstopdf --outfile=./pictures/Closedloop_Impa
-ct_velocity-eps-converted-to.pdf ./pictures/Closedloop_Impact_velocity.eps>
-(epstopdf)             \includegraphics on input line 128.
-Package epstopdf Info: Output file is already uptodate.
-
-<./pictures/Closedloop_Impact_velocity-eps-converted-to.pdf, id=17, 841.1425pt 
+<./pictures/Closedloop_Impact_velocity-eps-converted-to.pdf, id=18, 841.1425pt 
 x 403.5075pt>
 File: ./pictures/Closedloop_Impact_velocity-eps-converted-to.pdf Graphic file (
 type pdf)
  <use ./pictures/Closedloop_Impact_velocity-eps-converted-to.pdf>
 Package pdftex.def Info: ./pictures/Closedloop_Impact_velocity-eps-converted-to
-.pdf used on input line 128.
->>>>>>> Stashed changes
+.pdf used on input line 129.
 (pdftex.def)             Requested size: 245.71811pt x 117.87616pt.
 
 [2 <./pictures/robots_prototypes.jpg> <./pictures/FBD_R1.pdf> <./pictures/Close
 dloop_Impact_velocity-eps-converted-to.pdf>]
 <./pictures/single_loop.pdf, id=202, 548.0475pt x 406.51875pt>
 File: ./pictures/single_loop.pdf Graphic file (type pdf)
-<<<<<<< Updated upstream
- <use ./pictures/single_loop.pdf>
-Package pdftex.def Info: ./pictures/single_loop.pdf used on input line 225.
-=======
 
 <use ./pictures/single_loop.pdf>
-Package pdftex.def Info: ./pictures/single_loop.pdf used on input line 222.
->>>>>>> Stashed changes
+Package pdftex.def Info: ./pictures/single_loop.pdf used on input line 209.
 (pdftex.def)             Requested size: 196.57523pt x 145.81317pt.
  [3 <./pictures/single_loop.pdf>]
 <./pictures/Femm_matlab_comparison.png, id=218, 722.7pt x 542.025pt>
 File: ./pictures/Femm_matlab_comparison.png Graphic file (type png)
 
 <use ./pictures/Femm_matlab_comparison.png>
-<<<<<<< Updated upstream
-Package pdftex.def Info: ./pictures/Femm_matlab_comparison.png used on input line 234.
-=======
 Package pdftex.def Info: ./pictures/Femm_matlab_comparison.png used on input li
-ne 231.
->>>>>>> Stashed changes
+ne 218.
 (pdftex.def)             Requested size: 245.71811pt x 184.28606pt.
 
 <./pictures/ComparisonOfControlInputs.pdf, id=219, 817.50781pt x 442.91158pt>
 File: ./pictures/ComparisonOfControlInputs.pdf Graphic file (type pdf)
 
 <use ./pictures/ComparisonOfControlInputs.pdf>
-<<<<<<< Updated upstream
-Package pdftex.def Info: ./pictures/ComparisonOfControlInputs.pdf used on input line 246.
-=======
 Package pdftex.def Info: ./pictures/ComparisonOfControlInputs.pdf used on input
- line 243.
->>>>>>> Stashed changes
+ line 230.
 (pdftex.def)             Requested size: 245.71811pt x 133.12454pt.
 
 <./pictures/Tswitchcases.pdf, id=220, 705.09015pt x 411.82253pt>
 File: ./pictures/Tswitchcases.pdf Graphic file (type pdf)
 
 <use ./pictures/Tswitchcases.pdf>
-Package pdftex.def Info: ./pictures/Tswitchcases.pdf used on input line 269.
+Package pdftex.def Info: ./pictures/Tswitchcases.pdf used on input line 253.
 (pdftex.def)             Requested size: 245.71811pt x 143.51793pt.
  [4 <./pictures/Femm_matlab_comparison.png> <./pictures/ComparisonOfControlInpu
 ts.pdf> <./pictures/Tswitchcases.pdf
@@ -466,41 +402,25 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./pictures/Tswitchcases.pdf)
 : PDF inclusion: multiple pdfs with page group included in a single page
 >] <./pictures/deltVsts_differentVop.pdf, id=746, 1358.07375pt x 823.075pt>
 File: ./pictures/deltVsts_differentVop.pdf Graphic file (type pdf)
-<<<<<<< Updated upstream
- <use ./pictures/deltVsts_differentVop.pdf>
-Package pdftex.def Info: ./pictures/deltVsts_differentVop.pdf used on input line 284.
-=======
 
 <use ./pictures/deltVsts_differentVop.pdf>
 Package pdftex.def Info: ./pictures/deltVsts_differentVop.pdf used on input lin
-e 281.
->>>>>>> Stashed changes
+e 268.
 (pdftex.def)             Requested size: 245.71811pt x 148.91321pt.
 
 <./pictures/FrictionForceWithClosedLoopValues.pdf, id=747, 813.15587pt x 462.13
 02pt>
 File: ./pictures/FrictionForceWithClosedLoopValues.pdf Graphic file (type pdf)
-<<<<<<< Updated upstream
-
-<use ./pictures/FrictionForceWithClosedLoopValues.pdf>
-Package pdftex.def Info: ./pictures/FrictionForceWithClosedLoopValues.pdf used on input line 293.
-=======
  <use ./pictures/FrictionForceWithClosedLoopValues.pdf>
 Package pdftex.def Info: ./pictures/FrictionForceWithClosedLoopValues.pdf used 
-on input line 290.
->>>>>>> Stashed changes
+on input line 277.
 (pdftex.def)             Requested size: 245.71811pt x 139.64145pt.
 
 <./pictures/CoR_setup_data.pdf, id=748, 711.32234pt x 517.25148pt>
 File: ./pictures/CoR_setup_data.pdf Graphic file (type pdf)
-<<<<<<< Updated upstream
- <use ./pictures/CoR_setup_data.pdf>
-Package pdftex.def Info: ./pictures/CoR_setup_data.pdf used on input line 308.
-=======
 
 <use ./pictures/CoR_setup_data.pdf>
-Package pdftex.def Info: ./pictures/CoR_setup_data.pdf used on input line 305.
->>>>>>> Stashed changes
+Package pdftex.def Info: ./pictures/CoR_setup_data.pdf used on input line 292.
 (pdftex.def)             Requested size: 245.71811pt x 178.67294pt.
  [5 <./pictures/deltVsts_differentVop.pdf> <./pictures/FrictionForceWithClosedL
 oopValues.pdf
@@ -510,62 +430,46 @@ ClosedLoopValues.pdf): PDF inclusion: multiple pdfs with page group included in
  a single page
 >] <./pictures/Magnetic_test_bench.jpg, id=802, 1556.214pt x 1265.32726pt>
 File: ./pictures/Magnetic_test_bench.jpg Graphic file (type jpg)
-<<<<<<< Updated upstream
- <use ./pictures/Magnetic_test_bench.jpg>
-Package pdftex.def Info: ./pictures/Magnetic_test_bench.jpg used on input line 338.
-=======
 
 <use ./pictures/Magnetic_test_bench.jpg>
 Package pdftex.def Info: ./pictures/Magnetic_test_bench.jpg used on input line 
-335.
->>>>>>> Stashed changes
+322.
 (pdftex.def)             Requested size: 245.71811pt x 199.77278pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 343.
+               Default added (so using `tbp') on input line 327.
 
 
-Overfull \hbox (10.21516pt too wide) in paragraph at lines 347--356
+Overfull \hbox (10.21516pt too wide) in paragraph at lines 331--340
  [][] 
  []
 
+
+Underfull \vbox (badness 1270) has occurred while \output is active []
+
+
 <./pictures/laser_system.png, id=803, 373.395pt x 361.35pt>
 File: ./pictures/laser_system.png Graphic file (type png)
-<<<<<<< Updated upstream
- <use ./pictures/laser_system.png>
-Package pdftex.def Info: ./pictures/laser_system.png used on input line 365.
-=======
 
 <use ./pictures/laser_system.png>
-Package pdftex.def Info: ./pictures/laser_system.png used on input line 362.
->>>>>>> Stashed changes
+Package pdftex.def Info: ./pictures/laser_system.png used on input line 349.
 (pdftex.def)             Requested size: 100.0pt x 96.77182pt.
  [6 <./pictures/CoR_setup_data.pdf> <./pictures/Magnetic_test_bench.jpg> <./pic
 tures/laser_system.png>]
 <./pictures/tests_in_MRI.png, id=963, 222.8325pt x 206.57175pt>
 File: ./pictures/tests_in_MRI.png Graphic file (type png)
-<<<<<<< Updated upstream
- <use ./pictures/tests_in_MRI.png>
-Package pdftex.def Info: ./pictures/tests_in_MRI.png used on input line 395.
-=======
 
 <use ./pictures/tests_in_MRI.png>
-Package pdftex.def Info: ./pictures/tests_in_MRI.png used on input line 392.
->>>>>>> Stashed changes
+Package pdftex.def Info: ./pictures/tests_in_MRI.png used on input line 379.
 (pdftex.def)             Requested size: 150.0pt x 139.05481pt.
 
 <./pictures/brain_penetration.png, id=964, 326.4195pt x 410.13225pt>
 File: ./pictures/brain_penetration.png Graphic file (type png)
-<<<<<<< Updated upstream
- <use ./pictures/brain_penetration.png>
-Package pdftex.def Info: ./pictures/brain_penetration.png used on input line 408.
-=======
 
 <use ./pictures/brain_penetration.png>
-Package pdftex.def Info: ./pictures/brain_penetration.png used on input line 40
-5.
->>>>>>> Stashed changes
+Package pdftex.def Info: ./pictures/brain_penetration.png used on input line 39
+2.
 (pdftex.def)             Requested size: 190.0pt x 238.73422pt.
  [7 <./pictures/tests_in_MRI.png> <./pictures/brain_penetration.png>] (./IROS17
  Magnetic Hammer.bbl
@@ -592,29 +496,11 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  5009 strings out of 493089
  87135 string characters out of 6134842
- 168264 words of memory out of 5000000
+ 171264 words of memory out of 5000000
  8426 multiletter control sequences out of 15000+600000
  43565 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
-<<<<<<< Updated upstream
- 40i,14n,31p,1636b,295s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
-i5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr
-i8a.pfb>
-Output written on "IROS17 Magnetic Hammer.pdf" (8 pages, 7510257 bytes).
-=======
- 38i,14n,31p,1634b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,16n,31p,1634b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texl
@@ -637,8 +523,7 @@ type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/ur
 w/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/ut
 mbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "IROS17 Magnetic Hammer.pdf" (8 pages, 7446292 bytes).
->>>>>>> Stashed changes
+Output written on "IROS17 Magnetic Hammer.pdf" (8 pages, 7446805 bytes).
 PDF statistics:
  1044 PDF objects out of 1200 (max. 8388607)
  669 compressed objects within 7 object streams

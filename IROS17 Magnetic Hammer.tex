@@ -105,7 +105,7 @@ The paper studies three control strategies. The open loop control switches the m
   \vspace{-2em}
 \end{figure}
 
-The paper is organized as follows: first, the system is mathematically modeled, and its behavior is studied in \cref{theoretical}. Secondly, parameters for the model are experimentally measured (see Section \ref{cor_det}). Different materials for the impact plate are compared. Thirdly, the magnetic test bench is described and the test of a magnetic hammer is presented (see \cref{experiment}). Results are compared to the mathematical model. Next, preliminary results from an open-loop test performed in a clinical MRI scanner are presented in Section \ref{MRI_tests}. The last section (Section \ref{conclusion}) is a conclusion of this study.
+The paper is organized as follows: first, the system is mathematically modeled, and its behavior is studied in Section \ref{theoretical}. Secondly, parameters for the model are experimentally measured (see Section \ref{cor_det}). Different materials for the impact plate are compared. Thirdly, the magnetic test bench is described and the test of a magnetic hammer is presented (see \cref{experiment}). Results are compared to the mathematical model. Next, preliminary results from an open-loop test performed in a clinical MRI scanner are presented in Section \ref{MRI_tests}. The last section (Section \ref{conclusion}) is a conclusion of this study.
 
 
 \section{Theoretical study}
@@ -138,38 +138,28 @@ An analytical model was developed by solving the system of differential equation
 	$}
 \label{Resonant_CLvelocity}
 \end{equation}
-In the above equation, $m_s$ is the mass of the sphere in kg. The radius of the ball $r_s$ indirectly influences the impact velocity through $F_{mag}$ and $m_s$, both of which depend on the volume of the sphere. The variation of $v_{res}$ with changes in $L,e,k,m_s,r_s,F_{mag}$ were plotted and they were all found to be monotonic functions with no critical points. In \cref{Resonant_CLvelocity}, $v_{res}$ tends towards infinity as $e$ tends to 1. In this case there is no loss of energy during collision and hence, the impact velocity indefinitely increases with subsequent impacts. Further, the time between impacts at resonance, $t_{res}$, is a constant value and is given by \cref{tres6}. $t_{res}$ is calculated by adding up the time taken for the sphere to travel through each of the four phases of motion: $x_s =$ (i) $L$ to 0, (ii) 0 to $-x_{cs}$, (iii) $-x_{cs}$ to 0, and (iv) 0 to $L$. The durations of motion for each of these individual phases are calculated by solving the equations of motion with the forces acting as shown in \cref{FBD}. Friction has been assumed to be negligible for these calculations.
+In the above equation, $m_s$ is the mass of the sphere in kg. The radius of the ball $r_s$ indirectly influences the impact velocity through $F_{mag}$ and $m_s$, both of which depend on the volume of the sphere. The variation of $v_{res}$ with changes in $L,e,k,m_s,r_s,F_{mag}$ were plotted and they were all found to be monotonic functions with no critical points. In \cref{Resonant_CLvelocity}, $v_{res}$ tends towards infinity as $e$ tends to 1. In this case there is no loss of energy during collision and hence, the impact velocity indefinitely increases with subsequent impacts. Further, the time between impacts at resonance, $t_{res}$, is a constant value and is given by \cref{tres6}. $t_{res}$ is calculated by adding up the time taken for the sphere to travel through each of the four phases of motion. The values $t_{pos,1}$, $t_{pos,2}$, $t_{ant,1}$ and $t_{ant,2}$ represent the time for the sphere to move from $x_s =$ (i) $L$ to 0, (ii) 0 to $-x_{cs}$, (iii) $-x_{cs}$ to 0, and (iv) 0 to $L$, all in a perfectly closed-loop system with optimal gradient switching. The durations of motion for each of these individual phases are calculated by solving the equations of motion with the forces acting as shown in \cref{FBD}. Friction has been assumed to be negligible for these calculations.
 
-\begin{equation}
-%\begin{align}
+\begin{align}
 \label{tres6}
-t_{res}=t_{pos,1}+t_{pos,2}+t_{ant,1}+t_{ant,2}\\
-\end{equation}
-\begin{equation}
+t_{res}&=t_{pos,1}+t_{pos,2}+t_{ant,1}+t_{ant,2}\\
+%\end{equation}
+%\begin{equation}
 \label{tres1}
-t_{pos,1}=\frac{\sqrt{e^2 v_{\text{res}}^2+\frac{2 L F_{\text{mag}}}{m_s}}-e v_{\text{res}}}{\frac{F_{\text{mag}}}{m_s}}\\
-%\end{align*}
-\end{equation}
-\begin{equation}
-t_{pos,2}=\frac{\pi -\tan ^{-1}\left(\frac{k \sqrt{e^2 v_{\text{res}}^2+\frac{2 L F_{\text{mag}}}{m_s}}}{\omega  F_{\text{mag}}}\right)}{\omega } ; \text{$\omega $ = }
+t_{pos,1}&=\frac{\sqrt{e^2 v_{\text{res}}^2+\frac{2 L F_{\text{mag}}}{m_s}}-e v_{\text{res}}}{\frac{F_{\text{mag}}}{m_s}}\\
+t_{pos,2}&=\frac{\pi -\tan ^{-1}\left(\frac{k \sqrt{e^2 v_{\text{res}}^2+\frac{2 L F_{\text{mag}}}{m_s}}}{\omega  F_{\text{mag}}}\right)}{\omega } ; \text{$\omega $ = }
 \sqrt{\frac{k}{m_s}}
-\label{tres2}
-\end{equation}
-\begin{equation}
-t_{ant,1}=\frac{\cos ^{-1}\left(\frac{F_{\text{mag}}}{F_{\text{mag}}+k x_{cs}}\right)}{\omega }
-\label{tres3}
-\end{equation}
-\begin{equation}
-t_{ant,2}=\frac{v_{\text{res}}-\sqrt{v_{\text{res}}^2-\frac{2 L F_{\text{mag}}}{m_s}}}{\frac{F_{\text{mag}}}{m_s}}
-\label{tres4}
-\end{equation}
-\begin{equation}
-x_{cs}=\frac{\sqrt{e^2 k m_s v_{\text{res}}^2+2 k L F_{\text{mag}}+F_{\text{mag}}^2}+F_{\text{mag}}}{k}
+\label{tres2}\\
+t_{ant,1}&=\frac{\cos ^{-1}\left(\frac{F_{\text{mag}}}{F_{\text{mag}}+k x_{cs}}\right)}{\omega }
+\label{tres3}\\
+t_{ant,2}&=\frac{v_{\text{res}}-\sqrt{v_{\text{res}}^2-\frac{2 L F_{\text{mag}}}{m_s}}}{\frac{F_{\text{mag}}}{m_s}}
+\label{tres4}\\
+x_{cs}&=\frac{\sqrt{e^2 k m_s v_{\text{res}}^2+2 k L F_{\text{mag}}+F_{\text{mag}}^2}+F_{\text{mag}}}{k}
 \label{tres5}
-\end{equation}
+\end{align}
 %\end{left}
 
-In the above equations, $x_{cs}$ is the maximum compression distance of the spring (See Fig. \ref{FBD} (i)), and $\omega$ represents the natural frequency of the spring-mass system. The value of $x_{cs}$ can be used to select an appropriate free length for the spring, to ensure that it does not bottom out during compression. The values $t_{pos,1}$, $t_{pos,2}$, $t_{ant,1}$ and $t_{ant,2}$ represent the time for the sphere to move from $x_s =$ (i) $L$ to 0, (ii) 0 to $-x_{cs}$, (iii) $-x_{cs}$ to 0, and (iv) 0 to $L$ respectively, in a perfectly closed-loop system with optimal gradient switching.
+In the above equations, $x_{cs}$ is the maximum compression distance of the spring (See Fig. \ref{FBD} (i)), and $\omega$ represents the natural frequency of the spring-mass system. The value of $x_{cs}$ can be used to select an appropriate free length for the spring, to ensure that it does not bottom out during compression. 
 
 
 %
@@ -204,22 +194,16 @@ where $k_x$, $k_y$ and $k_z$ are the coil constants (T/A) and $I_x$, $I_y$ and $
 
 The flux density is more complicated to calculate outside of the uniformity sphere. The same problem is present in our magnetic test bench because the flux density and gradient are not constant. To calculate forces accurately, it is necessary to compute the magnetic field precisely. A semi-analytical method was used to calculate the field produced in all space by a solenoid assembly. It was tested on our magnetic test bench.\par
 According to \cite{simpson2001simple}, the magnetic flux density produced by a current loop in all space can be calculated using equations \cref{Bz1loop,Bteta1loop,delta,beta,single_loop_geometry}. $E(k)$ and $K(k)$ are the complete elliptical integrals of first and second kind respectively.
-\begin{equation}
-B_z=\frac{\mu _0I}{2\pi\delta ^{2}\beta  }\left [ \left ( a^2-\rho ^2-z^2 \right )(E(k^2)+\delta ^2K(k^2)) \right ] 
-\label{Bz1loop}
-\end{equation}
-\begin{equation}
-B_\theta=\frac{\mu _0 I \cdot z}{2\pi\delta ^{2}\beta\rho   }\left [ \left ( a^2-\rho ^2-z^2 \right )(E(k^2)-\delta ^2K(k^2)) \right ]
-\label{Bteta1loop}
-\end{equation}
-\begin{equation}
-\delta =\sqrt{a^2+R_m^2+Z_m^2-2aR_m}
-\label{delta}
-\end{equation}
-\begin{equation}
-\beta =\sqrt{a^2+R_m^2+Z_m^2+2aR_m}
+\begin{align}
+B_z &=\frac{\mu _0I}{2\pi\delta ^{2}\beta  }\left [ \left ( a^2-\rho ^2-z^2 \right )(E(k^2)+\delta ^2K(k^2)) \right ] 
+\label{Bz1loop}\\
+B_\theta &=\frac{\mu _0 I \cdot z}{2\pi\delta ^{2}\beta\rho   }\left [ \left ( a^2-\rho ^2-z^2 \right )(E(k^2)-\delta ^2K(k^2)) \right ]
+\label{Bteta1loop}\\
+\delta &=\sqrt{a^2+R_m^2+Z_m^2-2aR_m}
+\label{delta}\\
+\beta &=\sqrt{a^2+R_m^2+Z_m^2+2aR_m}
 \label{beta}
-\end{equation}
+\end{align}
 
 \begin{figure}\centering
   \includegraphics[width=.8\linewidth]{single_loop.pdf}
@@ -264,7 +248,7 @@ Once the magnetic moment $\mathbf{m}$ is obtained, the force on the sphere can b
 \subsubsection{Perfectly closed loop vs. open loop system}
 \label{clol}
 
-A numerical model was used to simulate the system dynamics for different input gradients. Average impact velocities over impacts 100 to 1,000 were compared for a perfectly closed loop pulsed input, and open loop inputs with sinusoidal and square profiles. As seen in figure \ref{CLvsOL}, closed loop control produces approximately three times greater average impact velocity as compared to open loop sinusoidal and square waves, over all frequencies. As with the analytical model in Section II-A, the simulation assumes that the robot capsule does not translate along its axis. While the absolute values of impact velocity and force will be different when the capsule is free to move, the closed-loop input can still be expected to produce higher forces than open-loop inputs. Further, for a given open-loop frequency, the variation of impact velocity over multiple contacts was found to be random for both square and sinusoidal inputs. It is not possible to reach the resonant state using a constant frequency input of any form. For a given set of input parameters, there exists only one path, or control input, that enables the system to reach a resonant state. 
+A numerical model was used to simulate the system dynamics for different input gradients. Average impact velocities over impacts 100 to 1,100 were compared for a perfectly closed loop pulsed input, and open loop inputs with sinusoidal and square profiles. As seen in figure \ref{CLvsOL}, closed loop control produces approximately three times greater average impact velocity as compared to open loop sinusoidal and square waves, over all frequencies. As with the analytical model in Section II-A, the simulation assumes that the robot capsule does not translate along its axis. While the absolute values of impact velocity and force will be different when the capsule is free to move, the closed-loop input can still be expected to produce higher forces than open-loop inputs. Further, for a given open-loop frequency, the variation of impact velocity over multiple contacts was found to be random for both square and sinusoidal inputs. It is not possible to reach the resonant state using a constant frequency input of any form. For a given set of input parameters, there exists only one path, or control input, that enables the system to reach a resonant state. 
 \begin{figure}
 	\includegraphics[width=\linewidth]{Tswitchcases.pdf}
 	\caption{Six domains for spring-end switching time; green and red represent $F_{mag}$ towards anterior and posterior respectively. Direction of colored arrow represents direction of ball motion.}
@@ -282,7 +266,7 @@ Simulations were done for the partially closed loop system to identify effects o
 
 \begin{figure}
 	\includegraphics[width=\linewidth]{deltVsts_differentVop.pdf}
-	\caption[Variation of time between impacts with switching time for partially closed-loop control]{Plot of $\Delta t$ vs. $t_s$ for different values of $v_{o^+}$.}
+	\caption[Variation of time between impacts with switching time for partially closed-loop control]{Plot of $\Delta t_{imp}$ vs. $t_s$ for different values of $v_{o^+}$.}
 	\label{delTvsTs}
 \end{figure}
 
@@ -358,7 +342,7 @@ Number of turns    & 265                       & \begin{tabular}[c]{@{}l@{}}Grad
 
 \subsection{Partially closed loop experiment}
 
-A system to record the impact velocity of the sphere as well as the driving period of the magnetic hammer was built. A schematic representation and a picture are shown in fig. \ref{laser_system}. The main body of the system is a 3d printed tube with thick walls. The magnetic sphere is placed inside the tube and an impact rod and a spring are placed on the anterior and posterior sides respectively. This constitutes the magnetic hammer system. A laser and a light sensor are placed radially on the tube. A radial hole in the tube allow the passage of the laser beam. The laser is diametrically opposed to the light sensor. The thick walls of the tube permit the encapsulation of the laser and the sensor with epoxy resin.\par
+A system to record the impact velocity of the sphere as well as the driving period of the magnetic hammer was built. A schematic representation and a picture are shown in fig. \ref{laser_system}. The main body of the system is a 3d printed tube with thick walls. The magnetic sphere is placed inside the tube and an impact rod and a spring are placed on the anterior and posterior sides respectively. This constitutes the magnetic hammer system. A laser and a diametrically opposed light sensor are placed radially on the tube, with radial holes in the tube for the laser beam to passes through. The thick walls of the tube permit the encapsulation of the laser and the sensor with epoxy resin.\par
 
 \begin{figure}
     \centering
@@ -367,7 +351,7 @@ A system to record the impact velocity of the sphere as well as the driving peri
   \label{laser_system}
 \end{figure}
 
-When moving, the sphere interrupts the laser beam during a time $t_i$ inversely proportional to the velocity. By measuring $t_i$ one can calculate the average velocity $V$ of the sphere with $V=2\cdot Rs/t_i$. The laser beam was positioned on the anterior side of the robot. A sufficient length $L_f$ was however kept between the impact rod and the laser beam to allow the sphere to not interrupt the beam interruption when touching the impact rod. This positioning allows recording the velocity of the sphere just before the impact which we will consider as being equal to the impact velocity. The acquisition of the data is automatic and performed via a National Instrument cRIO real-time controller. The controller was programmed using LabVIEW.\par 
+When moving, the sphere interrupts the laser beam during a time $t_i$ inversely proportional to the velocity. By measuring $t_i$ one can calculate the average velocity $V$ of the sphere with $V=2\cdot Rs/t_i$. The laser beam was positioned on the anterior side of the robot, mounted distance $L_f$ from the impact rod to allow the sphere to not interrupt the beam when the sphere touches the impact rod. This positioning enables computing the velocity of the sphere just before the impact which we will consider as being equal to the impact velocity. The acquisition of the data is automatic and performed via a National Instrument cRIO real-time controller. The controller was programmed using LabVIEW.\par 
 The cRIO is used at the same time to control the magnetic hammer. The partially closed loop method is used. Square shaped current waveform drive the coils. The current in the coils can either be $I_{max}$ or 0 A. The coil will be said to be ``on'' when $I=I_{max}$ and ``off'' when $I=0$ A. A microphone is used to monitor the noise produced by the system. The impact creates a large pulsed signal on the microphone output that can be easily detected. When the impact is detected, the anterior coil is turned off while the posterior coil is turned on. The force applied to the sphere pushes it toward the posterior side. The current stays constant during a time $t_s$ after the impact is detected. The anterior coil is subsequently turned on, and the posterior coil is turned off. The force then pushes the sphere forward. The current in the coils is changed again when another impact is detected. This process is repeated indefinitely.\par
 
 
@@ -401,7 +385,7 @@ The MRI signal could be used to compute the position of the magnetic sphere at a
 
 An iterative design process was used to achieve tissue penetration using the magnetic test bench. Seven millirobots were built and tested, varying the tip shape and composition, the tube length, the spring, and the sphere material. \par
 Our observations of the penetration experiments concluded that sharp blades placed on the tip of the millirobot allow for an easier tissue penetration. The blades are placed much like on a hunting arrow tip, and create a fissure in the tissue which allow the movement of the capsule inside the sample. The blades used in our experiments were made of Titanium which a bio-compatible and non-magnetic metal.\par
-Our observations also showed that, when the sphere compresses the spring, the capsule tends to move backward. This effect releases the pressure exerted by the millirobot tip on the tissue and therefore makes the impact less efficient at penetrating the sample. This issue was solved by using a porcupine needle placed in front of millirobot, at the center of the blades. Porcupine needles are covered with microscopic backward facing barbs. These prevents the needle from being pulled off a tissue once penetrated. Natural porcupine needles cannot be sanitized and so cannot be used in an in-vivo medical intervention. However, synthetic porcupine needles can be built \cite{cho2012microstructured}.\par
+Our observations also showed that, when the sphere compresses the spring, the capsule tends to move backward. This effect releases the pressure exerted by the millirobot tip on the tissue and therefore makes the impact less efficient at penetrating the sample. This issue was solved by using a porcupine needle placed in front of millirobot, at the center of the blades. Porcupine needles are covered with microscopic backward facing barbs. These barbs prevent the needle from being pulled off a tissue once penetrated. Natural porcupine needles cannot be sanitized and so cannot be used in an in-vivo medical intervention. However, synthetic porcupine needles can be built \cite{cho2012microstructured}.\par
 
 \begin{figure}
 	\centering
@@ -432,7 +416,7 @@ The main field magnetizes the sphere and the gradient produces the forces necess
  The rotation of the sphere is also calculated, allowing an accurate calculation of the drag produced by the sliding of the sphere inside the tube.\par
 The coefficients of restitution ($e$) depends on the materials of the colliding objects but also on their shape and sizes. 
 Values of $e$ were experimentally measured. 
-These measurements showed that Titanium impact plates exhibit large values of $e$. 
+These measurements showed that titanium impact plates exhibit large values of $e$. 
 This material also has the advantage of being lightweight, a useful property to achieve neutral buoyancy of millirobots, and is a bio-compatible material.\par
 A magnetic test bench was built to reduce experimental cost related to the use of a clinical MRI scanner. 
 A magnetic hammer was tested with a partially closed loop control. 
