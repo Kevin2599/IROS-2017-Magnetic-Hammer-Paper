@@ -10,3 +10,7 @@
 *.log
 
 *.aux
+
+*.log
+
+*.blg
