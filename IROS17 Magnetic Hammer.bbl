@@ -40,7 +40,7 @@ Sylvain Martel, Jean-Baptiste Mathieu, Ouajdi Felfoul, Arnaud Chanu, Eric
 
 \bibitem{7139341}
 A.~T. Becker, O.~Felfoul, and P.~E. Dupont.
-\newblock Toward tissue penetration by mri-powered millirobots using a
+\newblock Toward tissue penetration by {MRI}-powered millirobots using a
   self-assembled gauss gun.
 \newblock In {\em 2015 IEEE International Conference on Robotics and Automation
   (ICRA)}, pages 1184--1189, May 2015.
@@ -63,7 +63,7 @@ Finite Element~Method Magnetics.
 
 \bibitem{578}
 Ouajdi Felfoul, Aaron~T Becker, Georgios Fagogenis, and Pierre~E Dupont.
-\newblock Simultaneous steering and imaging of magnetic particles using mri
+\newblock Simultaneous steering and imaging of magnetic particles using {MRI}
   toward delivery of therapeutics.
 \newblock {\em Scientific Reports}, 6, 2016.
 
