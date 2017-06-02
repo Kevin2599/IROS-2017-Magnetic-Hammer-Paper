@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.10)  1 JUN 2017 17:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.10)  2 JUN 2017 15:51
 entering extended mode
 **"./IROS17 Magnetic Hammer.tex"
 ("IROS17 Magnetic Hammer.tex"
@@ -221,18 +221,18 @@ LaTeX Warning: Label `magfield@cref' multiply defined.
 )
 \openout1 = `"IROS17 Magnetic Hammer.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
  (C:\Users\jleclerc\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count108
@@ -288,7 +288,7 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 48.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 49.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
@@ -296,21 +296,21 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 File: ./pictures/figure1-2.png Graphic file (type png)
 
 <use ./pictures/figure1-2.png>
-Package pdftex.def Info: ./pictures/figure1-2.png used on input line 94.
+Package pdftex.def Info: ./pictures/figure1-2.png used on input line 95.
 (pdftex.def)             Requested size: 245.71811pt x 133.7471pt.
  <./pictures/robots_prototypes.jpg, id=3, 1949.48325pt x 1694.12926pt>
 File: ./pictures/robots_prototypes.jpg Graphic file (type jpg)
 
 <use ./pictures/robots_prototypes.jpg>
-Package pdftex.def Info: ./pictures/robots_prototypes.jpg used on input line 101.
+Package pdftex.def Info: ./pictures/robots_prototypes.jpg used on input line 102.
 (pdftex.def)             Requested size: 245.71811pt x 213.52345pt.
  [1{C:/Users/jleclerc/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
- <./pictures/figure1-2.png>] <./pictures/FBD_R1.pdf, id=15, 289.12735pt x 220.93025pt>
+ <./pictures/figure1-2.png>] <./pictures/FBD_R1.pdf, id=16, 289.12735pt x 220.93025pt>
 File: ./pictures/FBD_R1.pdf Graphic file (type pdf)
  <use ./pictures/FBD_R1.pdf>
-Package pdftex.def Info: ./pictures/FBD_R1.pdf used on input line 115.
+Package pdftex.def Info: ./pictures/FBD_R1.pdf used on input line 116.
 (pdftex.def)             Requested size: 245.71811pt x 187.75787pt.
 Package epstopdf Info: Source file: <./pictures/Closedloop_Impact_velocity.eps>
 (epstopdf)                    date: 2017-05-31 15:45:23
@@ -320,40 +320,40 @@ Package epstopdf Info: Source file: <./pictures/Closedloop_Impact_velocity.eps>
 (epstopdf)                    size: 11028 bytes
 (epstopdf)             Command: <epstopdf --outfile=./pictures/Closedloop_Impact_velocity-eps-converted-to.pdf ./picture
 s/Closedloop_Impact_velocity.eps>
-(epstopdf)             \includegraphics on input line 128.
+(epstopdf)             \includegraphics on input line 129.
 Package epstopdf Info: Output file is already uptodate.
 
-<./pictures/Closedloop_Impact_velocity-eps-converted-to.pdf, id=16, 841.1425pt x 403.5075pt>
+<./pictures/Closedloop_Impact_velocity-eps-converted-to.pdf, id=17, 841.1425pt x 403.5075pt>
 File: ./pictures/Closedloop_Impact_velocity-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./pictures/Closedloop_Impact_velocity-eps-converted-to.pdf>
-Package pdftex.def Info: ./pictures/Closedloop_Impact_velocity-eps-converted-to.pdf used on input line 128.
+Package pdftex.def Info: ./pictures/Closedloop_Impact_velocity-eps-converted-to.pdf used on input line 129.
 (pdftex.def)             Requested size: 245.71811pt x 117.87616pt.
  [2 <./pictures/robots_prototypes.jpg> <./pictures/FBD_R1.pdf> <./pictures/Closedloop_Impact_velocity-eps-converted-to.p
 df>]
 <./pictures/single_loop.pdf, id=200, 548.0475pt x 406.51875pt>
 File: ./pictures/single_loop.pdf Graphic file (type pdf)
  <use ./pictures/single_loop.pdf>
-Package pdftex.def Info: ./pictures/single_loop.pdf used on input line 222.
+Package pdftex.def Info: ./pictures/single_loop.pdf used on input line 225.
 (pdftex.def)             Requested size: 196.57523pt x 145.81317pt.
  [3 <./pictures/single_loop.pdf>] <./pictures/Femm_matlab_comparison.png, id=216, 722.7pt x 542.025pt>
 File: ./pictures/Femm_matlab_comparison.png Graphic file (type png)
 
 <use ./pictures/Femm_matlab_comparison.png>
-Package pdftex.def Info: ./pictures/Femm_matlab_comparison.png used on input line 231.
+Package pdftex.def Info: ./pictures/Femm_matlab_comparison.png used on input line 234.
 (pdftex.def)             Requested size: 245.71811pt x 184.28606pt.
 
 <./pictures/ComparisonOfControlInputs.pdf, id=217, 817.50781pt x 442.91158pt>
 File: ./pictures/ComparisonOfControlInputs.pdf Graphic file (type pdf)
 
 <use ./pictures/ComparisonOfControlInputs.pdf>
-Package pdftex.def Info: ./pictures/ComparisonOfControlInputs.pdf used on input line 243.
+Package pdftex.def Info: ./pictures/ComparisonOfControlInputs.pdf used on input line 246.
 (pdftex.def)             Requested size: 245.71811pt x 133.12454pt.
  <./pictures/Tswitchcases.pdf, id=218, 705.09015pt x 411.82253pt>
 File: ./pictures/Tswitchcases.pdf Graphic file (type pdf)
 
 <use ./pictures/Tswitchcases.pdf>
-Package pdftex.def Info: ./pictures/Tswitchcases.pdf used on input line 266.
+Package pdftex.def Info: ./pictures/Tswitchcases.pdf used on input line 269.
 (pdftex.def)             Requested size: 245.71811pt x 143.51793pt.
  [4 <./pictures/Femm_matlab_comparison.png> <./pictures/ComparisonOfControlInputs.pdf> <./pictures/Tswitchcases.pdf
 
@@ -362,20 +362,20 @@ n a single page
 >] <./pictures/deltVsts_differentVop.pdf, id=741, 1358.07375pt x 823.075pt>
 File: ./pictures/deltVsts_differentVop.pdf Graphic file (type pdf)
  <use ./pictures/deltVsts_differentVop.pdf>
-Package pdftex.def Info: ./pictures/deltVsts_differentVop.pdf used on input line 281.
+Package pdftex.def Info: ./pictures/deltVsts_differentVop.pdf used on input line 284.
 (pdftex.def)             Requested size: 245.71811pt x 148.91321pt.
 
 <./pictures/FrictionForceWithClosedLoopValues.pdf, id=742, 813.15587pt x 462.1302pt>
 File: ./pictures/FrictionForceWithClosedLoopValues.pdf Graphic file (type pdf)
 
 <use ./pictures/FrictionForceWithClosedLoopValues.pdf>
-Package pdftex.def Info: ./pictures/FrictionForceWithClosedLoopValues.pdf used on input line 290.
+Package pdftex.def Info: ./pictures/FrictionForceWithClosedLoopValues.pdf used on input line 293.
 (pdftex.def)             Requested size: 245.71811pt x 139.64145pt.
 
 <./pictures/CoR_setup_data.pdf, id=743, 711.32234pt x 517.25148pt>
 File: ./pictures/CoR_setup_data.pdf Graphic file (type pdf)
  <use ./pictures/CoR_setup_data.pdf>
-Package pdftex.def Info: ./pictures/CoR_setup_data.pdf used on input line 305.
+Package pdftex.def Info: ./pictures/CoR_setup_data.pdf used on input line 308.
 (pdftex.def)             Requested size: 245.71811pt x 178.67294pt.
  [5 <./pictures/deltVsts_differentVop.pdf> <./pictures/FrictionForceWithClosedLoopValues.pdf
 
@@ -384,34 +384,34 @@ page group included in a single page
 >] <./pictures/Magnetic_test_bench.jpg, id=797, 1556.214pt x 1265.32726pt>
 File: ./pictures/Magnetic_test_bench.jpg Graphic file (type jpg)
  <use ./pictures/Magnetic_test_bench.jpg>
-Package pdftex.def Info: ./pictures/Magnetic_test_bench.jpg used on input line 335.
+Package pdftex.def Info: ./pictures/Magnetic_test_bench.jpg used on input line 338.
 (pdftex.def)             Requested size: 245.71811pt x 199.77278pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 340.
+               Default added (so using `tbp') on input line 343.
 
 
-Overfull \hbox (10.21516pt too wide) in paragraph at lines 344--353
+Overfull \hbox (10.21516pt too wide) in paragraph at lines 347--356
  [][] 
  []
 
 <./pictures/laser_system.png, id=798, 373.395pt x 361.35pt>
 File: ./pictures/laser_system.png Graphic file (type png)
  <use ./pictures/laser_system.png>
-Package pdftex.def Info: ./pictures/laser_system.png used on input line 362.
+Package pdftex.def Info: ./pictures/laser_system.png used on input line 365.
 (pdftex.def)             Requested size: 100.0pt x 96.77182pt.
  [6 <./pictures/CoR_setup_data.pdf> <./pictures/Magnetic_test_bench.jpg> <./pictures/laser_system.png>]
 <./pictures/tests_in_MRI.png, id=957, 222.8325pt x 206.57175pt>
 File: ./pictures/tests_in_MRI.png Graphic file (type png)
  <use ./pictures/tests_in_MRI.png>
-Package pdftex.def Info: ./pictures/tests_in_MRI.png used on input line 392.
+Package pdftex.def Info: ./pictures/tests_in_MRI.png used on input line 395.
 (pdftex.def)             Requested size: 150.0pt x 139.05481pt.
 
 <./pictures/brain_penetration.png, id=958, 326.4195pt x 410.13225pt>
 File: ./pictures/brain_penetration.png Graphic file (type png)
  <use ./pictures/brain_penetration.png>
-Package pdftex.def Info: ./pictures/brain_penetration.png used on input line 405.
+Package pdftex.def Info: ./pictures/brain_penetration.png used on input line 408.
 (pdftex.def)             Requested size: 190.0pt x 238.73422pt.
  [7 <./pictures/tests_in_MRI.png> <./pictures/brain_penetration.png>] ("IROS17 Magnetic Hammer.bbl"
 Missing character: There is no â in font ptmr7t!
@@ -456,7 +456,7 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2
 :/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr
 i8a.pfb>
-Output written on "IROS17 Magnetic Hammer.pdf" (8 pages, 7510039 bytes).
+Output written on "IROS17 Magnetic Hammer.pdf" (8 pages, 7510097 bytes).
 PDF statistics:
  1036 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
