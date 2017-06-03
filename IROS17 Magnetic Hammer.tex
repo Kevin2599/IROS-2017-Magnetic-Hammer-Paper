@@ -193,7 +193,7 @@ k_z I_z
 where $k_x$, $k_y$ and $k_z$ are the coil constants (T/A) and $I_x$, $I_y$ and $I_z$ are the electrical current values.\par
 
 The flux density is more complicated to calculate outside of the uniformity sphere. The same problem is present in our magnetic test bench because the flux density and gradient are not constant. To calculate forces accurately, it is necessary to compute the magnetic field precisely. A semi-analytical method was used to calculate the field produced in all space by a solenoid assembly. It was tested on our magnetic test bench.\par
-According to \cite{simpson2001simple}, the magnetic flux density produced by a current loop in all space can be calculated using equations \cref{Bz1loop,Bteta1loop,delta,beta,single_loop_geometry}. $E(k)$ and $K(k)$ are the complete elliptical integrals of first and second kind respectively.
+According to \cite{simpson2001simple}, the magnetic flux density produced by a current loop in all space can be calculated using equations \cref{Bz1loop,Bteta1loop,delta,beta,single_loop_geometry}. The authors obtained these results by calculating the curl of the magnetic vector potential using the software \textit{Mathematica}.  $E(k)$ and $K(k)$ are the complete elliptical integrals of first and second kind respectively.
 \begin{align}
 B_z &=\frac{\mu _0I}{2\pi\delta ^{2}\beta  }\left [ \left ( a^2-\rho ^2-z^2 \right )(E(k^2)+\delta ^2K(k^2)) \right ] 
 \label{Bz1loop}\\
@@ -346,7 +346,7 @@ A system to record the impact velocity of the sphere as well as the driving peri
 
 \begin{figure}
     \centering
-  \includegraphics[width=100pt]{laser_system.png}
+  \includegraphics[width=150pt]{laser_system.png}
   \caption{Schematic representation of the system using a laser and a light sensor to measure the sphere velocity}
   \label{laser_system}
 \end{figure}
@@ -401,12 +401,8 @@ Our observations also showed that, when the sphere compresses the spring, the ca
   \label{brain_penetration}
 \end{figure}
 
-Fig. \ref{brain_penetration} show frames of a video from a representative penetration test. A video attached to this paper show this test. We performed a series of four successful penetration tests with no failures with our final millirobot design. 
-The tissue sample used in these experiments was a 10 mm thick lamb brain slice. As shown in the attached video, it was placed in a sample holder made with two acrylic sheets, one on each side. Two holes in the sample holder allow the millirobot to access and cross the tissue. The millirobot used in this experiment has a diameter of 7.5 mm. It uses three titanium blades, a porcupine needle, and a titanium impact rod. The sphere is a NdFeB permanent magnet with a 6.35 mm diameter. The spring has a free legnth of 10 mm and a constant of 35 N/m. The free length of sphere travel is 15 mm. The flux density applied by the coils had a maximum value of 40 mT and a maximum gradient of 545 mT/m. The control was performed with the partially closed loop method presented in Section \ref{pcl}.\par
-This prototype successfully penetrated the tissue sample in an average time of 236 s. These tests prove the capability of the magnetic hammer system to penetrate biological tissue.
-
-
-
+Fig. \ref{brain_penetration} show frames of a video from a representative penetration test. A video attached to this paper show this test. The tissue sample used in these experiments were 10 mm thick lamb brain slice. As shown in the attached video, it was placed in a sample holder made with two acrylic sheets, one on each side. Two holes in the sample holder allow the millirobot to access and cross the tissue. The millirobot used in this experiment has a diameter of 7.5 mm. It uses three titanium blades, a porcupine needle, and a titanium impact rod. The sphere is a NdFeB permanent magnet with a 6.35 mm diameter. The spring has a free legnth of 10 mm and a constant of 35 N/m. The free length of sphere travel is 15 mm. The flux density applied by the coils had a maximum value of 40 mT and a maximum gradient of 545 mT/m. The control was performed with the partially closed loop method presented in Section \ref{pcl}.\par
+We performed a series of four successful penetration tests with no failures with our final millirobot design. The first three samples were perforated in 225, 252 and 230 seconds. It took 20 minutes for the millrobot to perforate the fourth sample because it included the pia matter.These tests prove the capability of the magnetic hammer system to penetrate biological tissue.
 
 \section{CONCLUSIONS}
 \label{conclusion}
