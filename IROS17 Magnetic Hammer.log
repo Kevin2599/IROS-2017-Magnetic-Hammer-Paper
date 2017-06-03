@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.10)  3 JUN 2017 17:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.10)  3 JUN 2017 17:57
 entering extended mode
 **"./IROS17 Magnetic Hammer.tex"
 ("IROS17 Magnetic Hammer.tex"
@@ -412,22 +412,26 @@ File: ./pictures/laser_exp.png Graphic file (type png)
 Package pdftex.def Info: ./pictures/laser_exp.png used on input line 358.
 (pdftex.def)             Requested size: 245.71811pt x 245.9284pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 <./pictures/tests_in_MRI.png, id=958, 222.8325pt x 206.57175pt>
 File: ./pictures/tests_in_MRI.png Graphic file (type png)
  <use ./pictures/tests_in_MRI.png>
-Package pdftex.def Info: ./pictures/tests_in_MRI.png used on input line 385.
+Package pdftex.def Info: ./pictures/tests_in_MRI.png used on input line 386.
 (pdftex.def)             Requested size: 150.0pt x 139.05481pt.
-
-<./pictures/brain_penetration.png, id=959, 326.4195pt x 410.13225pt>
+ [7 <./pictures/laser_exp.png> <./pictures/tests_in_MRI.png>] <./pictures/brain_penetration.png, id=964, 326.4195pt x 41
+0.13225pt>
 File: ./pictures/brain_penetration.png Graphic file (type png)
- <use ./pictures/brain_penetration.png>
-Package pdftex.def Info: ./pictures/brain_penetration.png used on input line 398.
+
+<use ./pictures/brain_penetration.png>
+Package pdftex.def Info: ./pictures/brain_penetration.png used on input line 399.
 (pdftex.def)             Requested size: 190.0pt x 238.73422pt.
- [7 <./pictures/laser_exp.png> <./pictures/tests_in_MRI.png>] ("IROS17 Magnetic Hammer.bbl"
+ ("IROS17 Magnetic Hammer.bbl" [8 <./pictures/brain_penetration.png>]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
- [8 <./pictures/brain_penetration.png>])
+)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -439,9 +443,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the US letter (8.5in X 11in) paper size.
 
-[9
-
-] ("IROS17 Magnetic Hammer.aux")
+[9] ("IROS17 Magnetic Hammer.aux")
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -468,7 +470,7 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2
 :/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr
 i8a.pfb>
-Output written on "IROS17 Magnetic Hammer.pdf" (9 pages, 7579215 bytes).
+Output written on "IROS17 Magnetic Hammer.pdf" (9 pages, 7581149 bytes).
 PDF statistics:
  1040 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
