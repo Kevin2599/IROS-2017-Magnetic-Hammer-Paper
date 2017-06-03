@@ -354,6 +354,12 @@ A system to record the impact velocity of the sphere as well as the driving peri
 When moving, the sphere interrupts the laser beam during a time $t_i$ inversely proportional to the velocity. By measuring $t_i$ one can calculate the average velocity $V$ of the sphere with $V=2\cdot Rs/t_i$. The laser beam was positioned on the anterior side of the robot, mounted distance $L_f$ from the impact rod to allow the sphere to not interrupt the beam when the sphere touches the impact rod. This positioning enables computing the velocity of the sphere just before the impact which we will consider as being equal to the impact velocity. The acquisition of the data is automatic and performed via a National Instrument cRIO real-time controller. The controller was programmed using LabVIEW.\par 
 The cRIO is used at the same time to control the magnetic hammer. The partially closed loop method is used. Square shaped current waveform drive the coils. The current in the coils can either be $I_{max}$ or 0 A. The coil will be said to be ``on'' when $I=I_{max}$ and ``off'' when $I=0$ A. A microphone is used to monitor the noise produced by the system. The impact creates a large pulsed signal on the microphone output that can be easily detected. When the impact is detected, the anterior coil is turned off while the posterior coil is turned on. The force applied to the sphere pushes it toward the posterior side. The current stays constant during a time $t_s$ after the impact is detected. The anterior coil is subsequently turned on, and the posterior coil is turned off. The force then pushes the sphere forward. The current in the coils is changed again when another impact is detected. This process is repeated indefinitely.\par
 
+\begin{figure}
+  \includegraphics[width=\linewidth]{laser_exp.png}
+  \caption{Experimental results obtained with the laser-based sensor.}
+  \label{laser_exp}
+\end{figure}
+
 
 \section{Preliminary tests in clinical mri}
 \label{MRI_tests}

@@ -1,49 +1,6 @@
-This is BibTeX, Version 0.99d (TeX Live 2015)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: IROS17 Magnetic Hammer.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: IROS17 Magnetic Hammer.aux
 The style file: unsrt.bst
 Database file #1: biblio.bib
 Warning--empty journal in femm
 Warning--empty year in femm
-You've used 12 entries,
-            1791 wiz_defined-function locations,
-            527 strings with 6300 characters,
-and the built_in function-call counts, 3096 in all, are:
-= -- 250
-> -- 180
-< -- 1
-+ -- 65
-- -- 53
-* -- 250
-:= -- 512
-add.period$ -- 35
-call.type$ -- 12
-change.case$ -- 11
-chr.to.int$ -- 0
-cite$ -- 14
-duplicate$ -- 120
-empty$ -- 278
-format.name$ -- 53
-if$ -- 662
-int.to.chr$ -- 0
-int.to.str$ -- 12
-missing$ -- 13
-newline$ -- 62
-num.names$ -- 12
-pop$ -- 30
-preamble$ -- 1
-purify$ -- 0
-quote$ -- 0
-skip$ -- 52
-stack$ -- 0
-substring$ -- 224
-swap$ -- 23
-text.length$ -- 1
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
-warning$ -- 2
-while$ -- 26
-width$ -- 14
-write$ -- 128
 (There were 2 warnings)
