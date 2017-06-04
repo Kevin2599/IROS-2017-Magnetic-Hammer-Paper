@@ -93,8 +93,8 @@ A magnetic test bench has been developed to make experimental tests more practic
 The paper studies three control strategies. The open-loop control switches the magnetic gradient direction at constant frequency. It is completely independent of the sphere position and uses no feedback. The partially closed-loop control detects the impact of the sphere and switches the magnetic gradient direction as soon as the impact is detected. The original gradient direction is reapplied after a constant time $t_s$. The perfectly closed-loop control assumes a theoretical sensor able to measure the position of the sphere at any time. It is capable of detecting the impact of the sphere as well as the change of direction on the posterior side. The controller is therefore able to change the direction of the gradient when the impact is detected and when the change of direction on the posterior side is detected.\par
 
 
-\begin{figure}
-  \includegraphics[width=\linewidth]{figure1-2.png}
+\begin{figure}\centering
+  \includegraphics[width=220pt]{figure1-2.png}
   \caption{Schematic representation of a millirobot actuated by a magnetic hammer.}
   \label{millirobot}
   \vspace{-2em}
@@ -102,7 +102,7 @@ The paper studies three control strategies. The open-loop control switches the m
 
 \begin{figure}
 \begin{centering}
-  \includegraphics[width=160pt]{robots_prototypes.jpg}
+  \includegraphics[width=120pt]{robots_prototypes.jpg}
   \caption{Picture of 3 millirobot prototypes actuated by a magnetic hammer.}
   \label{prototypes}
   %\vspace{-2em}
@@ -118,7 +118,7 @@ The paper is organized as follows: first, the system is mathematically modeled, 
 The motion of the sphere between two consecutive impacts can be divided into two  phases, based on the forces that act on it. The magnetic gradient force $F_{\textrm{mag}}$ and friction force $F_{\textrm{friction}}$ act on the sphere during its motion along the free length of the tube, $L$ (see Fig. \ref{FBD} (i),(iii)). When the spring is compressed, its reaction force $F_{\textrm{spring}}$ acts on the ball as well (see Fig. \ref{FBD} (ii)). The directions of $F_{\textrm{mag}}$ and $F_{\textrm{friction}}$  change depending on the direction of motion of the sphere. 
 \begin{figure}
 	\begin{centering}
-	\includegraphics[width=180pt]{FBD_R1.pdf}
+	\includegraphics[width=150pt]{FBD_R1.pdf}
 	\caption{(i) Free length of sphere travel, $L$; (ii) free body diagram of sphere when spring is compressed, (iii) when spring is not compressed.}
 	\label{FBD}
 	\end{centering}
@@ -168,17 +168,17 @@ x_{cs}&=\frac{\sqrt{e^2 k m_s v_{\text{res}}^2+2 k L F_{\text{mag}}+F_{\text{mag
 \end{align}
 %\end{left}
 \begin{figure}\centering
-	\includegraphics[width=150pt]{single_loop.png}
+	\includegraphics[width=140pt]{single_loop.png}
 	\caption{Geometry and variables used in equation \cref{Bz1loop,Bteta1loop,delta,beta}}
 	\label{single_loop_geometry}
-	\vspace{-0.5em}
+	\vspace{-1em}
 \end{figure}
 
-\begin{figure}
-	\includegraphics[width=\linewidth]{Femm_matlab_comparison.png}
+\begin{figure}\centering
+	\includegraphics[width=220pt]{Femm_matlab_comparison.png}
 	\caption{Comparison between the flux density computed with the semi-analytical method with {\sc Matlab} and the flux density computed via a finite element method with FEMM. The maximum difference is 0.8 \%.}
 	\label{Femm_matlab_comparison}
-	\vspace{-2em}
+	\vspace{-1.9em}
 \end{figure}
 
 In the above equations, $\omega$ represents the natural frequency of the spring-mass system. The value of $x_{cs}$ can be used to select an appropriate free length for the spring, to ensure that it does not bottom out during compression. 
@@ -236,6 +236,7 @@ The ferromagnetic sphere is small compared to the coil system and can be conside
 $V$ is the volume of the sphere.
 The ferromagnetic sphere is magnetized by the externally applied field $\mathbf{H}_{app}=\mathbf{B}_{app}/\mu_0$. Ferromagnetic materials create a demagnetizing field $\mathbf{H}_d$ when subjected to an external field. The actual field $\mathbf{H}$ seen by the sphere is the sum of $\mathbf{H}_{app}$ and $\mathbf{H}_d$. This effect must be taken into account to calculate the magnetization accurately. $\mathbf{H}_d$ is related to $\mathbf{H}_{app}$ by \cref{hd}. The demagnetization factor $N$ for a sphere is -1/3. Its magnetization can be calculated using \cref{mag2}.
 Once the magnetic moment $\mathbf{m}$ is obtained, the force on the sphere can be calculated using \cref{force}.
+\vspace{-2em}
 
 \begin{align}
 \mathbf{m}&=\mathbf{M}\cdot V \label{mag}\\
@@ -352,6 +353,7 @@ A system to record the impact velocity of the sphere as well as the driving peri
   \includegraphics[width=120pt]{laser_system.png}
   \caption{Schematic representation of the system using a laser and a light sensor to measure the sphere velocity}
   \label{laser_system}
+	\vspace{-2em}
 \end{figure}
 
 When moving, the sphere interrupts the laser beam during a time $t_i$ inversely proportional to the velocity. By measuring $t_i$ one can calculate the average velocity $V$ of the sphere with $V=2\cdot r_s/t_i$. The laser beam was positioned on the anterior side of the capsule, mounted at a distance $L_f>2r_s$ from the impact rod to allow the sphere to not interrupt the beam when it touches the impact rod. This positioning enables computing the velocity of the sphere just before the impact which we will consider as being equal to the impact velocity. The acquisition of the data is automatic and performed via a National Instrument cRIO real-time controller. The controller was programmed using LabVIEW.\par 
@@ -392,7 +394,7 @@ The MRI signal could be used to compute the position of the magnetic sphere at a
   \includegraphics[width=120 pt]{tests_in_MRI.png}
   \caption{Picture of the magnetic hammer driven by an MRI scanner. The penetration test is realized on a lamb brain sample.}
   \label{MRI_test}
-	\vspace{-1em}
+	\vspace{-2em}
 \end{figure}
 
 \section{Tissue penetration experiment}
@@ -403,7 +405,7 @@ Our observations also showed that, when the sphere compresses the spring, the ca
 
 \begin{figure}
 	\centering
-  \includegraphics[width=170pt]{brain_penetration.png}
+  \includegraphics[width=150pt]{brain_penetration.png}
   \caption{Picture presenting the penetration of a millirobot prototype inside a lamb brain sample. The corresponding video is attached to this paper.}
   \label{brain_penetration}
 	\vspace{-2em}
