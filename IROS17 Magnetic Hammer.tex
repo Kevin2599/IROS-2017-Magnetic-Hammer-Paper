@@ -332,12 +332,12 @@ A picture of the system is provided in \cref{magnetic_setup}.
 \label{coil_table}
 \begin{tabular}{|l|l||l|l|}
 \hline
-Internal Radius    & 12.7 mm                   & Electrical resistance                                                                      & 0.16 $\Omega$       \\ \hline
-External Radius    & 45.8 mm                   & Inductance                                                                                 & 1.59 mH    \\ \hline
-Length             & 65 mm                     & \begin{tabular}[c]{@{}l@{}}Max current change rate \\ Voltage = 25 V\end{tabular}          & 15.7 kA/s \\ \hline
-Wire               & 10 AWG                    & Max continuous current                                                                 & 15 A       \\ \hline
-Wire cross-section & 5.26 mm$^2$ & \begin{tabular}[c]{@{}l@{}}Flux density on \\ system center\\ I = 15 A, $d$ = 50 mm\end{tabular} & 11 mT      \\ \hline
-Number of turns    & 265                       & \begin{tabular}[c]{@{}l@{}}Gradient on \\system center\\  I = 15 A, $d$ = 50 mm\end{tabular}    & 0.45 T/m   \\ \hline
+Internal Radius    & 140 mm                   & Electrical resistance                                                                      & 8.17 $\Omega$       \\ \hline
+External Radius    & 63 mm                   & Inductance                                                                                 & 113 mH    \\ \hline
+Length             & 60 mm                     & \begin{tabular}[c]{@{}l@{}}Max current change rate \\ Voltage = 25 V\end{tabular}          & 130 A/s \\ \hline
+Wire               & 18 AWG                    & Max continuous current                                                                 & 10 A       \\ \hline
+Wire cross-section & 0.823 mm$^2$ & \begin{tabular}[c]{@{}l@{}}Flux density on \\ system center\\ I = 10 A, $d$ = 50 mm\end{tabular} & 55 mT      \\ \hline
+Number of turns    & 265                       & \begin{tabular}[c]{@{}l@{}}Gradient on \\system center\\  I = 10 A, $d$ = 50 mm\end{tabular}    & 0.14 T/m   \\ \hline
 \end{tabular}
 \vspace{-1.5em}
 \end{table}
@@ -355,7 +355,7 @@ A system to record the impact velocity of the sphere as well as the driving peri
 \end{figure}
 
 When moving, the sphere interrupts the laser beam during a time $t_i$ inversely proportional to the velocity. By measuring $t_i$ one can calculate the average velocity $V$ of the sphere with $V=2\cdot r_s/t_i$. The laser beam was positioned on the anterior side of the capsule, mounted at a distance $L_f>2r_s$ from the impact rod to allow the sphere to not interrupt the beam when it touches the impact rod. This positioning enables computing the velocity of the sphere just before the impact which we will consider as being equal to the impact velocity. The acquisition of the data is automatic and performed via a National Instrument cRIO real-time controller. The controller was programmed using LabVIEW.\par 
-The cRIO is used at the same time to control the magnetic hammer. The partially closed-loop method is used. Square shaped current waveform drive the coils. The current in the coils can either be $I_{max}$ or 0 A. The coil will be said to be ``on'' when $I=I_{max}$ and ``off'' when $I=0$ A. A microphone is used to monitor the noise produced by the system. The impact creates a large pulsed signal on the microphone output that can be easily detected. When the impact is detected, the anterior coil is turned off while the posterior coil is turned on. The force applied to the sphere pushes it toward the posterior side. The current stays constant during a time $t_s$ after the impact is detected. The anterior coil is subsequently turned on, and the posterior coil is turned off. The force then pushes the sphere forward. The current in the coils is changed again when another impact is detected. This process is repeated indefinitely.\par
+The cRIO is used at the same time to control the magnetic hammer. The partially closed-loop method is used. Square shaped current waveform drive the coils. The current in the coils either either considered to be $I_{max}$ or 0 A. The time constant of the coils (13 ms) is small enough compared to $T_s$ to neglect the current transient. The coil will be said to be ``on'' when $I=I_{max}$ and ``off'' when $I=0$ A. A microphone is used to monitor the noise produced by the system. The impact creates a large pulsed signal on the microphone output that can be easily detected. When the impact is detected, the anterior coil is turned off while the posterior coil is turned on. The force applied to the sphere pushes it toward the posterior side. The current stays constant during a time $t_s$ after the impact is detected. The anterior coil is subsequently turned on, and the posterior coil is turned off. The force then pushes the sphere forward. The current in the coils is changed again when another impact is detected. This process is repeated indefinitely.\par
 
 \begin{figure}
   \includegraphics[width=\linewidth]{laser_exp.png}
