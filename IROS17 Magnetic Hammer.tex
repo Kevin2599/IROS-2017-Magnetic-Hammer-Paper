@@ -170,7 +170,7 @@ x_{cs}&=\frac{\sqrt{e^2 k m_s v_{\text{res}}^2+2 k L F_{\text{mag}}+F_{\text{mag
 \end{align}
 %\end{left}
 \begin{figure}\centering
-	\includegraphics[width=150pt]{single_loop.pdf}
+	\includegraphics[width=150pt]{single_loop.png}
 	\caption{Geometry and variables used in equation \cref{Bz1loop,Bteta1loop,delta,beta}}
 	\label{single_loop_geometry}
 	\vspace{-0.5em}
@@ -210,9 +210,9 @@ where $k_x$, $k_y$ and $k_z$ are the coil constants (T/A) and $I_x$, $I_y$ and $
 The flux density is more complicated to calculate outside of the uniformity sphere. The same problem is present in our magnetic test bench because the flux density and gradient are not constant. To calculate forces accurately, it is necessary to compute the magnetic field precisely. A semi-analytical method was used to calculate the field produced in all space by a solenoid assembly. It was tested on our magnetic test bench.\par
 According to \cite{simpson2001simple}, the magnetic flux density produced by a current loop in all space can be calculated using equations \cref{Bz1loop,Bteta1loop,delta,beta,single_loop_geometry}. The authors obtained these results by calculating the curl of the magnetic vector potential using the software \textit{Mathematica}.  $E(k)$ and $K(k)$ are the complete elliptical integrals of first and second kind respectively.
 \begin{align}
-B_z &=\frac{\mu _0I}{2\pi\delta ^{2}\beta  }\left [ \left ( a^2-\rho ^2-z^2 \right )(E(k^2)+\delta ^2K(k^2)) \right ] 
+B_z &=\frac{\mu _0I}{2\pi\delta ^{2}\beta  }\left [ \left ( a^2-R_m ^2-z^2 \right )(E(k^2)+\delta ^2K(k^2)) \right ] 
 \label{Bz1loop}\\
-B_\theta &=\frac{\mu _0 I \cdot z}{2\pi\delta ^{2}\beta\rho   }\left [ \left ( a^2-\rho ^2-z^2 \right )(E(k^2)-\delta ^2K(k^2)) \right ]
+B_\theta &=\frac{\mu _0 I \cdot z}{2\pi\delta ^{2}\beta R_m   }\left [ \left ( a^2-R_m ^2-z^2 \right )(E(k^2)-\delta ^2K(k^2)) \right ]
 \label{Bteta1loop}\\
 \delta &=\sqrt{a^2+R_m^2+Z_m^2-2aR_m}
 \label{delta}\\
