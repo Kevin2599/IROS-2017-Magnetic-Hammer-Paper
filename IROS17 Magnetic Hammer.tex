@@ -252,7 +252,7 @@ Once the magnetic moment $\mathbf{m}$ is obtained, the force on the sphere can b
 A numerical model was used to simulate the system dynamics for different input gradients. Average impact velocities over impacts 100 to 1,100 were compared for a perfectly closed-loop pulsed input, and open-loop inputs with sinusoidal and square profiles. As seen in figure \ref{CLvsOL}, closed-loop control produces approximately three times greater average impact velocity as compared to open-loop sinusoidal and square waves, over all frequencies. As with the analytical model in Section II-A, the simulation assumes that the robot capsule does not translate along its axis. While the absolute values of impact velocity and force will be different when the capsule is free to move, the closed-loop input can still be expected to produce higher forces than open-loop inputs. Further, for a given open-loop frequency, the variation of impact velocity over multiple contacts was found to be random for both square and sinusoidal inputs. It is not possible to reach a resonant state using a constant frequency input of any form. For a given set of input parameters, there exists only one path, or control input, that enables the system to achieve resonance. 
 \begin{figure}
 	\includegraphics[width=\linewidth]{Tswitchcases.pdf}
-	\caption{Six domains for spring-end switching time; green and red represent $F_{\textrm{mag}}$ towards anterior and posterior respectively. Direction of colored arrow represents direction of ball motion.}
+	\caption{Six regimes for spring-end switching time; green and red represent $F_{\textrm{mag}}$ towards anterior and posterior respectively. Direction of colored arrow represents direction of ball motion.}
 	\label{Tswitch}
 	\vspace{-2em}
 \end{figure}
@@ -291,7 +291,7 @@ The results, shown in fig. \ref{CoR_setup_data} (c), show that titanium offers t
 
 \begin{figure}
 	\includegraphics[width=\columnwidth]{CoR_setup_data.pdf}
-	\caption{(a) Microphone output showing multiple bounces of sphere (b) Experimental setup for measuring the coefficient of restitution, $e$ (c) Measured values of $e$ for different materials and rod diameters}
+	\caption{(a) Microphone output showing multiple bounces of sphere (b) Experimental setup for measuring the coefficient of restitution, $e$ (c) Measured values of $e$ for different materials and rod diameters. 10 measurements were performed for each data points.}
 	\label{CoR_setup_data}
 	\vspace{-1.5em}
 \end{figure}
@@ -345,7 +345,7 @@ Number of turns    & 265                       & \begin{tabular}[c]{@{}l@{}}Grad
 
 \subsection{Partially closed-loop experiment}
 \label{partialCLexp}
-A system to record the impact velocity of the sphere as well as the driving period of the magnetic hammer was built. A schematic representation of the system is shown in fig. \ref{laser_system}. The main body of the system is a 3d printed tube with thick walls. The sphere is a NdFeB permanent magnet with a magnetization of 883,000 A/m. It has a mass of 1.05 g. It is placed inside the tube and an impact rod and a spring are placed on the anterior and posterior sides respectively. This constitutes the magnetic hammer system. A laser and a diametrically opposed light sensor are placed radially on the tube, with radial holes in the tube for the laser beam to passes through. The thick walls of the tube permit the encapsulation of the laser and the sensor with epoxy resin.\par
+A system to record the impact velocity of the sphere as well as the driving period of the magnetic hammer was built. A schematic representation of the system is shown in fig. \ref{laser_system}. The main body of the system is a 3d printed tube with thick walls. The sphere is a NdFeB permanent magnet with a magnetization of 883,000 A/m. It has a mass of 1.05 g. It is placed inside the tube and an impact rod and a spring are placed on the anterior and posterior sides respectively. This constitutes the magnetic hammer system. A laser and a diametrically opposed light sensor are placed radially on the tube, with radial holes in the tube for the laser beam to pass through. The thick walls of the tube permit the encapsulation of the laser and the sensor with epoxy resin.\par
 
 \begin{figure}
     \centering
@@ -359,12 +359,12 @@ The cRIO is used at the same time to control the magnetic hammer. The partially 
 
 \begin{figure}
   \includegraphics[width=\linewidth]{laser_exp.png}
-  \caption{Experimental results obtained with the laser-based sensor. The error bars represent the standard deviation.}
+  \caption{Experimental results obtained with the laser-based sensor. The error bars represent the standard deviation. 300 impacts were recorded for each point.}
   \label{laser_exp}
 	\vspace{-2em}
 \end{figure}
 
-Data were recorded for $I_{max}$ values of 0.96A, 1.5A and 2.2A which correspond to forces $F_{\textrm{mag}}$ equal to 0.0273N, 0.0426N and 0.0625N respectively. The value for $F_{\textrm{mag}}$ were calculated using the software FEMM. Results of the measurements are presented in fig. \ref{laser_exp}. The impact velocity is larger at 1.5A than at 0.96A due to the larger force exerted on the sphere at larger current. This increase in velocity produces a decrease on the average time between impact $\Delta t_{imp}$ (on the bottom curve, one can see that $\Delta t_{imp}$ is smaller for the largest current). These curves exhibit a maximum impact velocity, at $t_s=75ms$ for $I_{max}$=1.5 A and $t_s=95$ ms for $I_{max}$=0.96A. These points coincide with a minimum on the $\Delta t_{imp}$ curve and correspond to the optimal driving frequency. The curve measured at higher current, 2.2A, show better performance overall in both impacts per second and velocity. A few points are not in agreement with this observation but the difference is within the value of the standard deviation. At all current values, our visual observations as well as the large standard deviation indicates that the control with the partially closed-loop method is not optimum because it is not able to maintain the maximum velocity for each impacts.\\
+Data were recorded for $I_{max}$ values of 0.96A, 1.5A and 2.2A which correspond to forces $F_{\textrm{mag}}$ equal to 0.0273N, 0.0426N and 0.0625N respectively. The value for $F_{\textrm{mag}}$ were calculated using the software FEMM. Results of the measurements are presented in fig. \ref{laser_exp}. The impact velocity is larger at 1.5A than at 0.96A due to the larger force exerted on the sphere at larger current. This increase in velocity produces a decrease on the average time between impact $\Delta t_{imp}$ (on the bottom curve, one can see that $\Delta t_{imp}$ is smaller for the largest current). These curves exhibit a maximum impact velocity, at $t_s=75$ ms for $I_{max}$=1.5 A and $t_s=95$ ms for $I_{max}$=0.96A. These points coincide with a minimum on the $\Delta t_{imp}$ curve and correspond to the optimal driving frequency. The curve measured at higher current, 2.2A, show better performance overall in both impacts per second and velocity. A few points are not in agreement with this observation but the difference is within the value of the standard deviation. At all current values, our visual observations as well as the large standard deviation indicates that the control with the partially closed-loop method is not optimum because it is not able to maintain the maximum velocity for each impacts.\\
 The impact velocity has a local maximum at $t_s$=135 ms for the curve at measured at 1.5A. This is a point where the system exhibit another resonance, when the sphere compresses the spring two times during each cycle.
 
 \section{Preliminary tests in clinical mri}
@@ -398,19 +398,19 @@ The MRI signal could be used to compute the position of the magnetic sphere at a
 \section{Tissue penetration experiment}
 
 An iterative design process was used to achieve tissue penetration using the magnetic test bench. Seven millirobots were built and tested, varying the tip shape and composition, the tube length, the spring, and the sphere material. \par
-Our observations of the penetration experiments concluded that sharp blades placed on the tip of the millirobot allow for an easier tissue penetration. The blades are placed much like on a hunting arrow tip, and create a fissure in the tissue which allow the movement of the capsule inside the sample. The blades used in our experiments were made of Titanium which a bio-compatible and non-magnetic metal.\par
-Our observations also showed that, when the sphere compresses the spring, the capsule tends to move backward. This effect releases the pressure exerted by the millirobot tip on the tissue and therefore makes the impact less efficient at penetrating the sample. This issue was solved by using a porcupine needle placed in front of millirobot, at the center of the blades. Porcupine needles are covered with microscopic backward facing barbs. These barbs prevent the needle from being pulled off a tissue once penetrated. Natural porcupine needles cannot be sanitized and so cannot be used in an in-vivo medical intervention. However, synthetic porcupine needles can be built \cite{cho2012microstructured}.\par
+Our observations of the penetration experiments concluded that sharp blades placed on the tip of the millirobot allow for an easier tissue penetration. The blades are placed much like on a hunting arrow tip, and create a fissure in the tissue which allow the movement of the capsule inside the sample. The blades used in our experiments were made of titanium, a bio-compatible and non-magnetic metal.\par
+Our observations also showed that, when the sphere compresses the spring, the capsule tends to move backward. This effect releases the pressure exerted by the millirobot tip on the tissue and therefore makes the impact less efficient at penetrating the sample. This issue was solved by placing a porcupine needle placed at the leading tip of the millirobot, at the center of the blades. Porcupine needles are covered with microscopic backward facing barbs. These barbs prevent the needle from being pulled off a tissue once penetrated. Natural porcupine needles cannot be sanitized and so cannot be used in an in-vivo medical intervention. However, synthetic porcupine needles can be built \cite{cho2012microstructured}.\par
 
 \begin{figure}
 	\centering
   \includegraphics[width=170pt]{brain_penetration.png}
-  \caption{Picture presenting the penetration of a millirobot prototype inside a lamb brain sample.}
+  \caption{Picture presenting the penetration of a millirobot prototype inside a lamb brain sample. The corresponding video is attached to this paper.}
   \label{brain_penetration}
 	\vspace{-2em}
 \end{figure}
 
-Fig. \ref{brain_penetration} show frames of a video from a representative penetration test. A video attached to this paper show this test. The tissue sample used in these experiments were 10 mm thick lamb brain slice. As shown in the attached video, it was placed in a sample holder made with two acrylic sheets, one on each side. Two holes in the sample holder allow the millirobot to access and cross the tissue. The millirobot used in this experiment has a diameter of 7.5 mm. It uses three titanium blades, a porcupine needle, and a titanium impact rod. The sphere is a NdFeB permanent magnet with a 6.35 mm diameter and a mass of 1.05 g. The spring has a free legnth of 10 mm and a constant of 35 N/m. The free length of sphere travel is 15 mm. The flux density applied by the coils had a maximum value of 40 mT and a maximum gradient of 545 mT/m. The control was performed with the partially closed-loop method presented in Section \ref{pcl}.\par
-We performed a series of four successful penetration tests with no failures with our final millirobot design. The first three samples were perforated in 225, 252 and 230 seconds. It took 20 minutes for the millrobot to perforate the fourth sample because it included the pia matter. These tests prove the capability of the magnetic hammer system to penetrate biological tissue.
+Fig. \ref{brain_penetration} show frames of a video from a representative penetration test. A video attached to this paper show this test. The tissue samples used in these experiments were 10 mm thick lamb brain slices. As shown in the attached video, it was placed in a sample holder made with two acrylic sheets, one on each side. Two holes in the sample holder allow the millirobot to access and cross the tissue. The millirobot used in this experiment has a diameter of 7.5 mm. It uses three titanium blades, a porcupine needle, and a titanium impact rod. The sphere is a NdFeB permanent magnet with a 6.35 mm diameter and a mass of 1.05 g. The spring has a free length of 10 mm and a constant of 35 N/m. The free length of sphere travel is 15 mm. The flux density applied by the coils had a maximum value of 40 mT and a maximum gradient of 545 mT/m. The control was performed with the partially closed-loop method presented in Section \ref{pcl}.\par
+We performed a series of four successful penetration tests with no failures with our final millirobot design. The first three samples were perforated in 225, 252 and 230 seconds. It took 20 minutes for the millrobot to perforate the fourth sample because it included the \emph{pia mater}. These tests prove the capability of the magnetic hammer system to penetrate biological tissue.
 
 \section{CONCLUSIONS}
 \label{conclusion}
@@ -418,7 +418,7 @@ A magnetic hammer system for a millirobot driven by the gradient fields of an MR
 The system enables producing force large enough to penetrate body tissue.\par
 The hammer is composed of a magnetic sphere moving inside a tube. 
 On the posterior side of the robot, there is a spring that allows changing the direction of the sphere smoothly. 
-On the anterior side, a hard metal rod act as an impact plate to transfer the momentum of the ferromagnetic sphere to the body of the robot.\par
+On the anterior side, a hard metal rod acts as an impact plate to transfer the momentum of the ferromagnetic sphere to the body of the robot.\par
 The system is driven by an external magnetic field, such as that produced by an MRI scanner. 
 The main field magnetizes the sphere and the gradient produces the forces necessary to move the sphere.\par
  A modelization allows the computation of the position of the sphere as a function of time. 
@@ -434,7 +434,7 @@ The impact of the sphere is detected via a microphone.
 The posterior coil is turned on during a predetermined time $t_s$ to pull the sphere backward.
  After this time, the posterior coil is turned off and the anterior coil is turned on until the next impact is detected.\par
 A laser based sensor was used to record the impact velocity of the sphere. The data obtained shows that there is an optimum value for $t_s$ where the impact velocity is maximum. The impact velocity also increases when the magnetic field value increases.\par
-	In a series of four trails the magnetic test bench propelled a millirobot through lamb brain samples. Preliminary tests in a 3 T MRI scanner validated the mechanical design.\par
+	In a series of four trials the magnetic test bench propelled a millirobot through lamb brain samples. Preliminary tests in a 3 T MRI scanner validated the mechanical design.\par
 In future work, closed-loop control of the magnetic hammer will be implemented and tested in a clinical MRI scanner. 
 The impact will be detected with the MRI signal instead of a microphone. 
 The tradeoffs involved in miniaturization of the robot will also be studied.
