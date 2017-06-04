@@ -225,7 +225,7 @@ The flux density must be calculated for each solenoid. The total flux density is
 
 \begin{figure}
 	\includegraphics[width=\linewidth]{ComparisonOfControlInputs.pdf}
-	\caption[Comparison of impact velocities from three control inputs]{Comparison of average impact velocities between impacts 100 and 1100 for three different control inputs: Open-loop vs. Partially closed-loop vs. Perfectly closed-loop}
+	\caption[Comparison of impact velocities from three control inputs]{Comparison of average impact velocities between impacts 100 and 1100 for three different control inputs: Open-loop vs. Partially closed-loop vs. Perfectly closed-loop.}
 	\label{CLvsOL}
 	\vspace{-1.5em}
 \end{figure}
@@ -265,7 +265,7 @@ A numerical model was used to simulate the system dynamics for different input g
 
 To implement a perfectly closed loop system, sensing is required at both the spring and impact ends. While sensing at the impact end can be done using a microphone sensor (see Section \ref{partialCLexp}), it is harder to detect sphere reversal at the spring end. For experiments of the magnetic hammer on our test bench, a partially closed-loop system was implemented with only impact end sensing using a microphone. The sensor detected each impact and triggered a reversal in the direction of the gradient force. The switching time $t_s$ at the spring end was manually set at different values. The motion of the sphere between two successive impacts is analyzed based on $t_s$, the initial velocity $v_{0^+}$, and the time between impacts $\Delta t_{imp}$. The motion can be divided into six regimes based on $t_s$, for a given set of geometric and material properties as shown in \cref{Tswitch}. In \cref{Tswitch}(i), $v_{0^+}$ and $t_s$ are low enough that the sphere reverses direction before reaching the spring. In this case, $v_{0^+} < 2aL$, where $a=F_{mag}/m_s$. Fig. \ref{Tswitch}(ii) represents the case when $v_{0^+}$ is high enough that spring compression is unavoidable even for $t_s = 0$. In \cref{Tswitch}(iii), the signal switch happens after spring compression starts but before it bottoms out. Fig. \ref{Tswitch}(iv) represents perfect closed loop switching. In \cref{Tswitch}(v), the signal is switched after maximum compression, but before the sphere reaches $x_s=0$. Fig. \ref{Tswitch}(vi) represents switching after spring rebound and before the next impact. There is also a possible seventh case where the switching happens after one entire impact cycle. This case is not relevant and serves more as an upper limit of practical $t_s$ values. 
 
-Simulations were done for the partially closed loop system to identify effects of different $t_s$ and $v_{0^+}$ values on $\Delta t_{imp}$. Fig. \ref{delTvsTs} shows $\Delta t_{imp}$ as a function of $t_s$ for different values of $v_{0^+}$. For $v_{0^+}=0.15\text{ m/s}$, there is a linear increase in $\Delta t_{imp}$ till $t_s$ reaches a critical point. This linear region represents the case shown in \cref{Tswitch}(i). Beyond this, $\Delta t_{imp}$ decreases with increasing $t_s$ (\cref{Tswitch}(ii),(iii)), until the latter reaches its perfectly closed-loop value. At this point $\Delta t_{imp}$ reaches a minimum value (\cref{Tswitch}(iv)). As $t_s$ increases beyond this, the $\Delta t_{imp}$ keeps increasing (\cref{Tswitch}(v),(vi)), until it saturates because the signal is switched after the duration of the entire impact cycle. The linear range does not exist for higher values of $v_{0^+}$. Future work will involve designing a control law that will help push $t_s$ values closer to perfectly closed-loop values for subsequent impacts.
+Simulations were done for the partially closed loop system to identify effects of different $t_s$ and $v_{0^+}$ values on $\Delta t_{imp}$. Fig. \ref{delTvsTs} shows $\Delta t_{imp}$ as a function of $t_s$ for different values of $v_{0^+}$. For $v_{0^+}=0.15\text{ m/s}$, there is a linear increase in $\Delta t_{imp}$ untill $t_s$ reaches a critical point. This linear region represents the case shown in \cref{Tswitch}(i). Beyond this, $\Delta t_{imp}$ decreases with increasing $t_s$ (\cref{Tswitch}(ii),(iii)), until the latter reaches its perfectly closed-loop value. At this point $\Delta t_{imp}$ reaches a minimum value (\cref{Tswitch}(iv)). As $t_s$ increases beyond this, the $\Delta t_{imp}$ keeps increasing (\cref{Tswitch}(v),(vi)), until it saturates because the signal is switched after the duration of the entire impact cycle. The linear range does not exist for higher values of $v_{0^+}$. Future work will involve designing a control law that will help push $t_s$ values closer to perfectly closed-loop values for subsequent impacts.
 
 \begin{figure}
 	\includegraphics[width=\linewidth]{deltVsts_differentVop.pdf}
@@ -313,10 +313,7 @@ The system is shown in \cref{magnetic_setup}.
  The two coils are held by an acrylic tube. 
  They can slide along this tube and be locked in place to adjust the distance between the two coils and therefore change the maximum field and gradient values. 
  The acrylic tube is transparent, allowing for visual access to the robot.
-Each coil is powered by a Syren 25 regenerative switching power supply. The Syren 25 are manufactured by Dimension Engineering. They can provide continuously a current of 25 A with a maximum voltage of 24 V.
-A Hall-effect-based current sensor is used to perform a PID regulation of the current. 
-It is necessary to control the current inside the coils and not only the voltage. 
-Indeed, the produced magnetic field is directly proportional to the current whereas the voltage is related to the magnetic flux variation and the voltage drop produced by Joule effect losses.\par
+Each coil is powered by a Syren 25 regenerative switching power supply. The Syren 25 are manufactured by Dimension Engineering. They can provide continuously a current of 25 A with a maximum voltage of 24 V.\par
 Robots are inserted inside the acrylic tube holding the coils. 
 They are held by a second, smaller tube that guides them along the system axis. 
 Robots can be free to move along the coil axis or held in place. 
@@ -414,21 +411,20 @@ Our observations also showed that, when the sphere compresses the spring, the ca
 \end{figure}
 
 Fig. \ref{brain_penetration} show frames of a video from a representative penetration test. A video attached to this paper show this test. The tissue sample used in these experiments were 10 mm thick lamb brain slice. As shown in the attached video, it was placed in a sample holder made with two acrylic sheets, one on each side. Two holes in the sample holder allow the millirobot to access and cross the tissue. The millirobot used in this experiment has a diameter of 7.5 mm. It uses three titanium blades, a porcupine needle, and a titanium impact rod. The sphere is a NdFeB permanent magnet with a 6.35 mm diameter. The spring has a free legnth of 10 mm and a constant of 35 N/m. The free length of sphere travel is 15 mm. The flux density applied by the coils had a maximum value of 40 mT and a maximum gradient of 545 mT/m. The control was performed with the partially closed loop method presented in Section \ref{pcl}.\par
-We performed a series of four successful penetration tests with no failures with our final millirobot design. The first three samples were perforated in 225, 252 and 230 seconds. It took 20 minutes for the millrobot to perforate the fourth sample because it included the pia matter.These tests prove the capability of the magnetic hammer system to penetrate biological tissue.
+We performed a series of four successful penetration tests with no failures with our final millirobot design. The first three samples were perforated in 225, 252 and 230 seconds. It took 20 minutes for the millrobot to perforate the fourth sample because it included the pia matter. These tests prove the capability of the magnetic hammer system to penetrate biological tissue.
 
 \section{CONCLUSIONS}
 \label{conclusion}
 A magnetic hammer system for a millirobot driven by the gradient fields of an MRI scanner was studied. 
-The system enables producing the forces large enough to penetrate body tissue.\par
-The hammer is composed of a ferromagnetic sphere moving inside a tube. 
+The system enables producing force large enough to penetrate body tissue.\par
+The hammer is composed of a magnetic sphere moving inside a tube. 
 On the posterior side of the robot, there is a spring that allows changing the direction of the sphere smoothly. 
 On the anterior side, a hard metal rod act as an impact plate to transfer the momentum of the ferromagnetic sphere to the body of the robot.\par
 The system is driven by an external magnetic field, such as that produced by an MRI scanner. 
 The main field magnetizes the sphere and the gradient produces the forces necessary to move the sphere.\par
  A modelization allows the computation of the position of the sphere as a function of time. 
  The magnetic flux density and the gradient are computed using a semi-analytical method and allow an accurate calculation of the force applied to the sphere. 
- The speed of the sphere after impact is computed from the coefficient of restitution. 
- The rotation of the sphere is also calculated, allowing an accurate calculation of the drag produced by the sliding of the sphere inside the tube.\par
+ The speed of the sphere after impact is computed from the coefficient of restitution. \par
 The coefficients of restitution ($e$) depends on the materials of the colliding objects but also on their shape and sizes. 
 Values of $e$ were experimentally measured. 
 These measurements showed that titanium impact plates exhibit large values of $e$. 
@@ -436,12 +432,10 @@ This material also has the advantage of being lightweight, a useful property to 
 A magnetic test bench was built to reduce experimental cost related to the use of a clinical MRI scanner. 
 A magnetic hammer was tested with a partially closed loop control. 
 The impact of the sphere is detected via a microphone. 
-The posterior coil is turned on during a predetermined time to pull the sphere backward.
- After this time, the posterior coil is turned off and the anterior coil is turned on until the next impact is detected. 
- Experimental results were compared to the model.
-  The experimental oscillating frequency is in good agreement with the model predictions. 
-  This validates our modelization.\par
-	In a series of four trails this setup propelled a millirobot through lamb brain samples in an average of 236 seconds. Preliminary tests in a 3 T MRI scanner validated the mechanical design.
+The posterior coil is turned on during a predetermined time $t_s$ to pull the sphere backward.
+ After this time, the posterior coil is turned off and the anterior coil is turned on until the next impact is detected.\par
+A laser based sensor was used to record the impact velocity of the sphere. The data obtained shows that there is an optimum value for $t_s$ where the impact velocity is maximum. The impact velocity also increases when the magnetic field value increases.\par
+	In a series of four trails the magnetic test bench propelled a millirobot through lamb brain samples. Preliminary tests in a 3 T MRI scanner validated the mechanical design.\par
 In future work, closed-loop control of the magnetic hammer will be implemented and tested in a clinical MRI scanner. 
 The impact will be detected with the MRI signal instead of a microphone. 
 The tradeoffs involved in miniaturization of the robot will also be studied.

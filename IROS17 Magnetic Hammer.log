@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.10)  3 JUN 2017 21:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.10)  3 JUN 2017 22:26
 entering extended mode
 **"./IROS17 Magnetic Hammer.tex"
 ("IROS17 Magnetic Hammer.tex"
@@ -381,40 +381,40 @@ pdfTeX warning: pdflatex.exe (file ./pictures/CoR_setup_data.pdf): PDF inclusion
 >] <./pictures/Magnetic_test_bench.jpg, id=972, 1556.214pt x 1265.32726pt>
 File: ./pictures/Magnetic_test_bench.jpg Graphic file (type jpg)
  <use ./pictures/Magnetic_test_bench.jpg>
-Package pdftex.def Info: ./pictures/Magnetic_test_bench.jpg used on input line 327.
+Package pdftex.def Info: ./pictures/Magnetic_test_bench.jpg used on input line 324.
 (pdftex.def)             Requested size: 165.0pt x 134.14722pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 334.
+               Default added (so using `tbp') on input line 331.
 
 
-Overfull \hbox (10.21516pt too wide) in paragraph at lines 338--348
+Overfull \hbox (10.21516pt too wide) in paragraph at lines 335--345
  [][] 
  []
 
 <./pictures/laser_system.png, id=973, 349.305pt x 216.81pt>
 File: ./pictures/laser_system.png Graphic file (type png)
  <use ./pictures/laser_system.png>
-Package pdftex.def Info: ./pictures/laser_system.png used on input line 357.
+Package pdftex.def Info: ./pictures/laser_system.png used on input line 354.
 (pdftex.def)             Requested size: 120.0pt x 74.48193pt.
 
 <./pictures/laser_exp.png, id=974, 649.2255pt x 662.475pt>
 File: ./pictures/laser_exp.png Graphic file (type png)
  <use ./pictures/laser_exp.png>
-Package pdftex.def Info: ./pictures/laser_exp.png used on input line 366.
+Package pdftex.def Info: ./pictures/laser_exp.png used on input line 363.
 (pdftex.def)             Requested size: 245.71811pt x 250.73225pt.
  [6 <./pictures/Magnetic_test_bench.jpg> <./pictures/laser_system.png> <./pictures/laser_exp.png>]
 <./pictures/tests_in_MRI.png, id=980, 222.8325pt x 206.57175pt>
 File: ./pictures/tests_in_MRI.png Graphic file (type png)
  <use ./pictures/tests_in_MRI.png>
-Package pdftex.def Info: ./pictures/tests_in_MRI.png used on input line 396.
+Package pdftex.def Info: ./pictures/tests_in_MRI.png used on input line 393.
 (pdftex.def)             Requested size: 120.0pt x 111.24448pt.
 
 <./pictures/brain_penetration.png, id=981, 326.4195pt x 410.13225pt>
 File: ./pictures/brain_penetration.png Graphic file (type png)
  <use ./pictures/brain_penetration.png>
-Package pdftex.def Info: ./pictures/brain_penetration.png used on input line 410.
+Package pdftex.def Info: ./pictures/brain_penetration.png used on input line 407.
 (pdftex.def)             Requested size: 170.0pt x 213.60167pt.
  [7 <./pictures/tests_in_MRI.png> <./pictures/brain_penetration.png>] ("IROS17 Magnetic Hammer.bbl"
 Missing character: There is no â in font ptmr7t!
@@ -459,7 +459,7 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2
 :/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr
 i8a.pfb>
-Output written on "IROS17 Magnetic Hammer.pdf" (8 pages, 6009857 bytes).
+Output written on "IROS17 Magnetic Hammer.pdf" (8 pages, 6009609 bytes).
 PDF statistics:
  1059 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
