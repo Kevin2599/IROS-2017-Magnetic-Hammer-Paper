@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.2.9)  4 JUN 2017 17:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.2.9)  4 JUN 2017 21:13
 entering extended mode
 **"./IROS17 Magnetic Hammer.tex"
 ("IROS17 Magnetic Hammer.tex"
@@ -362,16 +362,13 @@ Package pdftex.def Info: ./pictures/Femm_matlab_comparison.png used on input li
 ne 178.
 (pdftex.def)             Requested size: 245.71811pt x 184.28606pt.
  [3 <./pictures/single_loop.png> <./pictures/Femm_matlab_comparison.png>]
-<./pictures/ComparisonOfControlInputs.pdf, id=215, 817.50781pt x 442.91158pt>
+<./pictures/ComparisonOfControlInputs.pdf, id=215, 632.40802pt x 289.99023pt>
 File: ./pictures/ComparisonOfControlInputs.pdf Graphic file (type pdf)
 
 <use ./pictures/ComparisonOfControlInputs.pdf>
 Package pdftex.def Info: ./pictures/ComparisonOfControlInputs.pdf used on input
  line 225.
-(pdftex.def)             Requested size: 245.71811pt x 133.12454pt.
-
-Underfull \vbox (badness 6461) has occurred while \output is active []
-
+(pdftex.def)             Requested size: 245.71811pt x 112.67094pt.
 
 <./pictures/Tswitchcases.pdf, id=216, 705.09015pt x 411.82253pt>
 File: ./pictures/Tswitchcases.pdf Graphic file (type pdf)
@@ -410,7 +407,11 @@ oopValues.pdf
 
 pdfTeX warning: pdflatex.exe (file ./pictures/FrictionForceWithClosedLoopValues
 .pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] <./pictures/Magnetic_test_bench.jpg, id=805, 1556.214pt x 1265.32726pt>
+> <./pictures/CoR_setup_data.pdf
+
+pdfTeX warning: pdflatex.exe (file ./pictures/CoR_setup_data.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+>] <./pictures/Magnetic_test_bench.jpg, id=964, 1556.214pt x 1265.32726pt>
 File: ./pictures/Magnetic_test_bench.jpg Graphic file (type jpg)
 
 <use ./pictures/Magnetic_test_bench.jpg>
@@ -427,36 +428,36 @@ Overfull \hbox (10.21516pt too wide) in paragraph at lines 333--343
  [][] 
  []
 
-<./pictures/laser_system.png, id=806, 349.305pt x 216.81pt>
+<./pictures/laser_system.png, id=965, 349.305pt x 216.81pt>
 File: ./pictures/laser_system.png Graphic file (type png)
 
 <use ./pictures/laser_system.png>
 Package pdftex.def Info: ./pictures/laser_system.png used on input line 352.
 (pdftex.def)             Requested size: 120.0pt x 74.48193pt.
 
-<./pictures/laser_exp.png, id=807, 649.2255pt x 662.475pt>
+<./pictures/laser_exp.png, id=966, 649.2255pt x 662.475pt>
 File: ./pictures/laser_exp.png Graphic file (type png)
 
 <use ./pictures/laser_exp.png>
 Package pdftex.def Info: ./pictures/laser_exp.png used on input line 361.
 (pdftex.def)             Requested size: 245.71811pt x 250.73225pt.
- [6 <./pictures/CoR_setup_data.pdf> <./pictures/Magnetic_test_bench.jpg> <./pic
-tures/laser_system.png>]
-<./pictures/tests_in_MRI.png, id=973, 222.8325pt x 206.57175pt>
+ [6 <./pictures/Magnetic_test_bench.jpg> <./pictures/laser_system.png>]
+<./pictures/tests_in_MRI.png, id=972, 222.8325pt x 206.57175pt>
 File: ./pictures/tests_in_MRI.png Graphic file (type png)
 
 <use ./pictures/tests_in_MRI.png>
 Package pdftex.def Info: ./pictures/tests_in_MRI.png used on input line 392.
 (pdftex.def)             Requested size: 120.0pt x 111.24448pt.
- [7 <./pictures/laser_exp.png> <./pictures/tests_in_MRI.png>]
-<./pictures/brain_penetration.png, id=979, 326.4195pt x 410.13225pt>
+
+<./pictures/brain_penetration.png, id=973, 326.4195pt x 410.13225pt>
 File: ./pictures/brain_penetration.png Graphic file (type png)
 
 <use ./pictures/brain_penetration.png>
 Package pdftex.def Info: ./pictures/brain_penetration.png used on input line 40
 6.
 (pdftex.def)             Requested size: 170.0pt x 213.60167pt.
- ("IROS17 Magnetic Hammer.bbl"
+ [7 <./pictures/laser_exp.png> <./pictures/tests_in_MRI.png>] ("IROS17 Magnetic
+ Hammer.bbl"
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
@@ -507,9 +508,9 @@ ogram Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utm
 r8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "IROS17 Magnetic Hammer.pdf" (9 pages, 6072095 bytes).
+Output written on "IROS17 Magnetic Hammer.pdf" (9 pages, 6057832 bytes).
 PDF statistics:
- 1055 PDF objects out of 1200 (max. 8388607)
+ 1054 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
