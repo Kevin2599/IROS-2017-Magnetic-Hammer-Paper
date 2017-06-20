@@ -1,0 +1,4 @@
+﻿Video attachment for “Magnetic Hammer Actuation for Tissue Penetration using a Millirobot”
+by Julien Leclerc, Ashwin Ramakrishnan, Nikolaos V. Tsekos, and Aaron T. Becker.
+
+The video presents the magnetic hammer system for tissue penetration using an MRI scanner as actuator. The video display successful penetration tests performed in a laboratory test bench and preliminary tests inside an MRI scanner. 

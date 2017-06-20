@@ -9,7 +9,7 @@
 \IEEEoverridecommandlockouts                              % This command is only needed if 
                                                           % you want to use the \thanks command
 
-\overrideIEEEmargins                                      % Needed to meet printer requirements.
+%\overrideIEEEmargins                                      % Needed to meet printer requirements.
 
 % See the \addtolength command later in the file to balance the column lengths
 % on the last page of the document
@@ -97,7 +97,7 @@ The paper studies three control strategies. The open-loop control switches the m
   \includegraphics[width=220pt]{figure1-2.png}
   \caption{Schematic representation of a millirobot actuated by a magnetic hammer.}
   \label{millirobot}
-  \vspace{-2em}
+ % \vspace{-2em}
 \end{figure}
 
 \begin{figure}
@@ -122,7 +122,7 @@ The motion of the sphere between two consecutive impacts can be divided into two
 	\caption{(i) Free length of sphere travel, $L$; (ii) free body diagram of sphere when spring is compressed, (iii) when spring is not compressed.}
 	\label{FBD}
 	\end{centering}
-	\vspace{-2em}
+%	\vspace{-2em}
 	\end{figure}
 Inside the homogeneous region of an MRI scanner, the magnitude of $F_{\textrm{mag}}$ is constant \cite{CMR:CMR20163}. The same has been assumed for developing analytical and numerical models in this paper. The formula for calculating $F_{\textrm{mag}}$ is presented in Section II-B. Friction is considered to be negligible, but the assumption will be relaxed in later sections. The spring force is given by
 \begin{equation}
@@ -136,7 +136,7 @@ An analytical model was developed by solving the system of differential equation
 	\includegraphics[width=\linewidth]{Closedloop_Impact_velocity.pdf}
 	\caption{Closed-loop impact velocity for 150 impacts; $k$ = 50 N/m; $F_{\textrm{mag}}$ = 1.5e-3 N; $L$ = 0.03 m; $m_s$ = 5.58e-4 kg; $r_s$ = 2.5 mm.}
 	\label{Closedloop_Impact_velocity}
-	\vspace{-1.5em}
+	%\vspace{-1.5em}
 	
 \end{figure}
 \begin{equation}
@@ -171,14 +171,14 @@ x_{cs}&=\frac{\sqrt{e^2 k m_s v_{\text{res}}^2+2 k L F_{\text{mag}}+F_{\text{mag
 	\includegraphics[width=140pt]{single_loop.png}
 	\caption{Geometry and variables used in equation \cref{Bz1loop,Bteta1loop,delta,beta}}
 	\label{single_loop_geometry}
-	\vspace{-1em}
+	%\vspace{-1em}
 \end{figure}
 
 \begin{figure}\centering
 	\includegraphics[width=220pt]{Femm_matlab_comparison.png}
 	\caption{Comparison between the flux density computed with the semi-analytical method with {\sc Matlab} and the flux density computed via a finite element method with FEMM. The maximum difference is 0.8 \%.}
 	\label{Femm_matlab_comparison}
-	\vspace{-1.9em}
+	%\vspace{-1.9em}
 \end{figure}
 
 In the above equations, $\omega$ represents the natural frequency of the spring-mass system. The value of $x_{cs}$ can be used to select an appropriate free length for the spring, to ensure that it does not bottom out during compression. 
@@ -225,7 +225,7 @@ The flux density must be calculated for each solenoid. The total flux density is
 	\includegraphics[width=\linewidth]{ComparisonOfControlInputs.pdf}
 	\caption[Comparison of impact velocities from three control inputs]{Comparison of average impact velocities between impacts 100 and 1100 for three different control inputs: Open-loop vs. Partially closed-loop vs. Perfectly closed-loop.}
 	\label{CLvsOL}
-	\vspace{-1.5em}
+	%\vspace{-1.5em}
 \end{figure}
 \subsection{Magnetic force calculation}
 \label{magforce}
@@ -236,7 +236,7 @@ The ferromagnetic sphere is small compared to the coil system and can be conside
 $V$ is the volume of the sphere.
 The ferromagnetic sphere is magnetized by the externally applied field $\mathbf{H}_{app}=\mathbf{B}_{app}/\mu_0$. Ferromagnetic materials create a demagnetizing field $\mathbf{H}_d$ when subjected to an external field. The actual field $\mathbf{H}$ seen by the sphere is the sum of $\mathbf{H}_{app}$ and $\mathbf{H}_d$. This effect must be taken into account to calculate the magnetization accurately. $\mathbf{H}_d$ is related to $\mathbf{H}_{app}$ by \cref{hd}. The demagnetization factor $N$ for a sphere is -1/3. Its magnetization can be calculated using \cref{mag2}.
 Once the magnetic moment $\mathbf{m}$ is obtained, the force on the sphere can be calculated using \cref{force}.
-\vspace{-2em}
+%\vspace{-2em}
 
 \begin{align}
 \mathbf{m}&=\mathbf{M}\cdot V \label{mag}\\
@@ -255,7 +255,7 @@ A numerical model was used to simulate the system dynamics for different input g
 	\includegraphics[width=\linewidth]{Tswitchcases.pdf}
 	\caption{Six regimes for spring-end switching time; green and red represent $F_{\textrm{mag}}$ towards anterior and posterior respectively. Direction of colored arrow represents direction of ball motion.}
 	\label{Tswitch}
-	\vspace{-2em}
+	%\vspace{-2em}
 \end{figure}
 
 
@@ -270,7 +270,7 @@ Simulations were done for the partially closed-loop system to identify effects o
 	\includegraphics[width=\linewidth]{deltVsts_differentVop.pdf}
 	\caption[Variation of time between impacts with switching time for partially closed-loop control]{Plot of $\Delta t_{\textrm{imp}}$ vs. $t_s$ for different values of $v_{o^+}$.}
 	\label{delTvsTs}
-	\vspace{-0.5em}
+	%\vspace{-0.5em}
 \end{figure}
 
 
@@ -280,7 +280,7 @@ Simulations were done for the partially closed-loop system to identify effects o
 	\includegraphics[width=\linewidth]{FrictionForceWithClosedLoopValues.pdf}
 		\caption[Effect of Coulomb friction on partially closed-loop control]{Comparison of  simulated impact velocities. The  velocities for impacts 100 to 200 are averaged and plotted for different values of Coulomb friction force. Colored circles represent the perfectly closed-loop values.  Lines represent the partially closed-loop values.}
 	\label{friction}
-	\vspace{-2em}
+	%\vspace{-2em}
 \end{figure}
 In all the above models, the friction force was assumed to be zero. Average impact velocities over 100 impacts are plotted for varying values of the friction force in Fig. \ref{friction}. The circles represent the perfectly closed-loop values, while the curves represent the partially closed-loop values using impact times. Much like the step-out frequency of a stepper motor, average impact velocities drop suddenly for the partially closed-loop system beyond a cut-off driving frequency. This is due to the sphere reversing direction before spring contact, leading to a drop in its net kinetic energy. As friction force increases as a percentage of $F_{\textrm{mag}}$, the partially closed-loop system reaches its cutoff frequency, before resonance. This drop in impact velocity is not seen in the perfectly closed-loop system for any values of friction since the spring is always compressed to its maximum limit. Hence, partially closed-loop control will not produce the maximum possible impact velocity for high values of Coulomb friction force. Future work will use better models of kinetic and static friction, as well as air resistance.
 
@@ -294,7 +294,7 @@ The results, shown in fig. \ref{CoR_setup_data} (c), show that titanium offers t
 	\includegraphics[width=\columnwidth]{CoR_setup_data.pdf}
 	\caption{(a) Microphone output showing multiple bounces of sphere (b) Experimental setup for measuring the coefficient of restitution, $e$ (c) Measured values of $e$ for different materials and rod diameters. 10 measurements were performed for each data points.}
 	\label{CoR_setup_data}
-	\vspace{-1.5em}
+	%\vspace{-1.5em}
 \end{figure}
 
 
@@ -324,7 +324,7 @@ A picture of the system is provided in \cref{magnetic_setup}.
   \caption{Picture of the magnetic test bench.}
   \label{magnetic_setup}
 	\end{centering}
-	\vspace{-0.5em}
+	%\vspace{-0.5em}
 \end{figure}
 
 \begin{table}[]
@@ -340,7 +340,7 @@ Wire               & 18 AWG                    & Max continuous current         
 Wire cross-section & 0.823 mm$^2$ & \begin{tabular}[c]{@{}l@{}}Flux density on \\ system center\\ I = 10 A, $d$ = 50 mm\end{tabular} & 55 mT      \\ \hline
 Number of turns    & 265                       & \begin{tabular}[c]{@{}l@{}}Gradient on \\system center\\  I = 10 A, $d$ = 50 mm\end{tabular}    & 0.14 T/m   \\ \hline
 \end{tabular}
-\vspace{-1.5em}
+%\vspace{-1.5em}
 \end{table}
 
 
@@ -353,7 +353,7 @@ A system to record the impact velocity of the sphere as well as the driving peri
   \includegraphics[width=120pt]{laser_system.png}
   \caption{Schematic representation of the system using a laser and a light sensor to measure the sphere velocity}
   \label{laser_system}
-	\vspace{-2em}
+	%\vspace{-2em}
 \end{figure}
 
 When moving, the sphere interrupts the laser beam during a time $t_i$ inversely proportional to the velocity. By measuring $t_i$ one can calculate the average velocity $V$ of the sphere with $V=2\cdot r_s/t_i$. The laser beam was positioned on the anterior side of the capsule, mounted at a distance $L_f>2r_s$ from the impact rod to allow the sphere to not interrupt the beam when it touches the impact rod. This positioning enables computing the velocity of the sphere just before the impact which we will consider as being equal to the impact velocity. The acquisition of the data is automatic and performed via a National Instrument cRIO real-time controller. The controller was programmed using LabVIEW.\par 
@@ -363,7 +363,7 @@ The cRIO is used at the same time to control the magnetic hammer. The partially 
   \includegraphics[width=\linewidth]{laser_exp.png}
   \caption{Experimental results obtained with the laser-based sensor. The error bars represent the standard deviation. 300 impacts were recorded for each point.}
   \label{laser_exp}
-	\vspace{-2em}
+	%\vspace{-2em}
 \end{figure}
 
 Data were recorded for $I_{\textrm{max}}$ values of 0.96A, 1.5A and 2.2A which correspond to forces $F_{\textrm{mag}}$ equal to 0.0273N, 0.0426N and 0.0625N respectively. The value for $F_{\textrm{mag}}$ were calculated using the software FEMM. Results of the measurements are presented in fig. \ref{laser_exp}. The impact velocity is larger at 1.5A than at 0.96A due to the larger force exerted on the sphere at larger current. This increase in velocity produces a decrease on the average time between impact $\Delta t_{\textrm{imp}}$ (on the bottom curve, one can see that $\Delta t_{\textrm{imp}}$ is smaller for the largest current). These curves exhibit a maximum impact velocity, at $t_s=75$ ms for $I_{\textrm{max}}$=1.5 A and $t_s=95$ ms for $I_{\textrm{max}}$=0.96A. These points coincide with a minimum on the $\Delta t_{\textrm{imp}}$ curve and correspond to the optimal driving frequency. The curve measured at higher current, 2.2A, show better performance overall in both impacts per second and velocity. A few points are not in agreement with this observation but the difference is within the value of the standard deviation. At all current values, our visual observations as well as the large standard deviation indicates that the control with the partially closed-loop method is not optimum because it is not able to maintain the maximum velocity for each impacts.\\
@@ -393,7 +393,7 @@ The MRI signal could be used to compute the position of the magnetic sphere at a
   \includegraphics[width=120 pt]{tests_in_MRI.png}
   \caption{Picture of the magnetic hammer driven by an MRI scanner. The penetration test is realized on a goat brain sample.}
   \label{MRI_test}
-	\vspace{-2em}
+	%\vspace{-2em}
 \end{figure}
 
 \section{Tissue penetration experiment}
@@ -407,7 +407,7 @@ Our observations also showed that, when the sphere compresses the spring, the ca
   \includegraphics[width=150pt]{brain_penetration.png}
   \caption{Picture presenting the penetration of a millirobot prototype inside a lamb brain sample. The corresponding video is attached to this paper.}
   \label{brain_penetration}
-	\vspace{-2em}
+	%\vspace{-2em}
 \end{figure}
 
 Fig. \ref{brain_penetration} show frames of a video from a representative penetration test. A video attached to this paper shows this test. The tissue samples used in these experiments were 10 mm thick lamb brain slices. As shown in the attached video, it was placed in a sample holder made with two acrylic sheets, one on each side. Two holes in the sample holder allow the millirobot to access and cross the tissue. The millirobot used in this experiment has a diameter of 7.5 mm. It uses three titanium blades, a porcupine needle, and a titanium impact rod. The sphere is a NdFeB permanent magnet with a 6.35 mm diameter and a mass of 1.05 g. The spring has a free length of 10 mm and a constant of 35 N/m. The free length of sphere travel is 15 mm. The flux density applied by the coils had a maximum value of 40 mT and a maximum gradient of 545 mT/m. The control was performed with the partially closed-loop method presented in Section \ref{pcl}.\par
@@ -437,7 +437,7 @@ The posterior coil is turned on during a predetermined time $t_s$ to pull the sp
 A laser based sensor was used to record the impact velocity of the sphere. The data obtained shows that there is an optimum value for $t_s$ where the impact velocity is maximum. The impact velocity also increases when the magnetic field value increases.\par
 	In a series of four trials the magnetic test bench propelled a millirobot through lamb brain samples. Preliminary tests in a 3 T MRI scanner validated the mechanical design. Future work should implement and test closed-loop control of the magnetic hammer in a clinical MRI scanner, detecting impacts with the MRI signal instead of a microphone. 
 Tradeoffs involved in miniaturization of the robot should also be studied.
-\vspace{-1.1em}
+%\vspace{-1.1em}
  
 
 \addtolength{\textheight}{-12cm}   % This command serves to balance the column lengths

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.10)  4 JUN 2017 21:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.10)  4 JUN 2017 22:45
 entering extended mode
 **"./IROS17 Magnetic Hammer.tex"
 ("IROS17 Magnetic Hammer.tex"
@@ -114,7 +114,6 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@width=\dimen114
 )
 ** ATTENTION: Overriding command lockouts (line 9).
-** ATTENTION: Overriding IEEE standard margins (line 12).
 (C:\Users\jleclerc\AppData\Roaming\MiKTeX\2.9\tex\latex\cite\cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
@@ -304,16 +303,19 @@ File: ./pictures/robots_prototypes.jpg Graphic file (type jpg)
 <use ./pictures/robots_prototypes.jpg>
 Package pdftex.def Info: ./pictures/robots_prototypes.jpg used on input line 105.
 (pdftex.def)             Requested size: 120.0pt x 117.27515pt.
+
+Underfull \vbox (badness 1675) has occurred while \output is active []
+
  [1{C:/Users/jleclerc/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
  <./pictures/figure1-2.png>] <./pictures/FBD_R1.pdf, id=16, 286.35283pt x 221.15643pt>
 File: ./pictures/FBD_R1.pdf Graphic file (type pdf)
- <use ./pictures/FBD_R1.pdf>
+
+<use ./pictures/FBD_R1.pdf>
 Package pdftex.def Info: ./pictures/FBD_R1.pdf used on input line 121.
 (pdftex.def)             Requested size: 150.0pt x 115.84901pt.
-
-<./pictures/Closedloop_Impact_velocity.pdf, id=17, 1177.29668pt x 657.70296pt>
+ <./pictures/Closedloop_Impact_velocity.pdf, id=17, 1177.29668pt x 657.70296pt>
 File: ./pictures/Closedloop_Impact_velocity.pdf Graphic file (type pdf)
 
 <use ./pictures/Closedloop_Impact_velocity.pdf>
@@ -342,15 +344,15 @@ File: ./pictures/ComparisonOfControlInputs.pdf Graphic file (type pdf)
 <use ./pictures/ComparisonOfControlInputs.pdf>
 Package pdftex.def Info: ./pictures/ComparisonOfControlInputs.pdf used on input line 225.
 (pdftex.def)             Requested size: 245.71811pt x 112.67094pt.
- <./pictures/Tswitchcases.pdf, id=216, 705.09015pt x 411.82253pt>
-File: ./pictures/Tswitchcases.pdf Graphic file (type pdf)
 
-<use ./pictures/Tswitchcases.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+<./pictures/Tswitchcases.pdf, id=216, 705.09015pt x 411.82253pt>
+File: ./pictures/Tswitchcases.pdf Graphic file (type pdf)
+ <use ./pictures/Tswitchcases.pdf>
 Package pdftex.def Info: ./pictures/Tswitchcases.pdf used on input line 255.
 (pdftex.def)             Requested size: 245.71811pt x 143.51793pt.
-
-Underfull \vbox (badness 1102) has occurred while \output is active []
-
  [4 <./pictures/ComparisonOfControlInputs.pdf> <./pictures/Tswitchcases.pdf
 
 pdfTeX warning: pdflatex.exe (file ./pictures/Tswitchcases.pdf): PDF inclusion: multiple pdfs with page group included i
@@ -368,6 +370,9 @@ File: ./pictures/FrictionForceWithClosedLoopValues.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./pictures/FrictionForceWithClosedLoopValues.pdf used on input line 280.
 (pdftex.def)             Requested size: 245.71811pt x 139.64145pt.
 
+Underfull \vbox (badness 1178) has occurred while \output is active []
+
+
 <./pictures/CoR_setup_data.pdf, id=744, 707.95001pt x 510.46182pt>
 File: ./pictures/CoR_setup_data.pdf Graphic file (type pdf)
  <use ./pictures/CoR_setup_data.pdf>
@@ -377,11 +382,7 @@ Package pdftex.def Info: ./pictures/CoR_setup_data.pdf used on input line 294.
 
 pdfTeX warning: pdflatex.exe (file ./pictures/FrictionForceWithClosedLoopValues.pdf): PDF inclusion: multiple pdfs with 
 page group included in a single page
-> <./pictures/CoR_setup_data.pdf
-
-pdfTeX warning: pdflatex.exe (file ./pictures/CoR_setup_data.pdf): PDF inclusion: multiple pdfs with page group included
- in a single page
->] <./pictures/Magnetic_test_bench.jpg, id=967, 1556.214pt x 1265.32726pt>
+>] <./pictures/Magnetic_test_bench.jpg, id=808, 1556.214pt x 1265.32726pt>
 File: ./pictures/Magnetic_test_bench.jpg Graphic file (type jpg)
  <use ./pictures/Magnetic_test_bench.jpg>
 Package pdftex.def Info: ./pictures/Magnetic_test_bench.jpg used on input line 323.
@@ -396,34 +397,31 @@ Overfull \hbox (12.43918pt too wide) in paragraph at lines 334--344
  [][] 
  []
 
-<./pictures/laser_system.png, id=968, 349.305pt x 216.81pt>
+<./pictures/laser_system.png, id=809, 349.305pt x 216.81pt>
 File: ./pictures/laser_system.png Graphic file (type png)
  <use ./pictures/laser_system.png>
 Package pdftex.def Info: ./pictures/laser_system.png used on input line 353.
 (pdftex.def)             Requested size: 120.0pt x 74.48193pt.
 
-<./pictures/laser_exp.png, id=969, 649.2255pt x 662.475pt>
+<./pictures/laser_exp.png, id=810, 649.2255pt x 662.475pt>
 File: ./pictures/laser_exp.png Graphic file (type png)
  <use ./pictures/laser_exp.png>
 Package pdftex.def Info: ./pictures/laser_exp.png used on input line 363.
 (pdftex.def)             Requested size: 245.71811pt x 250.73225pt.
-
-Underfull \vbox (badness 1028) has occurred while \output is active []
-
- [6 <./pictures/Magnetic_test_bench.jpg> <./pictures/laser_system.png> <./pictures/laser_exp.png>] <./pictures/tests_in_
-MRI.png, id=975, 222.8325pt x 206.57175pt>
+ [6 <./pictures/CoR_setup_data.pdf> <./pictures/Magnetic_test_bench.jpg> <./pictures/laser_system.png>]
+<./pictures/tests_in_MRI.png, id=976, 222.8325pt x 206.57175pt>
 File: ./pictures/tests_in_MRI.png Graphic file (type png)
-
-<use ./pictures/tests_in_MRI.png>
+ <use ./pictures/tests_in_MRI.png>
 Package pdftex.def Info: ./pictures/tests_in_MRI.png used on input line 393.
 (pdftex.def)             Requested size: 120.0pt x 111.24448pt.
- <./pictures/brain_penetration.png, id=976, 326.4195pt x 410.13225pt>
+ [7 <./pictures/laser_exp.png> <./pictures/tests_in_MRI.png>] <./pictures/brain_penetration.png, id=982, 326.4195pt x 41
+0.13225pt>
 File: ./pictures/brain_penetration.png Graphic file (type png)
 
 <use ./pictures/brain_penetration.png>
 Package pdftex.def Info: ./pictures/brain_penetration.png used on input line 407.
 (pdftex.def)             Requested size: 150.0pt x 188.47537pt.
- [7 <./pictures/tests_in_MRI.png>] ("IROS17 Magnetic Hammer.bbl"
+ ("IROS17 Magnetic Hammer.bbl" [8 <./pictures/brain_penetration.png>]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
@@ -439,7 +437,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the US letter (8.5in X 11in) paper size.
 
-[8 <./pictures/brain_penetration.png>] ("IROS17 Magnetic Hammer.aux")
+[9] ("IROS17 Magnetic Hammer.aux")
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -466,9 +464,9 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2
 :/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr
 i8a.pfb>
-Output written on "IROS17 Magnetic Hammer.pdf" (8 pages, 6052368 bytes).
+Output written on "IROS17 Magnetic Hammer.pdf" (9 pages, 6052931 bytes).
 PDF statistics:
- 1054 PDF objects out of 1200 (max. 8388607)
+ 1058 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
