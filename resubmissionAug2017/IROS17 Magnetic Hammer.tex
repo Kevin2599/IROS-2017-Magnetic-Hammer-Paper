@@ -6,7 +6,7 @@
 % Paper headers 
 \markboth{IEEE Robotics and Automation Letters. Preprint Version. Accepted July, 2017}
 {Leclerc \MakeLowercase{\textit{et al.}}: Magnetic Hammer Actuation for Tissue Penetration using a Millirobot}  
-
+% Use only for final RAL version
 
 \IEEEoverridecommandlockouts                              % This command is only needed if 
                                                           % you want to use the \thanks command
@@ -30,33 +30,36 @@
 \graphicspath{{../pictures/}}
 %\addtolength{\belowcaptionskip}{-100pt}
 \addtolength{\abovecaptionskip}{-10pt}
+%\usepackage{url}
+%\usepackage{hyperref}
+%\usepackage[usenames, dvipsnames]{color}
+%\definecolor{darkblue}{rgb}{0,0,0.5}
+%\hypersetup{
+%  colorlinks =true,
+%  urlcolor = darkblue,
+%  linkcolor = darkblue,
+%  citecolor =darkblue
+%}
 
-\title{Magnetic Hammer Actuation for Tissue Penetration using a Millirobot}
-\author{Julien Leclerc, Ashwin Ramakrishnan, Nikolaos V. Tsekos, and Aaron T. Becker % <-this % stops a space
-\thanks{This work was supported by the National Science Foundation, Grant No. 1646566. }% <-this % stops a space
-\thanks{Authors are with the Dept. of Electrical and Computer
-Engineering, University of Houston, Houston, TX 70004, USA
-        {\tt\small jleclerc@uh.edu}}%
-\thanks{The authors would like to thank Ouajdi Felfoul for designing and running the MRI pulse sequences. They are also grateful to Jarrett Lonsford and Javier Garcia who performed the coefficient of restitution measurements.}
-%\thanks{$^{2}$Bernard D. Researcheris with the Department of Electrical Engineering, Wright State University,
-%       Dayton, OH 45435, USA
-%      {\tt\small b.d.researcher@ieee.org}}%
+
+\title{Magnetic Hammer Actuation\\ for Tissue Penetration using a Millirobot}
+\author{Julien Leclerc$^{1}$, Ashwin Ramakrishnan$^{2}$, Nikolaos V. Tsekos$^{3}$, and Aaron T. Becker$^{1}$% <-this % stops a space
+\thanks{Manuscript received: Feb., 15, 2017; Revised June, 4, 2017; Accepted July, 12, 2017.}%Use only for final RAL version
+\thanks{This letter was recommended for publication by Editor Ken Masamune upon evaluation of the Associate Editor and Reviewers' comments. *This work was supported by the National Science Foundation under Grant No.\  [CNS-1646566].}%Use only for final RAL version %\href{http://nsf.gov/awardsearch/showAward?AWD_ID=1646566}{
+\thanks{$^{1}$J.~Leclerc and  A.~Becker are with the Department of Electrical and Computer Engineering,  University of Houston, Houston, TX 77204 USA  {\tt\small  \{jleclerc, atbecker\}@uh.edu}}%
+\thanks{$^2{}$A.~Ramakrishnan is with the Department of Mechanical Engineering,  University of Houston, Houston, TX 77204 USA}%
+\thanks{$^2{}$N.~Tsekos is with the Department of Computer Science,  University of Houston, Houston, TX 77204 USA}%
+\thanks{The authors would like to thank Ouajdi Felfoul for designing and running the MRI pulse sequences. They are also grateful to Jarrett Lonsford and Javier Garcia who performed the coefficient of restitution measurements.}%
+\thanks{Digital Object Identifier (DOI): see top of this page.}
 }
-
 
 \begin{document}
 
-
-
 \maketitle
-\thispagestyle{empty}
-\pagestyle{empty}
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{abstract}
-
-\IEEEPARstart{U}{ntethered} magnetic navigation of millirobots within a human body using a Magnetic Resonance Imaging (MRI) scanner is a promising technology for minimally invasive surgery or drug delivery.
+Untethered magnetic navigation of millirobots within a human body using a Magnetic Resonance Imaging (MRI) scanner is a promising technology for minimally invasive surgery or drug delivery.
 Because MRI scanners have a large static magnetic field, they cannot generate torque on magnetic millirobots and must instead use gradient-based pulling.
  However, gradient values are too small to produce forces large enough to penetrate tissue. 
  This paper presents a method to produce large pulsed forces on millirobots. 
@@ -69,14 +72,14 @@ Because MRI scanners have a large static magnetic field, they cannot generate to
  This paper begins with modeling and simulating this system. 
  Next, different control strategies are presented and tested. The system successfully penetrated lamb brain samples.
   Finally, preliminary tests inside a clinical MRI scanner demonstrate the potential of this actuation system. 
-
 \end{abstract}
-
-
+\begin{IEEEkeywords} %from http://www.ieee-ras.org/publications/ra-l/ra-letters-information-for-authors/184-publications/ra-letters/629-ra-l-keywords
+Medical Robots and Systems, Surgical Robotics: Steerable Catheters/Needles, Mechanism Design
+\end{IEEEkeywords}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{INTRODUCTION}
 
-The navigation of millimeter-scale robots through the passageways of bodies is currently being studied as a method to perform highly localized drug delivery or perform minimally invasive surgery \cite{7067029,702,mi2020295}. Untethered navigation can be achieved by placing a ferromagnetic piece inside the robot and producing a controlled magnetic field around a patient. Propulsion and steering of millirobots can be accomplished by either moving a permanent magnet assembly around a patient \cite{taylor} or by controlling the current inside electromagnets \cite{MRM21638}. The latest solution is often realized with an MRI scanner which already includes several electromagnets. In an MRI, the background field magnetizes the ferrous components of the robot, and the gradient coils generate the magnetic gradient necessary to produce forces. 
+\IEEEPARstart{T}{he} navigation of millimeter-scale robots through the passageways of bodies is currently being studied as a method to perform highly localized drug delivery or perform minimally invasive surgery \cite{7067029,702,mi2020295}. Untethered navigation can be achieved by placing a ferromagnetic piece inside the robot and producing a controlled magnetic field around a patient. Propulsion and steering of millirobots can be accomplished by either moving a permanent magnet assembly around a patient \cite{taylor} or by controlling the current inside electromagnets \cite{MRM21638}. The latest solution is often realized with an MRI scanner which already includes several electromagnets. In an MRI, the background field magnetizes the ferrous components of the robot, and the gradient coils generate the magnetic gradient necessary to produce forces. 
 The Magnetic Resonance Imaging (MRI) scanner can be used simultaneously to provide real-time imaging of the operating area as well as positioning of the robot.\par
 The force generated on the millirobots is proportional to the gradient field  strength. 
 Commercial MRI scanners produce gradients in the range of 20 to 40 mT/m. 
@@ -435,7 +438,7 @@ Tradeoffs involved in miniaturization of the robot should also be studied.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \bibliographystyle{IEEEtran}
-\bibliography{IEEEabrv../biblio}
+\bibliography{IEEEabrv,../biblio}
 
 
 
